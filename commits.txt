@@ -1,0 +1,2000 @@
+73998ead37dd529af6559e702b62dd78bd5e8720 Make ducts expose a filtered view of the tank instead of the full multitank
+8e833079b74a08007541eaa9adf8000ccc4875c8 Skip circle attack on extra attacks (#5663)
+4c33c5f29a154dbed8aae03633bc61e6c01edfbb Add missing knightslime ingot/nugget/block crafting table recipes (#5661)
+da136f82749719ba26ab5ed617a616db648032e7 Tweak material value for shulker shell
+76cd63f4669acfba8b8ad55a59e870ccf24b336d Fix crossbow transforms in first person
+e25e5c87ca26bcacd67716787bca0f795c7352a1 Give crossbows a third person arm animation (#5657)
+f29822d127fbe03573e63e10866d284db1f10af9 Remove redundant supercall in ModifiableArrow
+cfbf9fdf520dbe3bc6e004f5787235389a8c07bf Fix a couple of failing tests related to leveling range on sweep attacks
+1f3c16c8c0f0600f0374ded6a3596ab1c17a8e43 Deprecate the level range on the modifier trait module
+6cae57037b1ec8048f5a0d24e7e529deb4408e23 Implement a couple more laces
+e473cd266bb85d525b21a952a5b629e0c068b67e Allow enchantments and looting module to use leveling ints
+03eda5538ce8de8b126fd451fb2c5c07309d6cc0 Implement more shell materials and improve traits
+9f8749c6f8a9992fc36cd02e0c201ab9b7530c96 Update slimeskull model to use the tint from the material
+4c194741c6f32b5a73393bf1d7158cd89a53dfc6 Make enderman slimeskull have white eyes
+d523d13cda317c29b4d5bbdf686977d162dd3308 Retexture skulls in slimeskulls to remove the purple tint
+0f5b09d9fda9f484e8e118ca62edce9b513b8c79 Rename skull stat to simply "Skull"
+0d80480396fbed1bb066658318d66a893ac3acdd Make rebalanced on slimelytra grant an extra trait copy
+c00ae0a4f9c7c50dc21c93075816054527f0cce7 Rename shulker shell to shulker
+acc623e88fd582314e13162cf9e743b3c9be6573 Use new tool name modules to improve slimeskull names
+0490bd68543ad977406619751afbc5a7762866ee Added custom material name
+7559457b491801207276b276f2836b2b60191797 Improve tool name hook
+909137466c52826b762aed6b36360fb5ca27ad7b Include material in the context for material stats for debug
+62b42e670249fe0c9accf96b1148a9da7d209871 Update wings armor trim in sprite source provider
+71ebdb4f393c8327ddf8a7d87ba8f103a731833d Switch skull stats to match new repair stats
+49c67d8ed12c5307c77d1f85066e83aa063d77e4 Separate slimelytra into its own model
+8786aea76a11e968dc2d55c9d5e59d107d2b6047 Add laces and shell as material types for slimesuit
+9564a985260bba4c235b2b4fd5ef392d70085854 Drop the casting cost for slimesuit from 4x to 1x
+abec4aeaa82a203ecbbe3de1d3c15f328fdcae22 Fix armor with 0 armor showing blank "When on ..." attribute section
+31c5dc4a7c9e236a7df238440970742b17f325cf Add melting and casting for the slimesuit slime types
+7dc12a36d767071ffa8145d0fe780e65c2f02501 Implement clay as a slime material
+4a7ce10dd23819ae236a8c6597855abd587e5e32 On slimesuit, change armor trim to copy the slime trait
+9ecf9c40d68f06ecca90cb179c6edb0a325529a9 Add overslime and friend to slime related materials
+2f55955268cf34670d136617e7e92c88a61dd897 Add ender pearl as a new material for slimesuit
+5325b0f8c07fc8b5bf2cf03207857c9c18b78905 For tools tagged as singlepart, use just their first material for subtypes in recipes
+024aab74ea1c9f4a573826e09480d7c139e548c0 Migrate slimesuit to using models with slime textures
+65a003cb96b2ce0de369ea113bc7b693d2e27ba8 Add support for slime materials on slimesuit
+bb526b28e72f81860283ea37ba6a17fd58a9023f Add contrast textures for slimesuit
+8a13c6d9931ef3a3dfe223cd126d988ef3018beb Implement slime stats
+b10e7d794ccd57313b7dfb4830c335ccbbe7bfbf Add option in tool casting to put the first extra material before the fluid
+60488369460dc6ea69ddc9e03f0ecf49936658cd Add contrast fallback to knightslime
+eff4ada54d0c986ebd5564b1a8c9e0e31ba7fe8d Cleanup slime palettes
+772d793fa6f60923e1e766367f7f84d679a4a709 Fix composite recipe starting from any variant of the result showing the result as an input (#5652)
+9d89201a882cfbce62e708c1fa2ceb2965295a0f Fix lantern hanging (#5654)
+7753102375701d92cd46d992913c6ebf287a2f9d Revert disabling our modifier renderers when the pause screen is open
+909bf0bd6e016dd2b834cee2209e1eac28a51cd4 Fix transparency of modifier renderers
+0dce1ad64a67a482a85b0e0707672220baacb94e Fix modify damage hook sometimes running with 0 damage
+923be1a88c8a5f812edcf5ae207c4d445a7becf9 Migrate enderdodging to JSON
+c52cb7b4eb70fefd400b265762f5ac6966b31afc Implement has tool hook predicate
+a58067fb827a6b0d8b59a660c3eef223b0894368 Add some comments to remind myself how to port shield banners to 1.21
+d1eeaa58974e318942a0cdc1433fd1d4c48b3010 Fix stat override command behaving wrongly when setting to partial values
+f8c7daa30d75970c58b908869bf9839adb499b9c Change enderman slimeskull from enderdodging to warping
+b1b21e3e230a40aa28f5c9eeff8258418111a0df Implement status effect to render the charge on spitting and other helmet modifiers
+d511962fc128a30f9c31b290905851187f42613d Switch piggybackpack to proper effect sheet icons for its higher levels
+6de210f743797938c172259e20f72cc7ee99f99a In tool part tooltips, scale the stats based on how they are scaled on the tool
+06f580a0c37798e01967cebe2700b4e81ebc6b4a Add small plate banner textures
+3e38c508b4c71d58ed8d161661a2622752b033c1 Fix front of shields not always being in front when held
+2876b30db00a776b6424f8e56b0ece9d01eb956e Implement banner modifier
+f17f7919d26626512e82c3dbc7af70232cc4105b Move dye color color utility to util
+776849d14223767584204ef0140b0c0e83199a2a Allow setting curative items in mob effect module
+53be76c9601523826d2de0f2038f4f4cd64ba3c7 Make fortune and luck on armor grant the luck attribute
+9e5c9a5e83bacb3794dd3ac07755dc5f4adcf3fa Hide ancient hide from ancient tools as its deprecated
+f4c8216ea45e650f6c0468dcbd1ccd8f56053c11 Disable trimming shields
+69a6eb2fbab71e6fc2157ffcd701949e14d3741c Make knightmetal fluid cannons spiky to the touch
+9a1eef9d72d9d950f373da9f7feba3380545d6a6 Correct name on block item providier hook
+b5dcbe97909bee53161bee9bb15a8871ba187ec2 Change wording on trim encyclopedia page so people don't overthink it
+284cc8f246f348dd5f447b0dc371d3d544c3e749 Allow changing the distance each level of expanded adds to circle or sweep (#5638)
+c2180cad476fab8bfd716e3d80d88b2469fdf646 Fix crafting station and tinker station not passing in the correct stack for crafting event (#5599)
+aee06c76ffdf2b5b305ce057b66b5dd5f1a04595 Show overslime amount in JEI as the "variant" string (#5645)
+973afefcb5fa2ef317a32e94bc29f977ece3097e Ensure depth protection does not show "0% protection" on the tooltip
+5c8734f96901148d40f9aa0f45efebc351ce449c Allow armor trim on shields
+2ce7e30e2c6c8c80d2e1893d43a333753e01a463 Make armor trim grant +1 defense slot
+e6a13a8c965439b2709c7d66f314491722d596e9 Add cave vines to right click harvest list
+e0c1e7c9f4cab2a125436822301565b3097ed837 Make revitalized correct your health  on update
+7764c49ed9765c2f99e015671b127d98234738be Replace ancient hide with jeweled hide
+b5d5657a149b3d5f2f1b946319ad5ca5334b924d Make bones modifiers only grant immunity to 1 level of the effect
+e84b1d4d46e1d6cfde2b0169a2dcc91b6a5b6997 Add turtle as a maille material
+92ed0688d2c844411faba6fe729611917bc420f0 Make turtle shell modifier use max level instead of current level for swim speed boost
+091e705d64cda8fe8aa1b28338a9b153cd4b2bdd Make dragonborn cost 5 scales instead of 10
+8d328c4e3b8574dde29db5ad38ae1b625e6be813 Hide trim, dyed, and embellishment modifiers tooltips outside the tinker station
+9628b63a8be4bf90088eea0cde2373058e097880 Remove the nose on slimeskulls
+9abc935fc775824f32b978c64330686570f7640e Fix knightslime trim material
+8820f2964b86990138847e8acee79b5327ce2eab Take advantage of new trim model for travelers goggles and slimelytra
+eb74c703ae69ff934c7a3c8b8e823c311c2af682 Rework and optimize trim modifier model
+0c564463f49a4fc0df9b8844672243b48486e5fc Simplify fluid models for tank handler
+13b76c523e664b727b5b907c535c16684a4c6dc1 Implement Slimeball modifier
+bfa44ae42a192e2df06df19b36bc04852eb0647a Make fluid projectile consider water inertia
+693be667865667caafdf859c02b165a936e82d45 Make power, quick charge, and bounce use special tags for their recipes
+c42c968902c78a5a0bc0bb8bf864ecd321facfa8 Migrate firebreath modifier to JSON
+fbc4deced23151b97ec2ffe4ac213a0b8959dfc7 Fix spitting triggering durability loss on the wrong slot when used as a helmet
+dbb8967f04b43452b08c7a3e0871e70bf704eca3 Centralize helpers for drawpseed in general interaction modifier hook
+da99048d44fdf8cf6ae9a40271dead99efa93121 When passing an empty bow stack to bow ammo modifier hook, skip projectile weapon item logic
+fb7cecd11bf8f2941eabf090d8d98fdec7a1ebfa Fix wrong attack speed on nicrosil
+c486c7c7e7f11ec9de46b1845b58ab45f3b7e29b On tools with multiple heads, maximize over matching stat types
+90128c7dcf708aaaeefc2310d955e11ce125d280 Optimize inventory methods on empty impl
+13c92832f0779a4271a4650f3fff66ea1c2078b7 Add knightmetal slimeskull
+024c5792a5bf82b6d5bb0336c70f0cad369072b4 Fix wrong side for inside of end fluid cannon quad
+c338224ff8b8fe0b97c11e8976f7a6bd200f6266 Redesign blaze slimeskull
+67692884d0712b5a8fbf300b49f72e53da1f5f24 Allow durability shield to charge more than 1 capacity for a single durability reduction
+78b20728c4307b1a22de701f8ebc6e2ed196aa36 Implement energy as capacity module
+09c9a3a69752b940cc4927b245544211fd840ab6 Clear cache key for empty modifiers
+807b7895fefaa6f6269c0d1444ad28e5b2c7f8c2 Add modifier model maps for all remaining tools
+93652d582b2c3b812332f8a4631b80026c32a59c Improve knightmetal fluid cannon textures and model
+835236d94efd888f70dcb40c5b273191cd8f9124 Fix dragonheart not triggering unless you have exactly 2 max health
+185fd29fe69740cbe4c1a0938de3d1d1341710ea Added a fallback to berry bushes so they can harvest without players
+cd824840242da6623c6431b61736df59f2f0bfb3 Don't nest trait module - was super unreadible
+a5c4ac9a2fecb11acf9ba3032f425d8d8b010e0e Ensure legacy blacklist is only active when new modifier model system is in use
+7cc26a8756181be1b9b1ed7a155a1396e21adf95 Migrate sledge hammer to new modiifer model system
+8b9337677d8963f051321b445e6ecd5657e9fb02 Migrate pickaxes to the new system
+e91adf1c578197147830c761a786ce15d13e8cf3 Reorganize modifier models a bit
+1043dcd81ced2643425717c3dbea1bcbf86890c3 Migrate staffs to the new modifier module system
+fb6ff161aae971dc96307713240638cb91dd88fa Log which modifiers use the legacy system
+1eda5eba9c6afc5043e7712c15bb9e1cd361fab1 Tweak a few modifier models to reduce legacy warnings
+d029b0e73650c8a8a8d90943f0d95c85d292ddd0 Migrate armor fully to new modifier system
+df7bc251a892d14786a35ced9995c6919633e146 Fix wrong texture path for plate
+c9e3fe78d0d7220e170844186cb3b488001acb69 Migrate usages of forced modifier models and show traits to new system
+913fffe65834cceec6528cbe24be29c884e4da51 Make modifier model string just use basic as small
+2e4c085845db77897e6ba03e768a1d297200b8db Optimize legacy handling of modifier roots
+ed15c231f83af0837d093d948878f7f5381230c7 Optimize modifier map merging: skip absent modifier model maps
+a784497a468f8c5ef7e80e2d8b368cd92be8fb2d Correct model manager's handling of arrays and strings
+d129e9f201bdafd3ac25fd80b106c1abec079d73 Register empty modifier model
+3ff366a89105937d901c9f37004f10575e84561c Add constant models to modifier model map provider
+d31e31d9942e71bddd4d4e49b07d164c31ec25f8 Use the new modifier model system to ensure dyed plate's item texture is correct
+e1ad0c5510b79741a3b20626996e2d94d3ade603 Migrate existing modifier models to new system
+888529c66ffdc1102396a2056fcef3d270ed44b9 Implement modifier model JSON
+2f51b6ebfbba23739e90e3aa9583f3a1ee846216 Implement end fluid cannon
+999cfc86f0fa08d1bbe104c2a4a2d6e25110c21e Allow dyeing plate armor
+684d17d1d62edf43a2bf3600ef19a3cc2c6fe8f1 Show the color of dyed on the #RRGGBB part of the tooltip
+9e08a459f16b4814472f85b2d0e657472ace3574 Split restore into two traits
+44dcc0e7504d3574b257a3a53196194c53deab31 Add missing utility for new swapping code
+1b9f1550303156424457efdbd5225937958d18ef Fix tinker tank not being properly blacklisted for melting pans
+040c08c44b017af922f4d5ea46fa30c81a20993b Add redstone to the fluid cannon recipe
+4d855ac23c92e77d95ba8ee0475a062923ad5518 Fix swapped recycling recipes for slime staffs (#5634)
+598419489665bf0f499118e03b8bb9223fe92183 fix typo, expand upon minimal
+ca9ddc57e4e27a112d112688a23cc4196d02b7f6 Rename a couple issue templates so bug shows up first
+d2ed49673e34a05ecab92bd42138091f49f087af Update issue templates
+270129271a2f53be7609532268fbce54d33c8aea Fix wrong builder generics for max armor stat module (#5635)
+c0576346841655e4081cb247685a960a8cd82307 FIx wrong inside for scorched fluid cannon
+fbe952c958610d1a1877dcd105b37968b1acfd9c Implement blazing bone, venom bone, and necronium slimeskulls
+57dd43f953faa1207dd466ff84d8b13d5a6f718a Allow wearing fluid cannons
+e75a431036d07f0ad6dbe57219dab3a138b9f0e3 Add helper for using a block item as a slimeskull inside
+84f7abf67983361fca2eacdc3659dc867ebe684c Add missing error messages for new part swapping errors
+1f43664a01c3381c4e4fdd331be6ef5705232b51 Adjust some priorities of projectile hits
+1e6ab4534c5f794e5e32b1890e503d7ef5826243 Update extraction blacklist
+8eef6ce316fcc446fe4102bdef19494fd867dc23 Allow swapping the skull on slimeskulls
+34a6ee387e35c593ede50aa6e83a1837fe94446a Fix some projectile hit events not ensuring shield did not block
+3e067826f201723b54d65b404709d8567de04169 Improve accuracy of description of strength modifier
+77bc9e4189ab7bf8d250931f1c3ec95888ba57dc Improve accuracy of the stack search in tool damage util
+3179ec5d573693646e83266507b1e1d869435e6d If a modifier returns an invalid block item, skip it after warining instead of returning it
+e40240163ff352c1416837262b0c53eeae49bb1c Allow an item with NBT to be used for the block item provider
+9ce4b8d48f8c63cb3cf10c1d9e912d7e2688027a Fix empty offhand causing exchanging to fail to use mainhand glow
+0c285581182d2f60957af13378dbc8e7c02d5459 Add BlockItemProvider capability to allow alternative sources of blocks for modifiers like Exchanging (#5568)
+51e48a53127bb30d0e8f55f2687f5ddc04088e74 Fix revenge not applying 100% of the time
+0046638a2944a2d9d4b3512c73d0ad3eab2e26b7 Rename Recurrent Protection to Recurrent
+bef8a47ae4fdcffd81cd39491e70ac3c2274c3aa Optimize usages of data capability in max level modules
+7a1adf776cf80a73e00568412b35cb9eb1ebb6fa Make higher levels of restore scale in speed instead of percentage
+2bef3eb1db734ac902858d2b2b280b2f1f1d4ee3 Migrate revenge to JSON
+e8988f8bc2b680f333b2a484d6e3e2a03490904f Added enderference support on fishing rods
+d4913c25770c3c56c88839401eb961c749c8ba42 Migrate enderference to JSON
+7550372f0121c00c5390422519f310f9fb81938f Migrate magnetic to JSON
+3a1dcedb2c05f560c5f05aa2266a0a7f2b76e775 Port decay to JSON
+e38b506a8af828a3e0a3c23cb057ab0bd7aef4ea Migrate frosttouch to JSON as slow bones
+f6f955021ea739f8c4ea5b6d5b315204712ec7d7 Split weapon from counter in mob effect module
+bf2340c435291f510d7d4a4b66308136c0c78940 Introduce trident tag, use it to simplify other tags
+0935475a1be549d10d2ed79f229a3bd4d2d3333e Apply reusable behavior to more modifiers
+169b80b9484b24db1f4f4d6f2f501be23be73f25 Migrate to new Mantle hooks for stability of offhand attribute fetching
+d1489c9ce6985d0c0a2f39acc1d988ca4a4e642d Fix some entity tags being in the wrong namespace
+6ba02c162015aa905b936816a44c97f4fea00919 Tag bobbers for the benefit of fishing mods (#5632)
+46a02ed12afff3fc371664d0d85fb900d312117a Fix typo in whitestone description
+03bf243079ec88ebd62cc88371fa965e1704616a Create reusable projectile interface
+c3d3fd9933a2d2efa641a743f74717a2cf2547b2 Improved slimeskulls phase 2 - spiders
+52fa4c291e584d6014cb998f880cc559fef5b891 Improved slimeskulls phase 1
+14822f178e2d640fbb1f7f91e71331cb6646fcf5 Adjust priority on post damage modifiers
+8fa70f1b8d6ad0f335e1b435d2e23987c56a5e5d Correct sources in effect adding
+1119015cb9cf068f79cc3ef818b67769ecbe6c02 Deprecate apply methods in tinkers effect
+e42061465a91c26c7b6a2896e6b4e8964df05cdb Switch nicrosil from diamond to emerald
+a9ef468752a8c3b3dcf7f3b45cb8d21e70dbc408 Activate nicrosil if you have just nickel
+baada87bd489c7804b2c62f2cf94ba056d057f14 Change recipe for nicrisol in absence of chromium to use diamond
+e7786f1f7d61261ef2b166122695b83d4623e0d0 Fix magma cream composite casting still using any slimeball
+c490edc026bc293e113c815832ffdf01dd2c2512 Fix light variable possibly going negative
+58e7fd2ee3b91b1f5b46327bcc517db6d98cef0c Switch restore to run after armor, and its chance to 25%
+f173f4670fba78be79776c169f158e65e7cf1699 Tag knightslime for chemthrower exploding
+e70762780fe9b82ac11bc1111288191356c95947 Allow changing strength of slurping and splashing using JSON
+d3c293228079b64705886dfd3433d703cbe63950 Use volatile float module to allow configuring experience boost per level
+d5e546f40459fdf40b488f347bdc09af04bdbac6 Merge enchantment behavior into soulspeed module
+c2d3918ef17db8c5b03314608be329c4c3f99170 Remove recipe for crafting magma cream from tinkers slime
+390e9ff609ad03af3dc6f82ff40dde1ce6378c0b Add helper method for checking if a tool stack is an item stack
+39cb0a46992cb4682a0c9750db671d1c216c61dc Small language fixes (#5287)
+668daf6790e32bd9d563f0b67fb81c1e5d784037 Split necrotic into two traits for melee vs armor
+cf746a2c34fa61a5fd7250f4b448872aad86b66c Make glowing bypass unbreakable, reinforced, overslime, and frostshield
+07f6560b7ecd81c0dcc66ca3063f9c36c17edf53 Switch tool damage hook context from an enum to the modifier ID
+74269ea7db294b0790dd84197c28e794e18945bc Cosmetic code changes
+1df94880a9e2f877cd4c7d7ab8fbe7cb39521ac6 Lower overwields priority so the multiplier affects conditions properly
+72099fd6ef4243e1908139912e4cd97d68dbd5fa Tweak handling of empty modifier
+f6c0e7b7d3f96432bd3a611824022478bd9a8325 Fix missing method error
+b69de2e9ab1a52436fe9c50bf4b5ab42343ee7fb Implement dragon slimeskull
+df986a98f60830a7258424fb20d9fb7f15f1f253 Ensure spilling is properly marked as projectile damage when fired from a thrown tool or fishing rod
+cb2f515ff8ded08bf98ff5fc525fc890b6b4e076 Improve slimeskull helmet renderer
+975dbe8a0c5310bd5084b1e6d3d4f672233a5c95 Implement variable range predicates
+1f94fc6adfff03d2e2554abdb38612c834ae6059 Improve enderference logic for ranged combat
+1030775a74527f9547b3e7ea9dd2f4a0e55d98ae Correct javadocs on modifier hooks and add a few TODO comments
+55a3e02ac3c7a90ddeaf17ff23760a0c411a9b75 Correct flint and stone descriptions in book
+8043e493e853b123293ab93c15ca4e6bc91cff24 Make reflecting on shields cost an upgrade for levels 2 and 3
+7105df06a40d005a727e2920b38dfd2baaccb76f Mark impact and spike as melee damages
+e371a2f0e400b5115eea2b976130ee663d52f699 Reduce knightmetal pierce damage from 4 to 3
+cd0978bb43a1d9f815645c859414662e95ba73cb Remove bow protection debuff on lightweight
+141664cba07522fb8d04c2fde60690117e6ee45c Add architect's palette nubs to platform connections (#5610)
+533c7c874ce18a3d1d846754dadb49744e8da432 Include rotation in modifier teleports (#5623)
+9f5e97d1bc65b4b82ca49d4dc1eb85eb92f71723 Fix a few missing methods for modifier predicate
+06272484bc2fa1995a8a697fc57f36be6982e086 Fix has modifier predicate handling with multiple matching modifiers
+1424af15a34930c37381227c56fae0577d5e8270 Switch from boolean to enum for the primary vs secondary damage
+1af2368d83cd148be351dbc6e98c0bb5bd340dca Implement equipment iterator, to ensure modifier priority applies across the whole armor set
+8ccf3b81b1740790adba3afb50f4231ffaede020 Add fluid effect ot knightslime
+cf64e0894ca2de5a45dabf98829dd8235e9de3c5 Overwield fixes
+a7a57a40f6e3e743f87a0a963344b19d23f75eb3 Fix wrong name for new modifier
+f30d73a18f44988b82958621e265c8b308ac3ba5 Ensure we properly use EquipmentContext#getValidTool where relevant
+4adcbcee4b0a35e5ffa2520e3605b6f9815b786e Bump warded up to blocking 1 damage per level
+0b9fb790c07f2c87632cc61ecca7790f4e36a1ad Blunted improvements
+b7c8ca0308133b292f4e04f6407fc8d53deac111 Generalize FlatDamageReduction to use a formula for damage adjustment
+6eada6db2d383b9ff25d761fdb5770e465a26b02 Update pack format
+1fe45fef8b41027fda8a174c7e0ec1cefde6fa43 Rebalance ranged stats
+ebcfa0b7ad927d45d5143c7d96f6e23cfadb29f6 Adjust knightslime durability
+5599b7936a3c1141adf85626e8ee79d65d0ebecf Add a few more helpers and JSON modules
+bdafe70d2ea6885d12a944f2d021a1a8f3efad41 Improve knightslime traits so its not just bronze but overslime
+a563cb437924b2b29f6c860053e49771c42cbcb3 Add nicrosil as a new compatability material
+a918bb480eda435207f5de9a67f8d397f47c3480 Switch Manyullyn's traits to Ambush and Warded
+26221be6253a1d8528f7a3601c023047a7212568 Knightslime part 2 - harvest and ranged
+f45b52a7a56bc174b64304c842f3b837b871a25f Knightslime part 1 - armor
+5e11cdf7a833740a124629aed70b88840b3d0684 Tweak cinderslime palette and textures
+9c2373e52b158bee1722f12bdf662c2e285aa80d New steel block texture
+cc2eefc5ca7f642634a924997f436b8ea36e5833 Change ichorskin's trait to godspeed
+a7a3de0045aa00b1d6da911f10506812d5ef8b5a Fix redundant cinderslime in the metal tooltips tag
+300605177b562834e215a451694a55c802826701 Fix ranged header in puny smelting upgrades showing as "ranged upgrades"
+13c0a6c02cdeedfcf1a1b28e1ebc29e5ac1effd3 Add TF fluids to IE fluid chem thrower tags
+e6d046b6b547efb4f8313340779f068a943b9cf9 Batch fluid removal from JEI
+6d33d5c60f39c521df66a0a66af56bda25036d59 Remove priority overrides on harvest and glowing
+f14bf68ef618c637cf5a94d337f1c83fff5b0eab Revert pierce back to 1 pierce per level
+4eef5b97e8661e0540d25e5a250120d919458afd Disable block break prevention on tools that lack left click interaction
+5b25d51735ba68c0ef69c82b8bdb3c8b7de05084 Restore ability for non-harvest tools to run harvest hooks
+5363c6c4f24a39cfbef135989b2e155beb193ee5 Tweak Knightmetal using armor coverage
+e436fd98da0d5e72915de1090c23f788cf6a91fe Fix finishHarvest being called with too many blocks when a block fails to be removed
+a76aaeee3d0dfae9804ee25ebc0250ef4af06206 Cleanup deprecation warnings
+6f7bf866cab976af655539436ba345ba8ddef160 Fix bad reference to old trim material field
+c400705c5eff278a5c700512050f595794d6d232 Fix a few typos, plus cosmetic cleanups (#5287)
+6ce87a200c4e499e464a63e4ec2bb82c31cac577 Fix modifier pages showing recipes that have no tools matching the filter
+d6fb2dc95ecbd77497ed0bb08c4513c516b21634 Migrate trim, dyed, and embellishment to JSON
+45d87a3af15082a78554718d13040e6bfae7fc10 Bump network version
+e5fbf49f9da4ebc102d951dfa454effb76a0fd35 Reorganize fields in TInkersModifiers to make it easier to identify unmigrated
+f771c9d7e15d2e68088796dee6a2e0e6ec28a6b7 Tighten generics on new modules
+dc23b7cd71b23cfb9ceb913a020aafb4d375a8b5 Introduce pig iron bows
+7239a6b86dfc8b4b4ae92b11cb7340e08e056f30 Migrate solar powered to JSON
+107312cbbea37ec8f22f73ae30cff70395f80ec6 Migrate spitting, splashing, and slurping to JSON
+ebf6301f083dcb294f5a97c1b63c63e80f3428bf Smeltery lamp improvements
+83792a21f00460bfa3e5c32ab1de0b4750f3864f Migrate tasty to JSON - great for anyone wanting to do a weird food addon
+b853f3a498f47c1915473260dcd27a602f663ec5 Switch to Mantle elytra flying condition
+cce0d16847c92b3d9df79ced6f2a99ad80203125 Move bucketing to JSON
+c1bbb1ef3953501f29927a469c9457b3c1fc1027 Tweak sling recipes to use more vines
+49b2b8bccd694943ffda7ec9ebd06c20dc58edda Migrate firestarter and flamewake to JSON
+c1de87afdea4db752d8c8d86f3cdd9673f874745 Switch from using display name hook to a singleton module for interaction source names
+a9c833597227ee74d1127e8a6c387ad3ebe1e1bf Fix some missed migrations from TinkerModifiers to ModifierIds for modifier IDs
+086ba22d25855c6cc3105a9b012d638c019f57cb Only perform drill attack on sling leaps with the drill attack tag
+d3db4a968722338416043d0dbd201a047b694d79 Migrate sling modifers to JSON
+31c87f25aa47f2147f7ea6a19cd8bc002db27cf8 Migrate tanned to JSON with a small buff
+e7dd243263d259b4b9ae91099940f36286b97b5c Fix recipe conflict between multishot and expanded on war picks (#5606)
+f73beeea4001aa0550f3d9949f311e926d954e6a Preserve the ammo if the glow failed to place
+d402aecf938de9743c485c207a832c171fa8a110 Fix springing not returning pass if broken
+32149671c444d131e735f49d361afffe83d24507 Migrate blocking to JSON
+567e82208e46c2063487b98a21aeeae0b685d2d2 Allow severing recipes to change the chances (#5598)
+d6541ddf8024ec8890068dc7bf9ab3ff07f8c973 Migrate unbreakable field to ModifierIds
+f2c6ea29e785249db381c78b83a9bd90015814f8 Migrate soulspeed to JSON
+13b578f290f8dcccdbbb5007f1b52c4d53a1e937 Migrate relfecting to JSON
+dc94b12d0908e6aec87a49f1ff55cf8c9ea4841c Migrate nearsighted and farsighted to JSON
+00ecd48699dad5b77f5118d94523a875c58178f0 Add volatile float modifier module
+93b7659bbcc925dbbf2088fbc9da928f2f06ec99 Migrate sweeping edge to JSON
+6475e5fba9443cb816ef2cbccd2c2583770570fa Move knockback and padded to ModifierIds
+ee28161465b21b01c4e3e1857eb0bce2ef97cec0 Migrate expanded, multishot, and fireprimer to JSON
+33a59ec50daf71579cc744e5885ab4f48eddf075 Migrate shears to JSON
+8c5cf9c85ee65f8242221596f4e7b4ba294e24ae Migrate harvest modifier to JSON
+4dd4827b589c4c49980ffb03440c5443fd0bed41 Migrate autosmelt to JSON
+9b7c5838d6387009b98d240cdf40c69a81fc670b Make dynamic modifier extend static modifier
+5d4030c33d4f313447661f7db0c04a58297b0eb4 Make padded once again affect the whole sling
+3545c127efd53c82c92ee91fb112d80e94a1b8d8 Update knockback encyclopedia page to cover its new sling behavior
+31d2eb535c5c16d007ed01c1a0f5792f08fdc0dc Insert items into tool inventories in order
+9b080200a8587bfd9f7f5ee75fedc50e850e9000 Make enderporting damage the rod on hit instead of on cast
+b724e9eb3c3a04bb7675c49fdd62dd0ca551f5c4 Don't block future block effects for spectral
+84ecf4a950e55f73768932cd24d0dfabbbb09fac Add redstone as an arrow material
+3c291352c07e4879c62101b48e0304eaab91ff85 Fix a recipe with both needed and value above 1 showing unexpected stack sizes
+7a71111a8e0f71cafaf2db70aa4dc2fd19ae3045 Fix swapped skyslime and earthslime spawning for geode blocks (#5604)
+15dbefb473ad79fb25c7168d53dcffa278cdc27e Fix exact length lines causing an extra newline
+9c043ac54429a910d1ab60c9d38b2fb09c5b0d18 Switch to reusing new Mantle soulbound logic
+977dc1f27c1db2e439edc4f69375eec5a1d7482a Fix disparity in bucketing logic vs vanilla buckets (#5597)
+68ecf81b069b2f51ce1c0d997c4800e4f4628d15 Update bucketing to call the forge vaporizing hooks
+8312cefd90a0b8e005d2e5b552f461b7e9f3203f Add IMateiralRegistry#getStatsOrDefault
+ff0a642710e3019f1a11b20005a89252f8311852 Fix longbows not rendering the broken override when firing broken tools
+b7838b6a7cf15b51f88a5c09c112bf39af4b91b6 Fix thrown tools not updating their appearance after hit (#5584)
+bc1afcf1bad0b276946fc7b903fba8ffaf63030e Switch from hardcoded out of world check for item invincability to more general tag check
+7d814797b271a8ad93501ae2643cc2e66c342f38 Use an access transformer to access private field instead of NBT serialization
+2be82554f41822d29ff3fdde12b1a945b4420e63 Fix insatiable showing its tooltip on javelins
+ebb5570b914afd0d47ddb7cb5bf534a41b6772ee Boost momentum by throwing thrown tools (#5589)
+762e889c2580b80cd569732c103200649aaf1825 Fix missing material textures for cast fishing rods (#5591)
+44bfab04f9f79365c963fb8cc087745a03f80823 Increasae priority for soulbound events
+acad24f00bf2b30b697b435ce41fb7a9537a6664 Fix typo in Twilight Forest for damage type tags (#5581)
+3fc5234194b7367f2e5bee5228109ba5e6b299b2 Russian Translation Update (1.20.1) (#5559)
+d123c7273c2ed097f9ba259421b6f54c432ae6bc Add page on cobalt ore and resort exploration resources
+26f593c1305b767bcd48315a5968005536c97ae3 Fix fluid cannons being unable to use harvest AOE
+526e243fd2ac52c80a4b95c2fbd5c03a6a2bb005 Properly deprecate piercing and sticky
+833b02cec6abc811063b71dedfdbc9c19ee2bf0e Fix smashing blocking shuriken damage
+4b2d7167fafa626edb4157f189060de38aa9f01d Make explosion fluid effects (e.g. queens slime) ignore iframes like the rest of effects
+a3236a0c2a4b442cf94f5bcfd02a4ce98f572e37 Chilean spanish localization (#5576)
+0f9ef4087eae7f688f99570ec2f67709f0141519 Add a few missing beacon base tooltips
+27905454df24ec8113eabc12d9869126796ac2e5 Release 3.11.2
+5a6e7db29aaa4d1bd3455adbf3aa822518b1b201 Book improvements
+c07da89219a584711387d6a15e37968980514cd9 Fix faucets and channels being broken by flowing fluids
+fdc9cf208df662710ace01129a2d776f5d2b9f0f Update reference to unarmed attack (old removed modifier) in encyclopedia
+790493d1fa53bb62fcee64e13fd5860c799dffdb Fix terracubes spawning on mushroom islands and in the deep dark (#5574)
+6f0bb71a58f5fb22bbe155228056e1a8b715600c Add some information pages to mighty smelting
+4d80dcf40543d61fef39adf6616db19a2170a688 Add display overrides for a few tools so the throwing animation is better (#5572)
+c6921ef08b9b1ffd8ab90420e009ad76c1980231 Improve display of shields in third person
+296a83bb41876dfbf7a2897d1c68825c97f6664f Fix melting pan not showing the charge + block animation
+41ee14aedac9da9efc493396117082a3c921e877 Fix perfect aim granting on bows OR 100% accuracy
+0e667ff0263b6d179fd0b8865f67c22c48136acc Restore former max level for boundless
+811469107ce6383d1ae65f790c8c20d99789f5f0 Limit spitting max level to 3
+f1e19d76cf754b7205a9dcf27811f00cb9e018a5 Rework how slings handle knockback
+e0d73a95f17115048fd12ebac676d62bb01328d3 Add modifier level variable to get the level of a modifier in a formula
+b9e6343aba26fed82bc83b8ae160de9c8d8fc0e0 Make sling force module support formulas
+e4c5611e4674b4e7777530a01cbce64f2d6dc952 Fix a few cases of tools getting ranged stat bonues they do not apply for
+ba351b6ce91772beb49aa730b03774f4148e4bab Fluid cost of higher levels of spitting
+00deb5f958ed31bfe647698fb9c00e9c3ccdb88c Mention knockback interaction for flinging and springing
+e0fe0758bd52bfcda60ce45b15fd2478850688ee Simplified Chinese Translation Update (1.20.1) (#5555)
+398f5364568afcafb5cd06b4b52009d51c31fbb6 Add various twilight forest damage types to tinkers damage type tags
+7485d97df743e513de9e88be05db796ab7f813c6 Reword entangled downside to lose 1 health
+094fdec791a158dc5ad540abc7f5a75b79377a9d Add cactus bowlimbs and arrow shafts
+a148eb5716bb36d27508a69e2b0484dc30ca3279 Allow changing the damage type for damage on unequip
+3b2790d290f3907ef660590fad2a3a2fbddb048c Allow arrows to use the velocity stat
+a3edac218ea8289c5e15ab4d688f662d5bcb0a83 Make spitting multishot just +1 shot per level instead of +2
+35e7e47310a2fffa6d63af5f466323c2dc70aabd Tweak a couple damage types
+cfdb7387da7fa6a54a1807e9f897eb521b99b8fe Release 3.11.1
+ef4dba624bd4578075d59134fcddf296d474b457 Rework tool inventory syncing
+b6a3729b747ee33194a2954c3614e97fb19c3afd Add missing translation key for "any slimeskull"
+15c3d0b2998139e41763db63a1c8a95d6a11acd3 Delay knockback resistance syncable as config isn't loaded in that other event
+7e3b1c03c9bba278fc63b3d380e8dc0819441545 Call conditional power formulas on slings
+aa73d899c81e52b369cf3460e34d0098227817c2 Cancel sling modifiers if too little force
+b304b8a13ae9bfbcfd1a476fab1a44b10d83e445 Sync knockback resistance to client side, fixing slings ignoring it
+340271c606a330e80b9063fa174f2062d7c935cd Fix bonking syncing motion for the wrong entity
+47d6066b4f4c0d7b48d978031035b5dcd6b6685f Fix flipped aluminum chestplate and leggings armor (#5570)
+27052c0be8278d0f195381a825d79ee91386ff2a Give staffs reach
+ba92a733121562ecd31eb5d7de390f2dd1013a1b Make bonking not melee on blunted tools
+a9467bfa2800c1b9c940dce567e9d285a4a38b0c Fix barebows still firing the creative arrow in creative
+9971cd406ca76081e21fd9001d04ec5292eedbc1 Implement sling launch modifier hook
+c1b8fe32c67407dc035d24ac6d9e48bfb5be3f02 Implement sling force and angle modifier hooks
+ef39b6af0b99078886e9faf8045e9595093c4b80 Fix wrong domain for golden knife in farmer's delight (#5517)
+b6f86360409d67842e23d511a5c04ab2c1c38d38 Desaturate ichor dirt slightly
+8785f6de5fe1a031fbec5eed3727e896228f9cf6 Allow enderslime islands to spawn with ichor dirt
+270c80c9d292fd742e6c0ed8cbc8c55b95814cc8 Simplify casting basin model
+4289de1c421c626d5f8f4879a98292ae2b08abb1 Rework scorched casting blocks to have a different model
+7c7e2f5f1700686313022db8980d2fe68988fd77 Be more consistent in slotless modifiers on max levels and slotless
+c5f7344180962615b01f1b8daf54892fe73780f1 Hide buckets and necronium bones based on material registry
+49acf6fef10515cb1b8cc2da5633894349002d8d Fix composites from invalid base materials showing in casting part swapping
+6e8767197f184c16250aef85e1931e437420acfd Don't apply melee attributes to blunted tools
+d2ea0a9afc1e52eb7532f8a42ee761d5b4f0b77f Make crafting a crafting station from a table copy the table's texture
+4bc98c38a299e88bb0c2b5f6ff85459824bc8f52 Switch to key-based texture ingredient selection on retextured recipes
+f2c72be8e6207004304a58acc115e170f12d0cca Hide melee stats in the tooltip on blunted tools
+302544d18f3160dc4fd9705c222e004a6985524a Mention pistons and dispenser interactions on tank pages
+522a8dcc366dfa67c9d7422007d319d881cc8454 Make language for max levels a bit more consistent in the encyclopedia
+18fcc8e3b83bff00e86eaaf871968e6c144704c7 Fix wrong folder for a couple slotless recipes
+b73b39ff99e35234d03ff142277fd27f41c70c65 Added blunted modifier to disable melee attacks
+a07e470d38b0e485c0a4cd004679c52c0b3c585f Allow using any beacon base metal as an ingot for beacon payment
+0674e596f39a5c99e534840cab22147b8f9aa852 Allow material stats to be marked as optional (#5557)
+8721d2f8b98883e6adb914f9769a80ee72a9430b Add a new material tag for compatability metal blocks
+98bbbfab1823d68582a920054dda32176918806e Add more beacon materials (#5566)
+204150f3b358667a0dec84bfd6a1764bc2bf45a0 Flip side hit for exchanging for better slab placement
+99a794c418e901109b603942c6269d9fbcdb9a74 Fix higher levels in multilevel recipes not properly displaying the level
+ec450be250b3e2a1e524601ec323a0c4c67688b4 Implement multilevel incremental modifier recipe
+b3d55304b96c6025d93cd2f036c1c60a56d05a73 Typo fixing (#5287)
+f6f99aad24acab8c39a62f73dbe5e0b7cf4005cc Couple more trait tweaks
+ed1e613e2e8f599bd106601ce1ed19e7f5821149 Revamp smelting modifier
+d3de337dacc546b8f0bb714e57c25e1b0bded928 Correct display of "cannot shape" in part builder
+8bcc26115199287ad53091131a03991439e7b840 Make valiant apply 4x effect against slimes
+0a3adc8d70a487410fc3e67e53229e407b2da4a9 Use the with power interface in smelting so fluid spit and other custom projectils smelt properly
+9c433ddf3ba332861962c004333a43d9e8a9a991 Change grapple recipe from cinderslime to slimesteel
+0a13d1a46cef5a2ce1cfd1dd9ae57ea7754b36f0 Add "tool forge" recipes for fake storage blocks
+bee3aab8ddc5ae90a4fa659854b69ddb094043b7 Hide the forge recipes from JEI
+3008f23f151a77294f21109b21aae9cdbdf30085 Fix tool forge recipe having metal and seared bricks swapped
+23f2e75771609cb44fb6be4ed862d5c99a299b13 Add a command to remove nugget smelting
+817d3462bb9f558d430b183887800f717cb280b8 Add a command to generate a tag to fully hide fluids from JEI
+b1fee7e48d4c65c4afb4529fec1a8746e0c05ded Sort debug dumps of material managers
+50e2b2cb89e71f9960905dadb533ffe52336e514 Switch from tag checks to material loaded check for alloys showing
+3e13bf8bcae4547eaaaecb951ab15a1b5d00636a Fix conditional stat module not using the stat multiplier in tooltips
+457098fa46f5d5930fe522f0634fc624704a7875 Fix projectile hit merger not calling the new entity hit method
+c9ab39b14cebface4660018b0c4df86aa573a7ae Fix incremental modifier recipe not running the validation hook
+7c80806e3c8176b2df701dc32e1c560d38d938ae Fix missing requirements error for blockade
+fbcdd056a90a5e5c5521758d9ba4938e3a131f85 Update ability advancement with new abilities
+6131421589483c3df240ac0626c9be2e29b96c31 Buff momentum similarly to the insatiable buff
+3bd680e1124f29df958a40636ee63f21a52d7f26 Tweak a few modifiers
+d7938cefafdae143c8daf4af391434280706a0f0 Introduce blockade modifier
+c79ae22fc2b76785d124232f607514a76a2b9aab Allow collecting to remove "creative only" arrows
+6c05a4f87851dbb5f1a62adb52a16ee1c68980f8 Adjust geode spawning behavior
+3764a3baa730879f254ffd211cbb469c877c5e9e Fix metal shards not being smeltable into nuggets
+accdc196616c82e1505c0d25b0fcfa7aacc33bdc Reduce fishing rod damage slightly
+0063602f5e60983957d3c859900777cc3cbbc421 Tweak steel stats
+9144b0b0395404f9a00b8fd48592f8dcdf611dcb Fix missing multiplier on damage potential for instatible
+5d191ab1b53a91f60af607210d355f58a5653b88 Reduce autosmelt higher drop chance from 25% to 20%
+067601ac0158e9d2eccdfbfabd8825ee962cc608 Allow shields to receive offhanded/nohanded
+9c5ad693ebdd2f65f313d1394721bc67a3f566cc Slime island improvements
+d62b78d6670841041112de961252af0614b9f04f Allow terracubes to spawn everywhere
+c6b1e15e59351c749867900f62e8a0284459d026 Make all conditional power display as "power" instead of "damage" in tooltips
+419d85b2ee9c90d5b05854ba2462b156d3fe127c Fix wrong tooltip for insatible (#5558)
+bea07a98cd6ee75f528e348648ba3d267a7e16b1 Fix part swapping conversion from wood's trait on stack size 1 arrows
+5a51213da8c8e48525b7b496ba96eb214b09ef2a Allow earth geodes to contain steel shards
+657a4ed8ce8a09eb3d033b2be0dd0a55300b6615 Added cobalt shards to ichor geodes
+2dc7eefa68025b23c925ca9e48f9b6e71b8db741 Adjust priorities on bounce and glowing to better align with explosive
+9bf49361f02e21ec329f35bf703a303ab630660c Fix wrong harvest tier on steeleaf (#5552)
+8f02a3fd13f357f71f5c097df4f678c65462352f Fix dupe and possible deletion with ballista
+1910102c5da84a5a471de717f4f3aef92989f904 Relax restriction on enderporting teleporting
+f69ca5f4c5f063c46ca1c14b41b49c0f82b3c6da Fix ammo pages showing casting and composite recipes
+6615a6ecd56443363a103244030eec14dd6048ca Fix stalwart not scaling with level
+4e3d45105e5a8b32bbd23faa25eb252b1ec90733 Simplified Chinese Translation Update (1.20.1) (#5459)
+39c3a5d82e737a4a9cf88674ac7537f1cbec3d8b Release 3.11.0
+0fbd2319fd1a11714e4c56bf09bf682fea61887f Typo fixing (#5287)
+d2371012c7180adf57e95177c4877fd8d3179e16 Fix risk of melee attribute already existing
+68636488acba7a433c28ac89063628d6a016d3d2 Improve longfall tooltips
+ef8316f465b0357219df0d7a9e3ee02f63203316 Further tweak feather falling
+60c048a65a6071fcd803a8f44b5044e54db05c3e Check effective level instead of entry level for has modifier predicate
+cfe2efd5e58e93af28ce90ba99f40eb42ed34551 Fix wrong offset on fishing hook renderer
+3f0e1198e27e2dc882924f0cf0b23faae37d2108 Fix wrong stat type for minotaur's axe rebalancing (fixes #5550)
+80b67e2d7b377c1204a39ac4a670839c3b4cecf2 Fix incorrect handling of crouching with inventory menus
+d11f3b86c83d0eef6e380857c284567317270f4f Ensure parts with no value do not get called by part recycling hooks
+f0766c8f0993fb8431eda7d519613a09921efbe0 Fix too much mainhand knockback from attributes
+ccfdf708d9ca912c8bee3c0b93f9dcd380d0b11d Improve monster usage of a couple modifiers
+309348a38e11658667a89269dfa2000e70cf2f4c Make enderman heads and slimeskulls prevent enderman anger (#5479)
+62ed99c9d3f1dc594593ca4b153d8bdc51c3d8fa Render the fishing hook material on the bobber entity
+ed82cfd6631bd2f71dac60eb41976d555de748f6 Relocate new renderers into a material package
+0be32adb532507d23302fbe1976f7a2533b70c33 Include fluid ID in tank and copper can tooltips
+5b71bdeea374fd88f442f0fac81b1b4615b05d90 Add support for load conditions in station layouts (#5536)
+009e32fa213a3f623a2f873db9028c48757ed3bc Fix tool and material models using wrong GUI properties (#5545)
+e2632022d8af6946ed0c3e87b8e3191fe97063ba Allow throwing/ballista to use scheduled tasks (#5537)
+0178186106107307edf79e3c4e43ea981d5bde5e Tweak a few boot upgrades
+e27f33fe00f614862764e5b67c72b9590599c1b0 Swap the melee modifier damage type blacklist for a whitelist
+9bdac39c25547af4c5d1920aab1f0c4c02cc6193 Improve fluids in swashers
+47bb435a86591bc6ffa64d0d242425d53984b572 Remove redundant multiply by 1 in raging
+a32ffc331cb527a8dde5f9c14c46199216f0c0fe Make bonking use persistent data instead of static variable
+97cc865fa7c7af7eeff840ad82d2afa887a0bef1 Buff insatiable
+03b641d44c2a76ebd6b736ba584fb3a333f3787b Buff conducting slightly
+7b230f643a2089284fd9fcf6398560c6b6e98f12 Lacerating improvements
+cd7d3f24e6b10b9f42dff0bd68f758691791a686 Allow monsters to heal from necrotic
+11219f9935518ae00ec5956bdaa2c01265e261f4 cap health in monster melee hit hook based on current health
+b933cb27f539c6f821464d42da18c4f8ba32e881 Correct order of multipliers vs boosts
+05a83a9f645a840d2b8f8631da91746e12c02e9e Fix bonking doing too little damage
+caf393a028b97c0acf90b5dd2d6f88e15669a41f Allow monsters to use tinkers melee modifiers
+33972f24623bf1fdc01e5574a87d1d53b0d9e8e5 Implement seared lamps
+7778eff9642fc387a64d0d7388d43bc0125651bb Cleanup: make TinkersSmeltery easier to navigate
+0adba42e1447f74a6504ee006695a9653f3d005e Make modifier requirements module only run on crafted modifiers by default (#5530)
+424b1f0e7b3066adbee116a11a767bc8ff31bb54 Fix out of bounds fetching for materials block model
+0419ce459d49e5000ae48dbc8acc5b94f6735a6b Update to latest Mantle APIs
+4157bb4334fcb392c9cecd4157427821a34a91fc Allow part building to create multiple parts if you over twice exceed the cost
+dd05578e69d133f7b2d263eada97cc7fb711c7ce Add nahuatl arrow shafts
+12ed3c22351b4b9e60cf58c1a794ae751ed69938 Fix broken tools still being able to place glows (#5532)
+50499bb1671c8e5f9a73d50d1b1fb6e4e68f8d81 Blacklist ammo in the proxy tank
+68befd69919fe7575943d73797fc16a44f3450f2 Allow tier 0 in the spawn chest
+c673bce9bac6448e50d7cce0380c31064818b6db Fix faucets getting stuck when pouring into a tank that does not accept at least MB_PER_TICK
+4fc87a8913ad6e45b0c8ddf09ac7b4c37d5c8b10 Tag fake ingot as ingot and fake storage block as storage block
+4b558d7ab3f9771cf92c54b742a59d38471b94fc Allow crafting anvils using the fake storage block
+b3bb1e15ddbefb764802b444a0dc0341dababa0a Fix material block item tooltip
+c9a30c544eda570932c4ddd8181e5551dfc864b9 Deduplicate copy name calls in the loot table provider
+aa9a8170a4c88c1a18309a29fcb4ec11d8b38dec Fix blocks with all variants showing hiding the catalyst
+f10ced4101a1a1a2ad848ab4c81160e0ff9a675b Make soulbound slightly more resiliant to slot placement
+1de808db41abc44b4f6977e57b1f732d663b56e0 Minor docs improvements
+a386993857c22ef955294da2c3d0186b60340e84 Allow throwing arrows if they are given the thrown ammo tag
+c1b8fee185d255e2094ea11c695acf9ace7af7d1 Fix fake storage block not clearing cache on recipe reload
+b6d791d58f4f6e08d37370bab4e973a1c4c32913 Fix tints not working in material block model
+fd39a2d4ed5825e6de09ef6d640ea91ab9640070 Blacklist twilight forest uncrafting of tool parts
+446731f8478d5d8344939706d97e908c032cb5fb Make the fake storage block placeable in world
+17dcf7c5369a0fa6b42e8173412fcb8cea851410 Implement fake storage block
+c3b49a906b79da09b492787a361feb56d9af0586 Fix curiass exclusive materials not showing in book
+67342ff37fece860e60158b50b02695f950ac80d Implement material block model
+089e6e33192c459088d68bd72b3a0e5128010b7d Implement shapeless materials recipe
+76a2c2e9d553a74249624f4d072b3f9f282d37bb Generalize new materials recipe
+a396066b8687c9c2773491f31542f67f1547dbdb Implement fake ingot "tool part"
+d2388d604649c8354565065982b4acf0bbcf5c08 Add ability to register a tool part as a fallback repair icon in books
+35ebeacf939815db619719643cf3469956af4cd4 Relocate armor crafting recipes to subfolders
+23037653cd00c8d7a86c2a8430e0085c5c3cea5d Implement shaped parts recipe
+bc8ce8b6b5ec71c3a5635261d7355ac3a6e3de8d Allow shaped material recipe to output a tool part
+188d61ff1aeccd15032d5f641cd2ce76c2b33976 Add width, height, and recipe ID to shaped material extension
+398679bc55e0a51ebe59f08e4017a4af733323c9 Add datagen helpers for conditional variables
+eb53a02eaec2242ef409be1d64f5181e0606c077 Remaining generic loader registry conditional support
+94398cfcf4f80100b8141549c8ebdcedf05394e0 Add context and mantle conditional support to fluid effects
+cbf80eb64392e687f96239d9db213f106d8a93c1 Add condition context and empty tool module support to tool definitions
+3daeaad87ef462c9d107ecc949aa2256200b4a16 Add empty and tag condition support to modifier module conditions
+9a76f207775278cd87aa430ff5068c31d047324d Stone variant tweaks
+5c162b16774ff15bf18404a06757320c33501dc8 Update to newer method for handling conditionals in predicates
+e150f602a8ab134f5fbe96eee4a64ba868971607 Include paths in error messages for missing file errors
+f0d18a0911887e5f268326f79c2c62b9c6f1b06f Further improve error handling for generate part textures command
+37ccf9074faa4ac72d25fe01f060dccd62e201b8 Update materials in nether tag and split out a subtag for gated
+6dc48ba70137a9a0065446bc548870e9c4c303d0 Make necronium repair recipe work if force integration materials is enabled
+cc6ba9bccdd7d605dffb3f377cb048d8e104f633 Move non-basic ammo materials to tinkers gadgetry
+35b3d9f0cd6790245675ec306a9de15f40b857df Move more materials to tinkers gadgetry
+a8442d1a0731c3769dea05d62de557020b218c35 Add support for a full material predicate for the tier range pages
+59979a643c99ab75c1d85080e06af7e203800bec Split tier 4 between fantastic foundry and tinkers gadgetry
+0f0f9df6af4a4a0fdbb47d3a7c84c9871cd3d07c Make leather also tier 0
+75caf3927110621a570c25ac9398a063bbde8724 Fix tinker tank not updating comparator output when the item is added or removed (#5516)
+2c3ef727f29817381f2fe7836eddc620b5d6ca54 Ensure errors for generating part textures are properly logged (#5501)
+503c83cbfd0e8be3e60f0572e1b8fc5500513f5b Make combat weapons have slightly better block stat
+575def0e753640b39b6192aeb68bcbf39997c98b Blacklist anvil and worktable uncrafting in Twilight Forest
+af159e5c9dfd56ed283892a85d2852d5d7e24b3d Fix piglin heads not being usable for crafting recapitated
+1947d88b2def4742662a608277b5a0cfb310954a Remove axe tool from slimy planks (#5514)
+6aa40fa97f390a39259e89f509af5034c4c337fa Add tag blacklist for modifier removal (#5524)
+b2bd6b29059bd21301791833b1382e58c1b8479c Add melting to Farmers Delight knives (#5517)
+488bdbef32a51060a1505eec8450f96114fee5b1 Fallback to super on armor override stacked on hook
+0f5f65353efbda83105cc40e18e085cda5e200d1 Fix missing falling block from projectile protection damage type tag (#5525)
+87d8aee6bd6c66a485b50ce0c7f5448463c6cd08 Add two Simple page buttons for Tinker Station (#5519)
+14bb6c9ef425b763be2ed8e0a3cdeca6aa72d271 Move a couple of cheap materials from tier 1 to tier 0
+dd328c9751a91bb4d4de3424c6d7133e89117f8a Improve projectile based glow placement
+627d96e5029e9cb9fd60e36c496c41a90c0ecf0d Move fishing rod damaging from projectile explosion to a helper
+3e71333706956f53ddf5d517b318516d9a120a40 Move new getDamage helper to the relevant interface
+df0d512b61287ee37131425b3447f246266672d5 Add a blacklist for mobs that should not heal you with necrotic
+8de275dff239bb4b112f2ae08896b654146aefbf Unhardcode the bonus for enabling EFLN mode on explosive
+23a788505b662b661c6a9610b7028c149a7252de Make the projectile damage API simpler and more accurate
+a4326a3133d9c3c564b2638db50914b3e6e15e39 Fix necrotic not applying to fishing rods
+d6ed54a1d4370390cfa8de3afeb4d3995417dbf7 Remove gadgets pages on shurikens and throwballs
+aad41d600c4f22988e53fc34daf2c0bfae50481c Deprecate EFLN fully
+ed6139a6df90ba86c4afce251590e9917e237f09 Add "EFLN" to tool creative tab
+d115756c1441d6a2dd1e1f9f7a4823610bedc480 Make fins modifier cause EFLN style explosion on shurikens
+47764355f7d6e5646bc30671c09eb8a1ae310f04 Fix wrong damage type in thorns module
+9788536dc86f8f9f47c21ebd9fae849444c0a9af Make glowstone cost 4 per head to match gunpowder
+82ddbd77b0a9afc5d4d6c20fc84b003c79fbb3de Fix fishing rods not taking damage when using gunpowder arrow head
+ee5c6c867ebc573100a11259b7d6cf19cc1ac8c5 Implement gunpowder arrow heads
+3e101eb9d5bbe8b5f8fb359aeddfb0dcf4a3a64c Use JEI's hidden from recipe viewer standard on hiding potion variants from the tinkers potion fluid
+f440ec392cc0ad176325fc8c6af5f772993a2412 Update description of who gives melting pans
+1ac0970fa3fed88d4c074405f0a0e36d7c33d56f Fix wrong number of items being output for standard modifier crafting
+fc5e2dff80902ab1e3f4855c95b4a8ec0c6ebff6 Implement redirected modifier
+d527747423e7f44ec1f18e3aacf17c35c39a7381 Make returning recipe use the trait level for caps
+75c65060616036743547d357675178d21e9057e4 Switch soulbound ammo recipe to sculk veins
+753166f59dbf3dd8699de1fba8abd1e77435df17 Reduce the amount springing forces you up
+089db4c26977729ad05a6fcc3024073b41b6553b Tweak angle of tools under spin attacks
+3c775cf6b5a709a7a20ee9c5c63733a2d5e6aa47 Implement drill attack
+ae1b5b1077930b795c161f8b8bfc7acbc7e8a7cc Fix slight discoloration on armor models for plate maille
+0e2700d9d397b5749434b1303278fec1a414c62e Make fishing not reset attack cooldown on reeling in
+040655bbebc9cf1fdaea7961579d4c2232c008a8 Lower melting temp for steeleaf so lava works
+6ea1199c294ecfd7bce86bd7be95fd8f347c438f Add missing unknown feather texture
+fc96d4b1c10d217e55305ca82fe19010a3392a40 Tweak shading on fishing rod string
+7dd1b85ffe3afc64e6bda094e48e4e49407e2b48 Move mod data fetch for schedule inside the task actually running
+713473c5b40985b2f0f0b23f16cc442870a5d062 Fix knightly material color
+f43d337128f71a54ead97f1f239f6de0fc0a86c5 Make fuse work on enderporting and magnetite
+16e36a909e21dc2d5a1c9cbf7c7a93c8b35d22b3 Make smashing trigger when fuse expires
+d6de0b8e44ce70b99f52208dc90c0f2e20b8ce7a Remove underbowed
+dc80dfe45d8fc79f8e1f6b2cb2662dc3f50c08f0 Fix extra deletion of items when part swapping from a higher size to a lower size
+0fcf9c3077b16b1cd91277c72a80d32cc3df604d Implement more fletching types
+3c8a31a7d26c2118063161c37bf22806b83cc2b4 Implement arrow fletching as a new tool part
+99ddda32c3472670e80f89260e3228a806e11a12 Fix too few materials for ammo default materials
+73984c4ee4316eb0f905503a2c1b19ba8cab7096 Make craft count use floats instead of ints
+59fb494dbdfed81301176d5a576132a004856a0f Make patterns craft twice as much
+0dc23ca4f47382e337febf0742d3a3c6a337f6cf Make collecting an upgrade instead of ability
+0afd5684517d74bca6783c7b666d5e75ce83e675 Add book pages on steel and knightmetal shards
+64b4cb33250d3fc11fa0ae7df2649dafae0f4315 Ensure attractive does not discard reusable ammo
+bc6aea09a6d0632f002cf547e5fe4169d80ba413 Add end rod arrow shafts
+d7fa92a0aae723db93ab0474414e19caeccd3307 Fix missing index call in task scheduler hook
+fce48febd512c993a075b240a2465cc59ee3f274 Implement magnetite arrow heads
+cb7931014136eb81632790aa6d9fdf13629ceb7f Implement knightly arrow heads
+5f9c9fb4fcee5ea9e3363efd3b74c8197329b8d1 Add config option to disable the ingotless alloy integration
+09d98613875ee62b3517ae588a9ced1d1bde9494 Tweak how show all tools works in books
+6986278a1c66a315d002be940faec3db5843fd09 Make fishing rods show tipped type and fluid better
+4487b0f6cc293992be3d556c5aa7b39c86d417d6 Add recipes for clearing potions from tinkers arrows
+2d7ab4d2cd14a5087a42c7d2ad27ef742f4fe981 Tweak some arrow head traits
+1a2c2d0a9806d792f6ae17d7af8169a3ca7cb269 Add modifier conditions to the modifier trait module
+341bd8e2fc7824831d72f8761ec3f2c9533ed429 Add arrow heads as a third fishing rod part
+fb8a51410b2b6b18a86f57e26fc9058cb0d73fbb Add eyes of ender and fireworks as sleeves options
+2bac12a3f963557fe558db7b5bc67ff436570fd8 Fix new slime loot tables not showing properly in JER
+901f7b4f0877204354565a4dec6ce19b164382de Add nugget to ingot recipes for debris nuggets
+2a926f0ed3445fdc9100a66f483bddaf7524ba5c Datagen geode models
+170d4f7f56f4d9cdeaa66bc89d3748caf88501a9 Add slime metal shards
+5a203bb8b503bc254038cd02bbe55531d857831f Fix accident commit of a partial feature
+c57c3ce05973899fe8290d098b9627790d9c6b5b Add recipe for cleaning tipped arrows
+decc756b9bc907b485e4bc76b61ab3acda1fb79c Implement projectile task scheduler
+ecf46b71013ee60abb85618339c67c1e1840e977 Rename ToolPotionCastingRecipe -> TippingCastingRecipe
+0b6250c0f9a9ff85da705ec7114ac4208ecfd721 Fix IDEA not knowing what to do with the lombok static setter on MeltingModule
+695a54460d3306b271732fed5c212e4699f607d5 Reorganize new modifier modules
+0169150008eaad94d1ecc70d45f84e1a6d59fae1 Add option to projectile hit to opt in to hitting targets blocking
+323a5dccce745c9ea8b71a4b2035632350197cda Add direct method of converting tipped arrows into tinkers arrow
+eb3a5480a76cc511a1e4169ee4bd9d0c7fcd279e Fix missing Mmmmmm compile time dep for its plugin
+891bb9758599701a3d745f8f5302df864112e91a Improve tool casting recipe
+1585944e1a5286614b1e2294218001c02f3bffda For tool crafting, if we have just 1 non-part input, allow it in any slot
+03f4dfe894ca2347e6fde839c015bd4e807bed94 Make sleeves swap slot if the slot is empty but not disabled
+85bcfa47660519d60464c792745dfbacd092cfb7 Move sleeves recipe to the proper folder
+290d9f8ae40e450d109b5f5ea34b03a94c8071b5 Rename material casting recipe material predicate to "allowed materials"
+7bbc1b75bed354c237994ba1e5387067e2f67156 Add support for material filters on material casting recipes
+ce95f41eb68d1ebf30958614ea0f497b0ba41919 Implement sleeves modifier
+a01aeb661d0bd041113dfd2ad6393ed41c5f9449 Fix mob effect module not calling conditions
+6853da14a2fcffca1d055206d765be9dfce9ae27 Allow volatile flag and int modules to write to projectile persistent data
+3277b0bf6e592a85e90b0e9d9380c5279ada078d Tweak some arrow shaft traits to work better with throwing axes
+88603bc455bc678bbbec9ffd3ced628879318b64 Implement throwing axes
+45eb3e5a5aa1ccf8bad35a5d7c635235b8de0594 Add utility for shield disabling
+78531828a135b0a6c20904c9bebff7f8f29ea55e Buff armor pierce amount for bone's trait
+765e9b4089017316a4719fbad8fbfcc51a777a58 Fix missing lang key for fins underwater damage
+2c81faf0306f180aa505d18ae66adcc5cdab9004 Make the arrow shaft item slightly longer
+7329392617b7d2fa3e7dcd72f108ec7bfd074db9 Rotate the shuriken to be thrown upright
+33fd78c15eb6e9e5995b00e8e326f50bb3498c3d Add velocity as a thrown projectile stat
+c07825165fc32be743d281c5618909869300c523 Tweak hero of the village gifts
+c2e15e26278392509630099a2a1390fdadda8e3a Make default slot for all held armor the offhand
+db823d04d0ef8c0c580ab93a78475bf02dc3fc7f Make throwing work better with tools that are harvest exclusive
+6fa23a37c7b5835ce9618aca9c51dc5c0ff16fb5 Ensure bursting does not trigger on self damage
+d68e064262c3b5a4a48dfc955cf8cb821c5a35df Make zombies melting pans spawn in the offhand
+e6c6ad74f9b2403391405eae0a8ffebef22b302d Tweak how magnetic interacts with throwing
+275557c8d3cb46b9ba808fa6ea1d7c1c07c1be02 Make tool harvest context know about the projectile causing the harvest
+21252c95998a60f21ffde2f98ba1d84c89c3c13d Allow throwing to break blocks
+258e95c67e07185314c1b677084a7ca1fb67bcad Tweak spacing of encyclopedia modifier pages
+b45dd351b1077083edbaa3dbbee2daede511e0e4 Switch BreakSpeedModifierHook argument from the event to a custom context
+0ac5a0d3bd8f70213340b2286b3c3c7eba1d2f7f Fix failing test
+9e67d6ab2b47ce9ca291d16d89a77418e8094017 Fix wrong percentages for iron and cobalt armor traits
+c0ebbdb524a1004693d9528b83d9c09d25dae0bc Make shuriken drop if deflected by a shield
+142e5d09f2a09cbc937d099bec514f9b0fc376b4 Fix arrow modifiers running when the arrow is blocked by a shield
+ef224ca86f05a89ac6cfd4a059b4f964cd4a1c6d Move zombie slimeskull to leather
+689f735f0c425bd6860149285ef1d7651b4b2c09 Sort slimeskulls based on mob type
+90b3674525cf039900540900d1e52300ec919641 Fix lacerating not correctly applying shield boost
+214d7ba23b647f0a46115f1ab2397dce5c04ba87 Add bone shield cores
+f2ef127d66590d7ccc17bcbfa0c96abfa0ae6626 Makle shield cores have a less plank-like default texture
+5fef77d42264aeb7e5c0f366ac80f8d256fba02b Update nahuatl plank casting recipe to new nahuatl cost
+095c4ed87af3027017187cfe7d241cc9f3484644 Add venombone, blazing bone, and necronium arrow shafts
+0b3c727e3637aa9d7127a60bddff7f8e4e0da2ec Make default materials for arrows and shurikens fully random
+4f9d093ead45f0d315692dcef558dd50cff29443 Fix a couple of launch hooks not supporting null shooter
+bbfdb3ecfc06e9db584068a9a6800bced5c26c3f Implement blazewood arrow shafts
+d75704f1fc00dee24e83a6c8e879a1bba6f92070 Make craft count use ints instead of floats
+c1838509a8ce2d2af85761a0690eb134026c46ed Fix tools with multiple heads showing as "Any-Any Tool" in JEI
+b0200e999d86a5ef47ebcaf74860e9d354d3461c Implement shulker shell maille
+1333c5b275427f6db16f8aea3e9794a435c957e6 Make glowstone from dust instead of blocks
+653b9fd65ff017d3dec01ec0b71fe40e4fd39fda Remove wool arrow shafts
+929214d9d985ec85ddafbd0c0ec3a91be60abe1b Add Json Things support for new arrow and shuriken types
+b1bcb5976e8065e6e224e9e8c639f915c452b55c Fix missing deprecated annotation on a javadoc deprecated method
+cee9d880ed6e198b7e0a0390e716e3a23c6e967d Make arrow tipping a bit more expensive
+5ae1f419cd10917a56df75e022cdd4c64294cf04 Make spectral run a bit later so it goes after bouncy
+ff85a20487ae23e240b1f200364a30a827f5e7e2 Run knockback from shurikens and reverse punch on both sides
+a9836b0fd0fbf76942977604a563481bd466ff0f Disallow arrow pierce and multishot on longbows
+4518dbf36c3b4af198bdbe724760c1013141a3f3 Implement rebound modifier
+3ca39e52ecb881d5fad29b82bd7cdd1e8c7b14f9 Fix some conditional power module bugs
+e89b31f50983b7d4fecaf47d804b3dc99745a329 Implement bounce modifier
+58e217081a2886433ba5efac0ecf57cfd9a4564f Fix dispensers firing too large shuriken stacks
+e609ceffd7bf103fde319418613c812453a6875f Bring back block hit canceling for the projectile hit hook
+29162d26f22374e0e7350524ad27bbf25ff560c9 Fix ProjectileHit hook not running on client
+fa8ee23d454357649907a900015f1deca34efc2f Make javelin ranged stats affect ballista
+2724e51029ff708a99cffac433ca8a187c047415 Increase impact of velocity/power on fishing rod damage
+b9872b13ecc57e7c09e73079891154dbd254673e Fix too much text on fishing rod page
+3222c37656ed5087e19faac46505f1d2d7af8677 Sort materials based on stat presence
+7e7d222d1edd8556cb8d50a1ceeb53db9488ab52 Implement shulker as a new arrow head material
+6c539c5c031ba7f5d78c0b6dcc5bc8839c5a100b Restore resurrected as an uncraftable mutually exclusive modifier
+aac71883ad2508a572c6d82d7ef192f9dafe24a5 Reorder encyclopedia index
+eb1132601eb25e3056b70408a128cabcab936dbc Fix issues with dynamic book page injection inserting index padding at the wrong spot
+121f088bce0ea4b3c8f47b69806c61999555eb82 Fix fluid effect dupe with vanilla multishot and smashing
+541e29d1bc796c1d3cfcf4be57a08f2dd40ee9a1 Make throwing tools return to their oriignal slot on pickup if possible
+32511c9ead3db74961afc17b187b4fa6ac07e5f0 Don't consider multishot for ballista ammo
+1146d5555c3f36dd30e55c872f29be44bed7ba83 Improve icons for material tiers
+452a2ba08a0c0b837190e95918dfa113f57ce7d9 Add ammo items to the books
+a4f1824aa15601b0cacb55cc270a61bd52af623d Allow using an array in the tag injecting transformer to pull from multiple tags
+950e474dbc3ad6ee0192d1417cfb91e1ada053a6 Add ammo materials to the books
+96536240910a6408e058199e4a840d1d402f82be Improve fins leveling
+b166156bd3e854a161a457745b9f86a0578dcfa6 Fix stacked tools with fluid handlers possibly leading to some dupe bugs with weird mods
+bc3ef286600c5c4eb33842d53e8a2b78c243e8e6 Rename tool craft hook to craft count
+c5433982aad11bee0b117419eb0bd4784ba59a65 Fix potental fluid dupe when part swapping arrows
+06cc2d6775f033de78b769dccb53e194a4e963f2 add nether star as an alt recipe for shiny
+9ef91840a62957c752324ca2661b229cdd1b1115 Keep "smashing" and "tipped" in names of the relevant arrow traits
+f632115a5727aff2a8de919f14422c737ba80c25 Make glass materials cheaper
+e997d42e991b3ac6defa1d2c49f66f492385488c Rebalance projectiles
+952fdf9adbe0d498b9e1447154d6f93e09ac3ba0 Implement glass arrow heads
+a1d3a2d198998a50701711265dcd34079ecd8843 Rename - material arrow -> modifiable arrow
+17f9649ec22649e92e7e8f2f9e2517fbf2fabb8a Implement enderslime arrows
+9a02bf4a49b5add87259a31b1ce9b07bdc96c839 Improve teleport fluid effect
+24544601b6e9ef1d7d431d8cf6e09f6b26f45966 Improve docs on teleport events
+d67a383762aafa38305a284a923c3ddb5124b18a Make airborne boost velocity instead of accuracy
+8bdd13de3030dcff977012a0f3533200dca2f5b1 Fix conditional power module with both bow and ammo multipliers
+8fef4b4aa2e7891833a6820bbe8809becdb9cf9b Add dragon scale as a material
+0625062f6f7a32a8ef8bb77b175db2f9ea19affc Add wool arrow shafts
+3fc2bcb5fe8cc584ebaed3547a7252ecd88c0f26 Add ammo recipes for worldbound and soulbound
+bbd7b02bdf4e7b9bb98d2f97180ce335bc00e6a1 Hide empty potion from JEI
+91e14340b491cd498972ef8ad015f71a508612d6 Implement wool as an arrow head material
+7001a6e4fcca5dc86ea70f434db305851d865510 Implement textures for tipped arrows
+9fc69e11e907694953ed604e83220b780dadec2d Implement flint's trait - tippable
+e080f4afd6aae95c9a7b04c9d9aa64e37b40e172 Cleanup: organize methods in tool building recipe
+90c442179e332a314a9e5ffd6352b96893b9a328 Add method to convert vanilla arrows to tinkers arrows
+65887f832d9da424fa2be2144bf707e1351148d9 Make tinker station anvil sound less loud
+2108e939fe2464181296f774abe22152808c6fa9 Implement part swapping for ammo
+1a118919d4e68f58ae7c226184387b7c0ab786b1 Fix material recipe cache not fully clearing on reload
+80e2919629a630159b6cb739b840f5c93431386f Add steeleaf as a new arrow head option
+66dc63b0160d61f0a513375fec9a8410a348c500 Add gold "arrow cast" as a way to produce arrow heads and shafts without spending patterns
+f3d49c4484924a48a4f58d0056f3ece8436b8b61 Only make arrows from shards, not blocks
+9ce86ed8971b26f28e6420534dc98b6f352288dc Allow dispensers to shoot tinkers material arrows and shurikens
+ed8cc925619325bb14ac1422f26c9e9b5d931761 Add earthslime arrow heads
+1919d68c90d7bc35d17a063a7e26d73e91879c46 Switch shuriken cooldown from 5 ticks to 10
+16104f1e208d7b50677f8a77607c82d034cb9302 Tweak some arrow head traits
+3384b22bc6ee3c9e64beb674b47daa6cb51ebb6b Update descriptions on a couple of modifiers changed in recent changes
+4b56fe7536fe58a6e3db45a9e544cbcc5b8ef8bb Remove recipes for old shurikens and glowballs
+abfbf62f4836fd165cd6a59c7581c19bf3bde4ca Cleanup: remove some unused code in modifiable arrow item
+349f50a31ac87aab687cce0383569064b67cccf3 Implement material shurikens
+b101b1ddcdde066446479cada11b2f012cefc781 Fix enderporting arrows fired from vanilla bows teleporting you to multishot targets
+29d6bc9eeae266261c7bf4978d5c8316c2eae06c Add flint arrow heads with a temporary no trait
+c44f7b0e7c7ca57198dd66fc76e94dcddaedaf70 Fix perfect aim being obtainable from bamboo arrows
+3acf8740353a8a564072517c3158f52e00f5ecbd Add wood arrow shafts
+e0fbe24bc1fbdd544929eb56445187f6eea0fcfe DIsallow part swapping for arrows
+5d53e250fb874095d6848007232651cec7db24b9 Fix tool building recipe allowing creating some invalid tools (#5493)
+e44322f8fe83cf89dab97fee1c245dc65624673d Implement prismarine arrow head and fins modifier
+85694963a80063c84fa0c584c1d6cb9cefe03806 Implement ichor arrow heads
+55da363f65e4e88a1ef39f5f55292eebde70ee11 Implement amethyst arrow heads
+7e2fea6ce14b714b7a1b245d4a64ddb763815270 Migrating impaling to JSON
+4674b739c7fe09ede65050b3b5bac5880ab98fb4 Switch float tool stat from nullable tag to item predicate for item condition
+50be4dad2e0730aa92f7dea1685f99673210b00d Add more straight forward ammo materials
+f5d6d792953ac3a444ee4e965d31aba619b59e1d Fix missing ammo in the material render info for unknown
+53461500646f444104f45ab968724f749700fb52 Move ice to tier 3
+34cefdfb0fd67f5fe53e6003a1fd7bb2d6c46cc8 Add unknown textures for arrows
+75cb8b7000364d90fcc169a977c6b5830e226e03 Show stack size in tool JEI recipes
+ee591869fa537c227b69c5d04557ee92d6510de2 Make arrow fletching dyeable
+b88a47561887481338c5051a85bc5651988d2dce Implement first set of arrow materials
+fe6d292ae8fa1acf05db84ce249755dcecd470b2 Implement arrow item
+67f22f4ecbf7f8c3568f70e35594f091bd32b156 Implement tool parts for arrows
+292bc4760408410ac809a100351d82f9f826a6f8 Add option to create a part builder recipe that ignores the uncraftable property
+6bdbdde5c896d8f22b0eb675c80e80c601c4d252 Implement stat types for ammo
+8848466966c0b6fe58883f96a4f2d55b083cb8d8 Implement material arrow item and entity
+feec614925972e407ac893d52dc7746c3de0e262 Introduce tool name hook
+fe751b9e2e8b233c107bb45a8ac284afb0e34c0b Scale thrown tool damage by velocity from throwing
+6176c886018e1576c6915cae7ff0bf0899a36c12 Fix wrong stat being used for throwing speed
+b559caec243bd5c2fddfd965551c7ab0159f53f8 Take advantage of the (new?) forge hook for changing item transforms
+566bb77a9443b344d2c0cac493cbf133795344ba Data fixes
+1ccac228e9a622499db92f4a8cbb92adcccba348 Fix missing localizations for new projectiles
+eaf9d4588444e5fe5e7c152ab438b553693d951d Optimize worldbound on thrown tools
+f1952199a0ad101badb414b6c82cd7105b6c42da Add option for entity modifier capability to add modifiers instead of just setting
+8ee5c00b2ebb82972ff2f16faeaaf15514b2489d Make ballisa use bow velocity as a thrown tool damage boost
+4595bbef1204860f58764cecefb73c201bfa42ea Swap order of jagged modules
+77364ed3b513cba02fd86e8b10b325e85fdfd60e Fix a couple of language errors
+ba1d8df0979d40a786d2f433d1ccafa425130738 Migrate jagged and stonebound to JSON
+260d9388b07547fc07ea8e5a156aa2dec162617f Improve tinker station/tinker anvil under many buttons
+957ca67a6ed5fdd2e8b9d8d72e92edaf8b11aace Fix enderslime adding double effect time when its absent
+bfab6e7e1f2be6d053615383d75b9e1d2de6e0a1 Remove now unneeded offhand cooldown tracker code from offhand attack and ambidextrous
+d6089a4e3cdfe0d2247dd656632edb0331c06584 Switch to predicate versions moved to Mantle
+7c857b681b9bda90cd5e0aecabd07a926d2989a0 Relax requirements for returning and channeling
+5d331bb17c8518d74f4134bfc86963e3fc683747 Make trick quiver increase slot count instead of stack size at higher levels
+e6e10415a2d86862ef8f751d4fa60ee3121ae966 Fix some sources of tool NBT modifications not updating the capability
+9605225b3fc0d56de53f2138227946a476dd041c Allow putting ballista ammo in the quiver inventory
+d420163216cad8a43cad36a67cd0b0222a00bdb3 Implement ballista modifier
+667c462920ab82fadfe40d001b55ae233ff42362 Ensure projectile modifiers such as enderporting never delete thrown tools
+710506406fc965db39a937f1853a313952c92490 Make volatile int module sum with previous value instead of overwrite
+7182a1aae046f4e231def1e5da41c5ed1a39b5e8 Split "general" slotless modifiers into general and cosmetic
+ae67dddf576b4177ae1c1cd608db9310091b9648 Add underbowed modifer
+fe488052db954700663de91768f0fedbf0da897b Allow throwing on bows
+798bb242342db271b9cc5a2aff9a69eb21f1a528 Tweak throwing and returning recipes
+54f73bfc0f5638d4bafbb65040c502099512795f Don't play damage animation when a thrown tool breaks
+094628dee0d46f3679f4e31d7d2358b0c49d49e5 Add a small leap when on ground to springing so you don't have to jump
+33aa1e5903296cb192c16b28997d94c8bc12ebc3 Make manyullyn and netherite frames support the 16 rotation states
+f903e6fb6efc75765a4ac34812269e9800073e68 Fix left click fishing hook allowing casting the bobber for the other rod
+6d1a3934b00e7755e3b29910f128d0046afb06c9 Tweak how fishing rods handle damaging the tool
+de28698eda2b5e9c9f96c22230da75e9e477f6b2 Make channeling have a chance to work outside of thunder
+24cc274ad18e0900c48c784ab38db9c9929e66b0 Cleanup: fix some modifier tags using optional when its not needed
+353c6331616acab3df088b94d548bafc9fc77711 Make channeling depend on throwing/fishing
+574c9a0373f6638e54fefe70a5a770364e0a7fc8 Fix wrong tag being used for killager
+108cb15de1c531089f4b9b9552d90468dd30a858 Fix thrown tools dying in the void
+319308c5e5fd6d6ed2e5eac614209374ca4f5b4c Add new abilities to the advancement
+5f9cab8efaaac7974414a567282378a821dbdcf2 Add channeling modifier
+3365dfe2c30a0e6f7c908ed98becb77725265208 Add hook for fishing bobbers being retracted from a block
+4339e2407d313da3b4f04fdcb721faba0a8d76af Add recipes for throwing and returning
+0ba663161283580400de50265a82a0f1ad3ed871 Implement collecting ability for fishing rods
+362d950f4049d5325e2b8509f9715b4c9c6ccfec Allow thrown scythes to perform their AOE attack
+d26e28eeb889b2d63f1f858c3587499bc4722cf5 Improve ToolAttackUtil via a ToolAttackContext builder
+908e3aa6c8cad65a13b63e4907d03d1137a510b6 Implement javelins
+83621e3e422ccf7ac496c65eb36eeb485b3ef583 Fix throwing weapons doing double damage when thrown from the main hand close to the target
+5b801a4978c41a5bc9ccee9d652c4c07c97c1c3d For combo melee + ranged weapons, show melee first if its melee primary
+7841fa1ac7c99ef5d9facc388b07bff116f7d891 Fix some modifier hooks not running from thrown tools
+e0eb9fb933c4fa99a34c004bd877103b1c07ae4a New ranged hook improvements
+e0a7af2f02e1d5eb6f488ec4db41fdca1139e595 Introduce new ranged subtag - launcher
+324b51ec2853043261e98e720b0ecc9f8a575f6a Change how throwing responds to ranged stats
+a0b6eb17cbe2c1976baa53db0c80b8922495d316 Cleanup: move some tool specific display models to the tool folder
+a3b0f47cefe230708d49529662cfe835451ac227 Implement custom display type for thrown tools, use to position all existing tools
+5b4e2e24842feba4929f8632440f8945bc952228 Implement loyalty
+dea683408ee4a810a69c2813b09304eb95e1361e Mark fishing as a requirement for grapple
+92e18e2d35e82db8cec30bd1c14afb15451db348 Implement throwing modifier
+f0ca11d6070e9d1b33200a5da9e0ae93221e033b Add modifier icon for fishing
+38878485367c162d188eb51f1473a1015807e575 Don't trigger fishing cooldown if nothing was reeled in
+b2ada36c424ff70e214b6400920d3f5606f0438d Put both generate recipes under the same root command
+63b420ed483f1c63da56bceb6d0d07f00722e8ee Make punch on fishing rods more sane
+c54920384b46b02850d0014a173d306eccb145fc Cleanup: simplify shield interaction module
+fda90dd90048a6f5ab6d86ab2149d972c7ccc645 Fix pathing displaying the toggled name twice
+546c09ddcef50e4ffbee4b0f6d107a04d959fa31 Improve interaction modifiers on fishing rods
+a3b35973bc390423f6f5f62f66e3d748ecc811e5 Improve grapple formula
+5559c4613cd153136d5928628931b7a0d2ca20d0 Fix immersive engineering steel hoe being wrongly tagged as 3 ingots
+f3e9ca6f2b79c48a539ecd85dc1135841b7afc2c Create TimeToCapacityModule, a generalization of Overgrowth to any self capacity bar
+2a1619d93a1d8d8e38bd93c147cceb792aea8b11 Implement durability as capacity module
+0fb628821ff32ffe4b0c7a473bd7403d19488535 Allow using the tool helper in the item model provider without adding blocking
+7b991a1448f5fbb917c3b90877ff50e44fa360dd Add fishing rods to the "remove vanilla tools" command config
+a373dd9c8c23bd5568794ccffc82849cce3d349d Allow fishing rods to use spilling
+a3117fc6b2245fe9660e9d1e1e38fc1b40a14ff6 Fix a few cases of fishing bobber sticking around when fishing rod swiches away
+a5dc4ccebc86c8b9f5d1af82a6c4d1fea628c502 Allow smelting and melting to work on the fishing hook target
+901bcd7e0e6f6cfb0ddb2c8a676133e8ecb671fa Implement grapple modifier
+00264b0a3eb111e9624165d688c33b275d1ba972 Fishing rod behavior tweaks
+7a72f28f707dd3d18a0f5f5badd07199ce47d422 Add fishing rod modifiers
+b65d13ceafe225df57da15c890747582ba8be0d4 Implement the fishing rod, the third ranged weapon
+38c5b8a199480c889bdf54fafccd47a1d6dd2e8a Implement fishing trait
+734ee5b4e6c444db61fd618004aaff0ce473fbeb Improve API for knockback canceling
+962f42349fe038d0ff590f81492b71d8eace0c69 Generalize punch and knockback
+fd19be23bdc906e7f702f0131106d879a5788e51 Fix repair module not checking the conditon (#5485)
+438bc828e9af02548b8367854c3948a6b55c03ae Fix slightly wrong logic for liquid ender block interactions
+2818d8b138694c3e7f139b8791bc80160db27232 Fix tools without right click interactions running the before entity hook
+023174d7f710e72c5f362f055e48b3ac93c7d4ae Fix creative slot sounds not playing outside creative inventory
+32e620ffab49d903c5e3287dbe9209401d98b39a Tweak ancient tool natural spawns
+eac26c2e41132e8d0ac499774635ee1c9a8c62b1 Tweak a couple of fluid effects
+9e7a77b29e302cd5f783f7c5973405c19985a3b7 Add enderzoology to the list of soulbound enchantments
+e8f032e37dad556cfc98e8d1127e1c0657b2de9e Couple of language fixes
+14f6049796a1d6141808f4a53ce75f5b5905826b Fix creative modifier crystal sound effect not playing outside the creative inventory
+c3162ba9355dd41008abf88b0ddc7ea08d6fd909 Unify APIs of new capacity modules with builders and condition predicates
+50208ec7f20232507554c1236ad0a3ed6caf388e Implement new trait for ironwood: deciduous
+9838fd5b0eab9dd41a7d37def405c1e6558b6009 Add new ability to war picks: war charge
+f094286475bb4de971d1138a22f9cc2706f72b17 Implement variables and predicates for mod data
+98720e39234f96689a05388db74680d1b584f27c Begin migrating overslime to JSON
+fdad0c391a5bcbcf74ebd29b3d41afd692570958 Migrate Frostshield and stoneshield to JSON
+b5d642dbc21c76ae7b6eaef875f04f48061e252d Swap second recycled part for minotaurs axe to repair kit
+a4be2a180ff84668fda69997173973d728d70c80 Fix being unable to repair aluminum tools using ingots, nuggets, and blocks
+f76608d8b31e5d6e2388baf1a5c45f31cfcc84a7 Add melting for twilight forest minotaurs axe
+e51adb490b14e995c50964f6342649ee41690a13 Fix crash from duplicate modifier entry
+0d3bd802e5f8947eef3bd5b54e40b18b43ab6e8f Fix tanks and lanterns losing their light level on world load (#5367)
+634af55737143ca0b2c2beae8d3adb789d8b934d Add flint and steel recycling in the part builder
+c80bf5cbd64dfa0cc204fedf88ef23dae9baaead Fix display and transform AOE iterators being backwards
+0fe9afd319e9e35956332a6db5d64b90ce324dce Fix tinker tools firing the block break event twice
+b2cf2c8971de2484dc08ac89081da99d749e0ceb Fix tanks that may modify their fluid during onContentsChanged() breaking the contract of fill
+1e79821da648c439873e97f633ae07910553779c Fix crash from having a default materials module with more materials than you have parts
+9a3feaf44caba0de2018eb0bc8793f9596241b00 Adjust minotaur axe obtaining
+f13f3ca12e5b4653a494300b117aa05c96635160 Make sweeping edge a bit cheaper
+8172e013287eb4fd99f0dce16aa1d20fce7d3dda Implement minotaur's axe, new ancient tool for the twilight forest
+c64a3bb8a5ae338a6c6e1ea1a8efcc3817f2091d Improve display of enchantment converting recipes in JEI
+1a33abcaeac809271185a1870c1a7cbbe965dab3 Add twilight forest enchantments to the enchantment to modifier mapping
+0954be368d7c782804682d06312235ef944f41f2 Make modifier sorting go in reverse direction by putting the compass in the lower slot
+751a45544cef68bb2b97f160678c351340bd5cb2 Fix daggers not showing their stack size for recycling
+7e903bd3cd4fba35dc76a24a3666b97a3a98c232 Switch the cost for part builder recycling to venom
+3569f24f948a2194959d8f0f4da3f31d91e5289b Correct patterns for a couple of part builder recycling recipes
+dcb738253f0b15e39d2f9e3a9162978177127fb4 Improve travelers gear recycling
+cccd3379023af74171d6bd01435519c08acc7b9c Add bow, crossbow, and fishing rod recycling
+8071d03392c43949112a6da8e5da50c0b85c56c2 Make wooden tools recycle into sticks instead of planks
+67ce342fe727eb593468726505e1af452a5abb2f Fix pattern showing behind JEI recipes with a "material item" but no material
+09676277b622b2f968a93a08de2635166a3cd51a Show tool recycling in JEI
+a25e63027f8be07971e32693d534eb38c3ed0a34 Update gem pattern to latest diamond texture
+e0963308b53de19d2cdc1072edf0cd84828f2abc Add recycling recipes for twilight forest "part builder" tools
+d4f6c2fa8e977d4509b24d9883756235116d26cc Add ability to recycle no-material tools in the part builder
+fba985280c548673ee83c76472e38a942960bcc5 Fix being unable to use splash potion bottles from other mods for splashing ability
+2b2bcff7a2f97b04228d5706651176fa4321fd33 Fix several issues with smelteries on chunk borders
+552311ec4be6c80df3f5edb840a29774383d750f Prioritize crafting table recipe over part list for book display
+f85092eb6ebd3e4699f62615beaeeeb06d49cbdb Add priority option to mob equipment
+bba61e218b84d143994ea6f939db59381c6b1cb6 Make the commonly used "ancient tool" random material a singleton
+26c58952ae916a76ad0263b701104643c175ccfa Introduce mob equipment JSON
+2ad9399ebfdd71f9923dd5c48f4d4dc04ad6f351 Blacklist modifiable items from TF uncrafting
+89c0254918b03df8c8b7b936b53f0cda411ff0df Migrate potion deferred register
+1c81286e11a083c3e3351de8125a6fa31a89dc03 Migrate to new Mantle deferred registration helpers
+7cd86ed9e8f614ac46562a4dd5334a2325bd46a3 Make upsidedown flowing fluid blocks for cinderslime and ichor
+233849331b2aa9c2b25acf65d51feb18a3640ce6 Add fog to liquids
+c1d5015470fe71d141b8a9ae38cb8bfc21c77609 Phase 1 of improving visuals for swimming in fluids
+84f62e83e1d88f340805ecffe84ea2bf009480c0 Fix blindness not working on smeltery fluids (#4909)
+cd46d4dd83347518cda1a836027f625b54f6ed46 Add blacklist for the drop duplication of autosmelt plus
+b458ba13c3bf656276b043e7bd36f2970921008e Prevent data loss from pushing blocks when other mods change piston rules (#5472)
+45d49e840b65fd563f3ed74ded0c1988078d881b Make fluid flow less far
+a895028ebd1d6a05b80fe7cceb913cbd482f44e2 Fix deprecation warning in deprecated thorns module
+4e4d93b851512cd79cc5b15d77906877549460a4 Don't display a message or return "acted" when minimap does not change the slot
+ca5e2b98a8fc9573bfea81dc271ac3cf93d82879 Fix shulking not checking that the wearing entity is crouching
+c32f17f32b3d3a6827ceb87bbca7e74171e08d41 Fix splashing potentially recursively triggering itself with molten ender (#5471)
+bd9fe32f5ddb6dc9f528949c96bc017a85dbb875 Fix hidden effect instances offsetting modifier UI elements
+0d0fc875c7d1799143d15f8d9446d5eb0617e682 Fix trick quiver select slot persisting when removed
+37a2ab1c620ec2a60002c6f894151f414023dde1 Fix inaccurate display of multipliers for conditional power
+bb64e25fdc732e4194b339bb80c58d3ba0bb3dc2 Typo fixing (#5287)
+8ce0f785d1cf976bdf4f44b7a3a9d9ba41ef63ed Remove a couple of unused GUI textures
+5731a13b8ab40d9843d670e9f48abef1ca8374aa Increase height of tinker station by a bit
+6032847fc93a77213a9b158389bd61350baa7f60 Add the extra row to the modifier worktalble
+e1445c7b992286bc3ad9f8cd8aeb37605516db07 Add an extra row to the part chest, cast chest, and tinker chest screens
+fab27dcab90440eba6e24056e79305866465ceb2 Fix changing recipe count not properly updating slider
+2c219faf653537cd8258d1e8925f785dc825d4fd Add an extra row of buttons in the part builder menu
+269e82986b458faab787db1d0f72dd9023fe2969 Add a sound on using repair kits via right click
+780b3f8bec33f1affc7a5d627b9a0c44729f297e Fix hidden effects offsetting modifier renderers
+c4b49bcbcc1f0a87877d9c697f4b5f3cc7a103e5 Only disable our custom renderer on "pause screens"
+6ba4340366fb18661aec7d6689c347e8e0df2fe5 Apply offsets to item frame for minimap and potions
+4ba05d15677e4af5dbdc1e83ffe60870ffe645b2 Improve material traits data provider
+2e0c3d96609c08472a280d5723c7feeb2770d4b4 Add support for optional modifier entries in material and tool traits (#5466)
+cde400c13a46c9d83890494f5a34646c864dcfd9 Increase slots per level for item frame to 3
+50f8df28feb9cfd3e3dfa8c43fd62da1f3e9a5dc Implement minimap modifier
+10c2f41af0144ccab83d51eb1870837bbd2a0e41 Fix overworked modifying overshield consumption (#5464)
+da6b9bf550b2afe9f40a1eba881a928ba9172cd5 Fix interaction handler running left click block hook twice
+fe9c413156b90fa73089ee0311d8a74e54e32954 Disallow bows without interaction from receiving trick quiver
+c2f23bab58ab1fb2aa785126b803f0fedb584106 Fix scythe AOE not working on many plants (#5468)
+48a3a0c2344f9fe1c1fa15e6116562eb1c0bacd5 Allow melting "raw ores" from various alloys
+7740f990b872b59c09d409cbd24c3ccfab33b7a7 Add flakes melting for allomancy
+0bfd36b1ebcb204c5a0aa967e74560133c9fcb44 Rework extra modifier slots
+e6ad37537b01aaadd5090e60d2b830493f37f356 Don't apply wetting towards self caused damage
+eddc051512a103f43b5a640aaf355edd1b4ecc42 Increase wakefulness effects from 1.67 minutes to 5 minutes
+9d9ae9d6680473c2e05e3e01f094d90f438bfae6 Fix display of add breath
+81fcd584811235b0f3149eece911dd86636975ba Add support for cadmium, chromium, and bendalloy melting/casting/alloying
+895a2555568344bfb2627f0c15182c28134834c3 Improve icon for embossed
+3f00dd814f5692eaae16de84712ee64140391f7b Add steeleaf as a compat material
+a983900677d675a2adfcee997c1b3cffa709a9c0 Tweak rose gold and electrum stats
+8171d4794b084821bfc6523ec05490027e81a53e Add curse maven import for twilight forest to build.gradle
+cf6e8ce6f972752fb54946e1a3588ae9f703dce6 Implement embossed
+e7be4236733c27f4ccdcc475303552b09850b1ab Allow crafting travelers gear from composite ingots
+d0d8c2d889f571be179c749777349ce8bd7c404a Add ironwood material
+d950e57828a3d8efbc2150f49acffc8ef9dd03e1 Allow melting ironwood from twilight forest
+d9cfa3c67278cbabf8629e580cc2b33a0e8e5fef Fix missing repair recipes for fiery
+ae81eb397098c36c462124346ed78714275dba71 Reduce treated wood stats slightly
+47a09fec5a68c8c456912f97890d023c3037cd37 Fix casting category extra render fluid not matching focus
+0586f46571d775d1f8b17e9ac08451575234c906 Fix crossbows and bows running harvest logic
+d17bad0af759e43c7e7c3a4abdf40307c3626f7f Add steeleaf melting/casting
+e167a64b2c4bba10c37a89e56a8033ae4441f0ed Remove material compat tungsten and platinum (closes #5463)
+24ef900af461771ed72c7cc6a5924ae4c7e82172 Replace electrum's trait with shock
+0eb0badd419e6aac45dd8985e14cf995e6cb197d Exclude fiery from loot
+087804ced45ab146bb6257201f6dc55a82dc5905 Display higher levels of autosmelt using plus format
+53216082171b7599aba29df45594eb19d12796b3 Fix being unable to serialize conditions in material redirects
+7a6ca33a7edb97fdf2f881fc069a6139787fc8b6 Implement ConditionalPowerModule
+b0542c580f61b92640651ff174d7afd31289b99b Fix armor model ignoring material luminosity
+84e1e5144d6b3b919042cd57c550ce1bf9d2b75f Add material support for fiery
+62130c84259827f7202b51a11543b92bdaedf742 Change knightmetal to a light ranged material
+b49fff93bc6ec7202f521603a7965555aa17df95 Introduce fluid effect for fiery - melt block
+140c7040fd16e20a1213ea27d0575ad736c10f59 Allow autosmelt level to go above 1
+5ed087edc5329990201b84e603f2d767353edbde Add support for using Tinkers' Construct custom tags in Mantle tag commands
+24a36cf9ec3302d14f3d4d35022bf0aa0c7bcc97 Add fiery liquid as Twilight melting/casting compat
+4e86dbae1e604875b817838f97f75973af219d6b Add an extra constructor to CostTagAppender for using a name directly
+b166258db7a9aade1161e28c67cdd0150a282a60 Fix wrong error message for metadata in animated tool transformers
+21c3c96103c36496c94a8344fcf49f03a231a9d8 Add support for using the smeltery recipe builder with byproducts
+5c6e8cb892da2c205148f9bb4c599a34d02baaeb Add support for byproducts in material melting recipes
+bc8930ceed4510fcd0fe97aa8dd0eabf3a36cfc8 Implement frames sprite transformer
+4d994457f50492bb338b0547af1ac30f25c2b470 Add recipes for melting twilight forest knightmetal items
+27c840e17c9eab24611dbedbfeaab110dab20933 Added new molten metals to the encycopedia fluid index
+da0bbf1a3b8ff0087e14c3d9be256a9ec59a54a8 Make nether alloys use netherite sound type
+bc1c6237366751d32c5bdcd566185593ca4b03a3 Mention slime metals in island pages
+1bb08a9ac646b1bfefd72196a39fad62859748cd Make both skyslimes and enderslimes spawn with plating or travelers
+19dbb1fe07f0278fe941e5d7e3f6a8c0cb8663ac Add a chance for slimes to spawn with a metal core
+ccf567950e5a63f959cfca0e43f43ea2bb2ceebd Add knightmetal material from twilight forest
+3177c534d75313c6d8a8d71c399516a4e74e14b2 Add support for knightmetal
+101f8080e3dec80df6cc93aaf614f1c193fdad2e Tweak molten duralumin palette to be more green
+06363f2ab79a97ba8fbd6fde50265fbcaac84a0a Fix encyclopedia entry for steel
+dc85a16f7ee20db48512f3e5335e5f7c5a925ab8 Migrate holy to a modifier module
+1a65b1fc64ca74dc7918a4506c9ffc9560ba9049 Add cinderslime as a beacon payment item
+f233032f3195afba398471459abbf66fabf07d20 Rerun datagen to fix path for remove recipes config
+5bad5f254afd8c3c5ca970f4b7d188085b300668 Move "remove recipes" command to Mantle
+455d6ae556084928f40cff0a00e63a462aed900f Add molten duralumin as a new compat fluid
+956df79bd0b3cbc7cf989f6bcd272395fa4b6361 Make casting cache stable on dedicated servers
+a43b6b26a006da8e9dc6855f68ea8b743933ae40 Replace context predicate with casting recipe lookup
+3423bea793c4c408bab32eee6ec9812e288d2c76 Take advantage of new mantle helper to fetch tags from output objects
+6f07166db5cffbea2920dec3e95f8e5b49e28606 Take advantage of Mantle's new replacable tag to simplify tool inventory replacements
+a93d8e64d2503c019c85fcb3592c4c1f01ea771f Preemptively guard against the broken forge gradle build
+499e23a676684034979ccbb17b98a2944a866520 Replace has transfer check with has container check
+45b401e55c8fec54d6d67409fdedfd9d4f2f6b25 Sort by highest temperature before biggest fluid
+290d12aa190e7ef295739b937f737603e24ba769 Improve empty checks in recipe logic
+1d83f563494dbd874d3d9800bc24f4617b2b055a Make thet min temperature 100 for fluid stack generated recipes
+0b24369500c05c81be813d478142b81279e0c714 Treat fluid containers as their fluid when melting
+bddb758166bf6a61ddf834a80b3cb454fe810655 Add option to blacklist a specific recipe from melting
+910f57e27bd7141109750438d0c597384fc00896 Fix forge anvil and anvil forge
+b3ff8445bbb9f0eda78f6e2ab761a5c0715af91f Add command to remove a single recipe by ID
+d82d1dbdfe8a0cb3a08e91b148c0335a21c59bbf Revamp recipe remove command to also support config presets
+6c480b124bc837e0b033fa746e3e19557d4802a2 Allow melting splash and lingering bottles
+f84fa9a43202279f418622c81a5bd2c364492c2f Added command to generate melting recipes
+b655c1559ebac375cbc944d09c8638759b8c2392 Add command to generate recipe removals
+7169136b61cc6b04405e3bdbd7d7b0bcdafda17e Release 3.10.2
+6ad46a8c9010c055715c24d7fd32ead318a6a002 Add a couple of TODO comments related to unification
+0d68e85ee1677fb120ffb6c582a3fcce4bab895c Update Mantle version
+9045b6225653e4ad9d5ca468bc4f14a1782dd96f Simplified Chinese Translation Update (1.20.1) (#5450)
+608cfefb41576c6b34ffbf54ae55a5bf6ed157d7 Add manually created unknown bowstring textures to supporess the warning
+93e5af7e0bace69d7695863e6058a0cb40b3a37f Fix wrong order of encyclopedia transformers causing missing padding
+ce0342cf3073644fd6e04acf2cfd770b0e1e4efa Take advantage of AbstractBookItem to simplify book implementation
+c71908eb30ee6888e3f09576c90e6d98eef901ba Migrate to Mantle ContentPageIconList
+3a5eba19b920a0188bea27a8388d58c18d02fc48 Increase network version to 2
+cce73896a88501fbaaf898d0f5aad6afe7048703 Remove silky jewels
+59667ff507a9d82460c5fc71504bd41d70d74927 Bring back single part item cache
+ddc75064da8b58a2ba495af8bbf2f07b3e1bc3c1 Fix wrong subtitle for fluid spit (#5423)
+f55d9d142f1e7f21bc5d30437294187bb8b65115 Change cost for quick charge to magma instead of sunflowers
+13e1b2552fb5d5f8a5d518c28f4369f35fc3c356 Fix block breaking preview mismatching actual block breaking (#5426)
+28b97393b653274c0d66b9c5a8b9f363feb1f879 Move modifier worktable from gadgetry to puny smelting
+72e004426994080515f91eedab01bbf3b168b373 Make steel slightly weaker
+d58693458a93cdb35c4fb9c42e3125e830a2c062 Reduce cost for endstone to 1 instead of 2
+5fbf79553e8994faf3f71b163af9081ae9170a11 Update staffs on toggle worktable images
+9752d089ee161f51bdc5c1071f40132a4fb60cff Switch invisible ink to earthslime
+078cb6b40ff42dd6f890db05ea2ea49dfa00400f Use decimal format for repair kit tooltip
+f499722f3aa408ba2065c43e5d8047d390b20eb8 Fix stone plating recipe showing no input items
+697403c60c18738d5011a19d21cab38a28df9d21 Display items that need more at a higher count in JEI (#5436)
+f1b65453107ce806462f8001fc78f20f12b2144c Added page on ichor melting (#5440)
+38f85b9de5230fdda89062acf9179625df138e0b Update travelers gear slots in the book
+a1bf3cc0eae21ace2fb0624ca26ce822e8cbf727 Simplify needs materials hook
+e5dc378c25a0fefcdfd8b01c16255c529da0d310 Make all single part tools support the invisible modifier catalyst
+cbaf0ca9e2610157fe4577a57198214ed4e9b351 Show all material variants for tool building recipes
+428701e9e7973a9dbcb55552bc41adcb90d1caae Fix tinker station recipe transfer bugs
+2c9045441a870090a998c5475a347c416657730b Add support to quick move stacks from JEI into tool crafting grids (#5447)
+9c61456e063abc60cd4933cd6dfddbb794bad569 Blacklist bundles from tool inventories (#5431)
+916c8622187b1bec77f301ff0b0f04f03c350da3 Fix issues with bone tags (#5445)
+9e153c1f413c6049bd79920b23cad73ec14432cb Allow creating oxidized copper tool parts in the part builder
+b861bc10a1667d1ed56496f16c4675543f265aad Fix recipes with both value and needed set having odd leftover behavior (#5430)
+7dd6e16a17171ce4a62d83ceffa47f31e7b1e53e Fix z-fighting between smeltery controllers and slabs (#5438)
+713e9498a4f3d4ee215c94118beaca79de56dde4 Fix melter/alloyer timer pausing when it has no tank/heater
+389143a5a799b83ce42ca7b858ad3f9d18b450da Fix smeltery/foundry timer pausing when structure is invalid or tankless (#5425)
+76bc21512810512c65e920d50f77f345e4799a5b Fix item frame and shield strap items persisting when changing worlds
+a2056c981b74d10008fd769d68a652ea1cd5cbf5 Limit max level to 2 on a few abilities
+7639d7e803fec50f37950c90b9f92ee08a974116 Simplify alt tags in JEI plugin
+39964c4ab03f0ffb4acb394fc9a1ac4c67766dc9 Mark "any material" tools as display in casting part swapping
+36b23b9ee9bccfd4b20fcd0cb835200219406afc Ensure the pewter fluid effect and alloy recipe are available when either component is
+83771510d4a1a26fc9cda6c8139bbea2ef619e52 Add pewter as a new compat material
+e84aaca927150d8137e7a984ac8772bd9aff0514 Fix armor lightspeed tooltip showing on non-boots
+eb397c227252e37411c230783f2864e3d9be5b8d Revert living visibility to not double multiply
+9a0bf03cbf077c17c13a39d562aeeebf1690fc4c Forgot we had two recipes referencing cracked clay buckets
+b413a8e4258a86848ee754e1f44894b71dbcca61 Add nicrosil, compat for a future metalborn feature
+1a961a4734f0b994a34925dae00e5dd53b02591c Fix swapped broken unknown metal parts for travelers goggles
+27a08505f25e808b0a391fc3b5377bdd3cddbdee Remove hidden handle from melting pan
+e5a0efbe1afa2003e473e6e63f8f8396e06b9c09 Remove bowstrings from unknown material generator
+b93933238c734912df61104ef897fec5e9deabe1 Add repair kits for travelers gear repair materials
+2cbbaa843bc672d63a1602e334777881644aee81 Hide tool parts from the composite tooltip if they are irrelevant to the page
+853f6e00cb9ab1d840da637d1330b3ef23fb8c11 Deprecate for removal the old material section transformers
+fcbc595f561fe7c9dbd4d1c589b1126fc1e9f1bd Add right padding when material icon had an even number of index pages
+17886833b040a751e40615f8c596b4dce6f251f4 Implement ichorskin
+4148da1403b4260dead235c9c4f94723c4db9048 Slimeskin improvements
+7bd8c559b54f32c3825b8b4e6c9763d43f5d743b Add more workstation rocks (#5452)
+cf95ce333d6125e5dea53192c40c1a08cf620585 Fix unregistered hook for lacerating modifier (#5453)
+3ae5a18b1ce96aed28aef1f009f28034c91ed552 Allow part swapping travelers shield with a shield core
+a4bb7e0e1c6c18d614afa376781f216409a7e764 Improve travelers goggles metal plating
+8a24b8f62d379d105f6c085560e7ca8b28e4be06 Make the leather on travelers also a material
+87be592fbaeb340ab6e5620afb5f99ad93f50aba Improve display of tool casting and casting part swapping in JEI
+57d54d6276f8bc989a9a69708658d110d581001a Material recipe fixes
+dfba33543c815a8157b14d23a1377afb54fa652a Fix material variants breaking the subtype interpreter
+51796407c2b56454876c1fafec933fa862fe2a08 Run missing materials hook when a tool has too few materials
+a98536e1b0dc5c55e28eb5a869b58d1ddec4720d Allow setting additional extra materials in the shaped material recipe
+3cd3ba5a77b3be7bb0fbab615ee602a81eca32b5 Tweak leather palette
+b5f991c955a1fd750f66c20e0d4b98a6ba724df2 Add some helpers to simplify tool definition and material sprite building
+9ee73f64e4067f15de332f1f72b8034b68e9ea29 Fix multiple instances of a protection modifier combining wrongly
+7ef87ad43d81531690452808b04a646afffef7f3 Fix offhand attacks not respecting attack speed attribute modifiers such as haste potions
+8395bd8ee770301cf75a429c951f061b63d582df Creative tab and JEI fixes
+6d0b116aa6038be394bbf073814a6c34b38e943a Typo fixing (#5287)
+24b6df1f5182d52df4f00a28e12831d58f483148 Initialize the material registry a bit sooner
+7d430d8fa92aef8d79d3a6c36009bd9da9d4bad4 Really fix wrong ID for clay bucket filling
+00f9d8052fb121d509640cda249ec637e24befee Allow wetting a sponge in a casting basin
+80c7383930a2d1f09859a164d9e47ded93acca3f Cast slimedirt from 2 slimeballs instead of 4
+1a3669ebc9f72651cc1e16be343a5cc275e870be Split unsalvagable from unrecyclable
+0d2705c4c1d030e00adfe5fb57ab11a833a6e944 Fix tilling not applying to boots, and stripping applying (#5449)
+5687c4ad93c833894056557300b0b13f37a82624 Fix tool attack util applying critical multiplier to "enchantment" damage
+e0e149eb9dff56205dbdbaf6e05c41664020639c Multiply visibility change instead of overriding
+53da275586cfde29f42741f8f9416f82609ea24a Fix equipment change modifier hooks being called on tools in the wrong slots (#5448)
+68fc5f9da7dac968495c62b0176c55ea5f3afd0d Fix z-fighting with faucets below drains (#5438)
+8180f73a169e1c3c0d8a0c9a6a7f91aaa5d020fa Prevent breaking and placing blocks with fluids in adventure mode (#5441)
+4265502969e37ea8ae3f6430ef39d7644b28eb01 Register fluids after smeltery
+6379a65de17488b025799e4519145577efea8241 Fix custom explosion shape being skewed
+308d2bd78f2ab66bf250317d19add6dbfc380bd6 Fix piggybackpack allowing you to target entities riding those riding you (#5446)
+a923f5b7c38b12eb8b7c9a3a7ecd2c1e82f86923 Update pewter alloying for compat with upcoming mod metalborn
+99129c25d5f7150370325336382dfd64ff2f6105 Make anti-aquatic a bit cheaper
+ab1ec888dab2bf304a1d7388e2ac17accdcc15c6 Tweak unseen parts of shield textures
+e9557e7ca27555d11bb1404b678680d07a887d67 Fix longbow referencing non-existant models
+014438d8c94e7c93fe90f306fe3e0b77083f821d Make travelers shield use a single tool material
+1e08e172c241b8f1cd959bb64d103d49f6bdf04e Added cactus as a new shield core material
+71b79f34975170725adb694744f436d49801cacf Improve efficiency of offhand attack damage calculation for tool attack util
+fb4749518fac361d7357980fb1aa53292567044d Mark all disabled wood variants as deprecated for removal
+9f8c1edc56b34be0689f984543f7f404e7a466d3 Show item mod name if the material is TConstruct
+aa0ce4019ce9c62ae28b035c29dcaabc2f961bac Fix persistent data getting lost on player clone
+07d658f03dc45276cb6465553b7b6bb5d83fb780 Change "melee/harvest" to "general" for material section titltes
+4797cf0e974af20274492f9d256361fde4d79f42 Show ancient (material) under ancient tools in gadgetry
+4591ead978d24a5b131008c78ee231eef68c578e Improve slurping on shields and alike
+6a1c9dfa29a7775b2de590a35c7043b5ad0775b5 Make freeze based effects set duration in real time instead of frozen time
+55f6bd852aebc2a02d247dce5f50b4bef166cc80 Fix fiery not using the time value for its duration (#5427)
+b5b3dad8d35fb7e6e94887dec3af1dc20b5467b4 Add ice as a new shield core material
+6958dd1b2f6c4776015bcf6471b5a86c4ea3527b Fix a couple of recipe issues
+abd3578dc0065e37f418b56bed1db3e96d575f31 Fix flamestance being too strong
+838e9fd899df7da5cbae10e8cb49bc24bfa45908 Fix shields going in the "wrong" hand on armor stands
+c351dde40cc7d8029526008fc6c33c0d1b582513 Update pt_br.json (#5422)
+45167ac83f34fcc1a427acea6eaa4f275215ca04 Update issue templates
+ef1a71c9dc7f3149663aaac30e1604781bce9b00 Release 3.10.1
+5f86a5e9c77fa411d48f432c4d70ebcf9e9c00da minor bug in json file fr_fr (, or space) (#5411)
+d798f1ba57ca53641cae3cb0a19c9476d6d89ff6 Japanese Translation Update for 3.10.0.67 (1.20.1)  (#5408)
+58e0ce94a7726b806326809e72541fc9f7b96e43 update [lang pt_br] 1.20.1 (#5419)
+8fd7cd5ab172203b366e1d37eaab5d6fcf5af79c Update ichor sling -> bonking in the blazing blood pages
+388c20919c312e3eac8c69a4e3be3de9ce70721b Rebalance flamestance and entangled slightly
+40a4fc0cc537e3d6c1f6339a103aff99fe2d3e10 Fix missing category tag for enderslime
+b5f2990d5f19acd6c8b2b9caa7f25e19c8b1f2b4 Fix accidental method removal related to bows (#5412)
+2aa2703129ebb9781c8d422ca76dc04d13aa27ff Move compat materials to optional in new tags
+34bf9c1b8a8a1c551acf86a01fd45a56fedc7dfd Sync the item stack used to open the tool inventory
+b2b2dfe37c1ac00b6d2fef85e090b3114b2821a8 Add gravity downside to lead, tungsten, and ancient
+3ed5a88bc785b33a45aa7c2633701d06d574ce3b Add twisting vine and weeping vine materials
+920bc5657dcf9f7fe43ff37a919bff32081d6167 Add temperature variables, migrate invariant and temperate
+803ead64935ded06eb9d72ac76aa0d404983e2ce Use conditional stat formula for reduce tool damage module
+b35476e3b1dc91a1b83827844626e5d1725166e2 Add formula support to protection module
+8a8ac37e5a91dd02475cd384bc58aa59993e3a13 Make leaping cost an ability slot for its second level
+b02c22c3176f2af20c9c59f257589b49e68f9671 Fix triple and quadruple jump not working
+937ef537edd28eceb41e7182f76b05428b7c6432 Allow vines as armor materials
+233ce5bebf636a24b044a968c4487d7f48917c97 Give gauges tooltips and a book page explaining their function
+5c46c7de1830f11e0942434324557ec9416449e6 Make obsidian gauge craftable out of glass
+10ae4257a4e4c006e21a495e62b117254b835e0d Make it easier to place gauges on channels
+76c992cb331f6ea678b90a702078f9d1f3e2d40b Make obsidian guage render the contents of the adjacent tank
+0aa1a057c309bba791ecb667af6a6acbd22e10f1 Add ancient hide and leather as bow materials
+2e399159c195b67890437b1da72f3005e43b25bf Fix wrong slots being checked when removing armor with the slot in charge module (#5418)
+b6e470d956e96848066de772fde77b91d94b2ef1 Allow the swasher to get more ranged modifiers
+6f449dfc9afbee0f0293659fe5aa71e35ee80786 merge material categories
+7b181d602fb057a471261c0d79ab5422bd6f5b33 Make slurping work on bows, pickaxes, and alike
+3a17f5afdb3e815c96a011f5f880c7b8008b4a7d Add categories to the material display in books
+eadfe944825c5cb12b058b9ecbc14f5fb335304d Improve formatting of crafting icons tooltips in material pages
+e8a2a57b4ac9c6ecf492ad30d965e16323237396 Add material category tags and tweak a few bow stats to better fit their category
+70bbc10eaa597763e29546517f12466167a05c86 Increase channel tank size slightly
+90cf989b1b53b4dbf9e1130ca8ffb7ad461392d0 Add copper and obsidian gauges
+d499d96b3ccd2787d7e6ed1013bf91529588a35b Update for latest Mantle fluid tooltips and transfer
+4b51dee35ba79f8a1c5011fa08b9710aa97b1c93 Fix tool casting recipe overagressively matching its cast and not part swapping
+c62b74147192fba75f43587860eb50160a4f14cb Update ceramics compatability
+b071da8759f1c4edd04a6770581685d56a322a25 Fix momentum modifier showing an armor resistance tooltip on armor
+eec8841790ec7dcc62030f465b8f2aa205a5e8f5 Remove legacy tool inventory opening logic
+f5f6950942f2a00361111aff1380ea0cac298922 Register extra tool stats during an event instead of using static init
+98efc7ba94277162bbb41b2068009b8dbc1c8718 Fix recipe IDs not always showing in JEI
+b04cba64f5246e8417ddfbf75432edc58a357948 Add travelers gear recycling
+a3e3b88f0c646169f9514cc3c4adee1376a835f2 Make tool recycling use repair kits for shield plating
+77696af7d982ee72d4fb31bdc0435289c0110737 Simplified Chinese Translation Support (1.20.1) (#5313)
+8883d0aae095879fc689e6b68a20f8245a3456f1 Japanese Translation Update (1.20.1) (#5382)
+d2ddba02cdc52e583255ee86109dfe0013ec59e2 French Translation for 1.20.1 (#5401)
+4ac0e77d1898b7fee87af193426751384f8aeb13 Brazilian Portuguese ( pt_br ) Translation Update (1.20.1) (#5390)
+181a93620389bec11032f437e659cd12ae059dd6 translate spanish (#5338)
+cebc597d119b199aa77d43f57549aa6e84e8a1c6 Release 3.10.0
+cb573c40ef070a790f644f659cc17f13cf9a658c Allow filling stacked tinker tanks
+44fd9a2b6bbab18eae2fa42171a86043c5adca02 Fix decoder modifier context lacking modifier ID
+601535ffd91c284fd64657848c9b929eb4951ca0 Some cosmetic changes to code
+5365879df9bc397bcbf1fb460b1a30cba8b6b72a Fix a couple of typos with counter modules
+367a0fd29af9555e8bcf623ffdc02890c084cbdd Update Mantle for binary break revert
+2aa1488415b3d3c6b745040a0105ff55193773ad Unify behavior of counter attack modifiers
+0cc62f39709e233131b43b39bcfb8756cfe50a88 Drop slimeballs from sinistratl's recipe
+a1d66642e455e9f6cb702ac80c6a84d4e45aec83 Disable golden modifier recipe if nothing is using the deprecated tag
+d34ec7284cebfc3b1b34109353b277b6f1eb6e9c Tweak several more modifier recipes
+8a5d625face7f5acb72eb378e50bf33fe826eea1 Rework crystalshot module into infinity module
+0d0847dba45b89ed9c006c2a086e1fa03f3d91ff Move to new mantle inventory book helper
+b01c99ce420c0f954a0da3578c316956d3329e85 Migrate to Mantle deprecated loadables
+1506022860fe32a307926a1001cf7356e8d1ad78 Add sounds to smeltery bucket slot
+b6c319e18091435e03ad50e5292acbc5ce01144d Update to new UI transfer utils in Mantle
+ecf86a531f331890becd908b5fd763bf3e3c9ed0 Ensure random material variant loader is registered
+349d05562166d9780a4eb0ce29b9965318571341 Fix failure to connect to server
+edc991365edc0df012700628650f87f7a9039d7e Fix faucet flow and channel flow rendering in opposite directions
+4840ba6be299bf6a0e79126cd63ee2292ad24160 Fix channels being unable to move lighter than air fluids (#5387)
+92821e9adcc47f5a176acec0c76ff957b07f4aa4 Add material tag blacklist to exclude from loot
+f993a9f6bee53e077b09d206f9b71992b5b67999 Switch from material tags to material variants in RandomMaterial
+471ef4a3d71144b8ed1f9115d88148ad30ed8c0c Add a few more material predicate variants
+ad4d2b79e3c087c8804056ee547ba5807f84d421 Cobalt texture updates (#5398)
+821160a5c528974df97870d571d1641b7dc15e05 Correct outdated descriptions for experienced modifier and electrum trait
+4568ee3bfdc6c34b95a102e322a025c27c9f8b11 Increase the list of allowed containers for tool inventory opening
+4f532f9a0d09627c1eb87cf4c772ecd184177275 Fix wrong pack version for generated part textures
+b175577918d1e1cf2e8e7811895ee30b373c5ac2 Remove non-slime non-nether wood variants
+0a4d13ededa8fb35223e45475fb26c640498a0c1 Allow opening books from the player inventory
+1f289578315f01bda6dc48f8ec61ee31417b70ac Implement brush modifier
+7da63bdb0e98fe8c74385059b09f0a6866fd4b79 Migrate to Mantle tag preferene entry
+5a81ac9decf59dfba1e3d5dd05835699ffe63cb2 Overslime recipe tweaks
+a5320b5b69517df02da31f975a6b5868f0c4506e Rework zoom and scope to be more similar
+0d3264977c269420f28b0be48bf2e84c1a773eba Play sound when firing an empty bow on failure
+a8918520e383b84e461943633b35edff46e551df New modifier: barebow
+54d40f596e36b4273678fd5f6b76a2564b7ccab0 Include some missing files from previous bow tag commit
+7770b42ec2ca9d80a6306cc874cd5bc65198278b Fix wrong tag for blast protection
+2b9cfa2634217dc4b53206def24a4a37f2f1de67 Allow bartering tool parts
+4955a904be987e33429bf9bc178a7116d317a0fc Allow recycling plate shield plating and ancient tools
+f343c79e202d835c07820f43422cf39b2f34f440 Move behavior of blocking bypassing bow ammo requirement to a modifier tag as well
+6a017698c31bdebf7d73c9e381ae23a227a81e6b Update overslime in the books with new info
+c91d98d5bb7a2e0b638d643ee0022eeb0344091b Update damaging tools to use venom, magma, lava, and blazing blood
+3a7787fadcaf83f47a9a44b855447b741ecaf713 Boost power of crumbling
+d37328de29723a81cf1c9b522ddeeed939eb9d3b Allow using slime bottles to apply overslime, notably in the crafting table
+05062d0eb203d404d659eaa22de5c8970cbc5ca5 Rebalance ichor melting
+a694a1be0e4bacfd74e2a8dcb0e07b880f8adeb3 Add modifier slots as an ingredient type in JEI
+3abc6bcc299e7be53f884d5445301d40b912b4ab Offset longbow to be more visible
+fb277a5b60e050cddca277fa8934a7ba21c24080 Make crystalshot item textures thinner
+8ba0bf3af495adad57f8a1e6c6d26c1b8ebc2164 Make bow model show the arrow being fired
+3ca4727545935b4a27a6929e69e1b7aecb710668 Improved bow models phase 1
+dfd27d9d0d9ddf9e855aa71387bb2a802d997ea0 Move indestructable item entity to its class
+3337a62229e959e17f2e8c0806a746a62eb0a317 Fix rarity module being clamped to vanilla (#5405)
+906fa8a8e1d06d329bf809ac88b3a40b412a160f Fix key for one solution to the model problem being committed without the rest
+2e994f3560c268ee1bad0b970c25853aa294e60f Add post fix logical operators
+00bb10b31699469d8c5a9486a5d0a31f7bea6dbe Take advantage of new hook to allow using sling modifiers on bows
+8a6e39838dd4882985ba6759ea4e2376de214eaa Implement new using tool modifier hook
+27580bfa135d3096bb3790b57010c73d646c1b36 Relax bow and crossbow requirements to be fired by a player
+d744c2c57769171d9f59affb5b0275609ee63074 Implement material variants on part builder recipes
+aabe35a48af521a32f5272a2ad33f53fc21c8d2b Show all matching variants for composite casting recipes
+c4e10386ef498bcbdca7cbe7291f2ccde3369a27 Implement lookup for material variants
+57d02add3e8e3707c519c0757c420420953fe71c Improve debug for modifier issues
+227806c695b0e2d3822ea4da006228ed9f112db4 Fix material melting recipe not passing in the variant to the display recipe
+f61c3209ec1f80cff2e4be3e82700e4f3e95e1ac Add the casting tank to puny smelting
+206cef49acfae8ca1107dc5a8ccc0c98b8c7cc74 More typo fixing (#5287)
+fc44067e22a51dbd056a02b360305917055eefb1 Fix casting tank GUI model being inaccurate
+339562f954960920740c191c189eecd69a896389 Rename proxy tank to tinker tank
+f2d5d7423f8e832860b7e0cf6b122b9e41ba3db2 Add redstone pulse to swap slots on casting tanks
+e569e0a696e42b9ae395541b0bf231bf267e00d1 Casting Tank (#5381)
+e49314240ea76ee4a7ff938a39059194c1734015 Only open armor inventory on right click when sneaking
+ec81636c1bb52c8fa521d3903d5237834f0a243c Resource fixes (#5287)
+1a7a03ef33f5d3428974006bccb00b73d30f6c96 Add IE steel tool melting support
+25e5daa99662a4d769b4f66d66bfa1874a5a7bdb Switch workbench from upgrade to slotless
+1c2b767d31de651a39301c5fb8659dcfb52873ee Replace boring shapeless recipe for purifying bones with cool milk casting
+02c02f3a85a701bf30835725ea0422a0cb815ce1 Fix inventory not syncing after swapping containers from the main inventory
+47c169311ac5ddd8017d96682a98e0688e7976d4 Increase boundless max from 1 to 2
+38e1e2c94f0df10a1c81b4a15f6624f3d09ced44 Fix crystalshot crystal not being able to be applied under some circumstances (#5400)
+80a33c8bd6bbec60bcaacc1f6e725ad3b7b325be Add recipe for applying overslime in the crafting table
+2d0dbaed7bfb9d2c8badf13ada34c3156a94f919 Improve overslime application recipes
+bccebc2b98e171364d4ddcdc2de86ba72358ce18 Migrate a couple of previously missed cases of tools losing cap data (#5310)
+a8b73b807708c7182dec237eb2bb2b0fd5a7a853 New mateiral: slimeskin. Basically just slimewood for plate
+f8714f70956103dde7f9e6aaf0d6c6a4a1f2282e Farmers delight compat: allow casting wheat dough
+a122ea80e4064ee4e709d4bed95b6562bb6fecaf Switch earthslime effect from experienced to bouncy
+af36e97c10a307d87efb9140aa8d1ffce7bc017c Increase mighty smelting to 4 column index
+e1797539ec57c066665e6016b80cfe88518954cc Increase custom bottle stack size from 1 to 16
+13fa997cb4ffd6898c2cff7217ebb56392c99056 Remove fully charged requirement on scythe AOE attack
+4e299b6aff8410294064ed9e044e01e349d1ec33 Reduce feather falling cost in feathers
+07f9a6f794e408009cfc4ff2c2a403aa6683dc0a Increase venom output from spider eyes
+61dcf96369c0d8454e4520295b5c2078bac5f204 Increase melter tank size
+40094997e37379935a873439e14ead768d41aa6c FIx capability data getting lost on tool modification (#5310)
+25e673c44348d1069545674df6a29870a4b7fae4 Log warnings when using a couple of the deprecated loaders
+12c44eabd185cc67bee6e3ce25b33e6c799974ef Swap potion fluid sounds to bottle sounds
+3f0f00aaafbff8a141481f45fb3e5d62b258f72a Add sounds when filling and emptying tank items
+66df49892a5b9674ad422d75850547c2c79af004 Fix emptying smeltery tank not updating liquid heights
+c14be7d82cf2aed68114544f64fd6d5ac3ecfa8c Fix reflecting not damaging the shield
+6e3765374192070cd413df89ffb8a053a888486a Add sound effects to modifier crystal and creative slot inventory usage
+7e41495df1776f05383599a280395ac4907106fe Add fluid cannons and proxy tanks to the book
+6dc2982f24c5e7f894e99b111c1a8475e6ee12f2 Implement the proxy tank
+100770af0e6cc2f4c8858972b01db95d94f4fa04 Render lighter than air fluids at the top of the melter, fluid cannon, and alike
+af4c8d7790b5956c55b2a42996e3590f39e6b239 Fix slimeskull milk effects applying too early (#5395)
+1a3cbc6d6c4f3497bf70969176c2dc5497c65c9b Fix returning not working on monsters
+a189f5a4ac30b1f4e0d05acbe3c49b1c5cb14d4a Update chemthrower support with IE
+2ba7133ed6568905524b671106e80c855dcbaf27 Fix deletion bug with stacked fluid containers UI dumping
+da26c3769c63ae6be2f7c87b5dad4eb0f8dce30a Scale down explosion power when given partial levels
+0841f167b4678101725a433a4a80aefc0672f5ec Make lighter than air fluid projectiles go upwards
+82ee9b8a328c63b37031713173bbe7628486bbb0 Implement fluid effects for Immersive Engineering fluids
+2868720786fb39f5152032f859078ec5946ea1e0 Improve debug when a fluid effect fails to serialize
+38874422e6aad12f0a6a45cd75be16914fe2eca8 Implement treated wood - a compat material for creosote oil
+5654b6ff45ce9d43ee8ece91695461df8eddae71 Implement brand new unique effects for slimy cakes
+1876cc79cb8fe4599991377ff3b818c12f9a2018 Slime bottle revamp
+93341204fa146143cee291a675a1e6a0ac54d973 Migrate double jump modifier to an attribute
+8161f85b99154dd84f76343cd4ff20c446b29bff Fix some fluid effects running sideeffects during simulate
+3e122e57eaf6cd29ce0f161c7c4631d270e47508 Migrate to new mantle block state render items
+ddbc74959b0d6b2500b76e2f9ee0c55e7963e358 Scale the effects of springing and flinging based on knockback attributes
+c0cde3ca209f94dba66b0d7aa1e7bc5dc10ad5af Implement tooltip override in attribute modules
+cb1fdd82ac6d8f72c0ed60583ac5a4c1c712aa8a Migrate "armor stats" to attributes
+150940fe5cac6ecbeb0334e2a8f03883c3464f14 Make attribute module unique key default to the modifier ID
+093a20d2f4222e5139fdb4b590a5e1a39daba83f Take advantage of the newer Mantle fluid transfer methods to simplify some code
+2f62fa28b39906b7ab97bb5e58c78442d31c0adf Add support for the fluid cannon to use an item in its fluid effects
+c3d456659e62940b02395e32937de6404570ab7f Add item stack to fluid effect context
+0433fa860e2a546893b196a7a5a366c995b95fda Improve ichor and ender fluid effects
+0185b6c8b72a7c102f73526f0679d38e6b351d47 Switch fluid effect context from many constructor overloads to builder
+e550778d6891ce1ac729e33319615e9fa1d0efc2 Allow right click to move 1 item provided the tank is empty
+82ae3940ad0d982d3512326b1705445e2e0f38e9 Protect against other mods filling stacked fluid containers (##5383)
+b78e6dfc0270ce99878c3614545b1d3d53c4087d Allow hidden materials in all ancient tool randomizations
+845c04e86a655fd1adc1b4a93cb844c565cb822a Replace debris with ancient, a loot exclusive tool material
+0bc2d7abbd027bdaa0362f0b6bd86f7da86a1041 Fix wrong serialization of single ID materials in the field
+f6b2d50361f2a955424b98db088cf524bb667f31 Fix missing refactor in material predicate field
+58ad5255aec34ad281f8e481dc75e69c7ba2b138 Create new static constructor for modifier predicate
+5940a9110a5f99f91ce132eb6dc5d2849388e0be Ensure IDEA includes sources
+60df31506de5fc54c8f99d44abf36bbf759a822c Introduce material predicates
+8646b7e6b4b6526c1e4738d26667f0fc77a6b83a Remove ability to apply golden using a defense slot
+bc642e6faec0ecf5bb672bdf4c9e573a4fa8b27f Tweak travelers starting slots
+be7bc7e00c38344391ed70dfe5f05014b8b19cdc Display negative slot values
+0f127b814eb29053724957d1cc1ee249e15a1a0d Fix part casting swapping not validating the tool or calling removal hooks
+68d818aeadd72879c60d3dbc8e2dfa4374054e61 Cleanups related to deprecated for removal
+cfdd9c580eb6757a2fab88e36ac28503fafbc664 Allow part swapping all armor types in the casting table
+01253e0bbd76c8d81bb0038cc8d7b8b4640ada7c Fix some missing traits on the slime suit book pages
+14ba70fb440b0b32c8301338b8ee2295d853b111 Added material varaints to travelers gear
+e1a592253a54b87e9614b5288693932554e6c99b Make seared and scorched stone parts a bit cheaper
+56819c6d707b8f4ff107bae4be22b0dcac478e59 Fix wrong base for swasher
+5de29d1974c6d4bc414b44fe3074290f370190c8 Add armor builders for multiply stats and material stats
+49c7938625976c3871bc9138834a38edbadb2175 Change display name on tool forge recipe to "Tool Forge"
+eb8e721ca4b8fb43baffb7377a49798a1764731d Ad debris as a new material
+2cf41291948e4f79c37c2f5890df770a43d3dd68 Show tank capacity with the modifier list instead of stats
+a71550dc914a054a6494a957dbe187da08a97521 Move display name hook from composable to basic modifier
+1a53e8e000d0d707a564f0f1c240712b3fb6b8f3 Fix a few modifiers not showing the left toggled tooltip
+01e14c0421ad046277160e7a159ecf95d93d23b5 Take advantage of a couple new Mantle features
+627496c7a7d787b0ddbc075468a811d44ba6d883 Created alternatives and sequence fluid effects
+00bb404af17093a5b8963a1f1d660da419044f19 Add tooltips to command arguments
+1e0f8d745634b60e1531f130fec5f94cf755cdff Make commands default to tconstruct namespace
+62251968936b3ba26a71c937f7bb6077d4c1eeff Implement modifier hook for material repair
+a4c0ea2ec6ad8b8c36e113d8bbf3e072ffcf6c84 Fix melting chainmail not having a min unit set
+795b46f43e3922732dabdd2e5a6fab7ce8dc00d0 Ignore damage that bypasses invulnerable for recurrent protection
+8a7179b1bc22d314576a8d780919d0a38d392a4b Add support for modifier slot flat levels
+75ebe130df2bfb1d4018bacc6848ac8d56f3456f Add parsing debug context to modifier manager
+4573e098f4b56b0636589d42732df92c731d3162 Fix a couple fluid effect typos
+269e972257c4e13c619632821e94b60a411c91b7 Rework recurrent protection
+a3e6084d8e038f8f14e69716bb8824f977ef8134 Move inner part of slimesteel and cinderslime blocks to solid render type
+d792e5a8edd22c2748376ba00be80df856f5ad72 reduce quartz cost for hepaitozn
+aee3708f2e4d6a0804b84a33b84c93866fed81d7 Make slimesteel and cinderslime bouncy entities when piston pushed
+b778e34c89b3155920bda2200e4a0e845144288a Fix some pickadze modifiers being the wrong shape (#5372)
+68adc23c8514f84c3b629a6894d5ae561daeca87 Fix crafting table not calling onCraftedBy on the wrong stack instance
+d39ffbd4950e175afb8dda108b41641848a79197 Fix antitoxin applying when the player is not poisoned (#5364)
+e47c2bdc4d5b0c259bdf49e294dd29ebf5dc1fcf Fix piglin heads not being available through severing (#5365)
+39add1c604f495ccf500c3f53f7432ed2ace9287 Remove chiseled bookshelves from the whitelist
+b1e3a346544523d83e21e39f257b5a7325e2d214 Implement the fluid cannon
+f0a1d8d143694d52bd07f352a69116da0bbe16bb Tweak comparator levels for tanks so that 0 is always empty, 1-14 is not empty not full, and 15 full
+c128f882ff2fe64b52739b6bcb672096e825c437 Allow dispensers to shoot all 4 throwable items from gadgets
+66a95f8a6bd950f21ad20d757d51bca5f30085b1 Add translation keys for projectiles and other non-mob entities
+b5e7277a1ad75a74d67be4c7e6023b367e9d79be Restrict survival operator usage of creative slots and modifier crystals to a config
+75778669703acdbe3c3b060a57bc744156097410 Updated issue templates
+2c0cc084b67b2e3b8e25d3a8f5420dc3ca82a5b4 Change magic damage to standard sound type
+6800fdae07ad3e9a4b392ab635ef3ecbb7749fa4 Fix wrong registry on fluid effect tag conditions
+22a08ed1f5e7c7d3d6f10fe222243a8c46b1e5e2 Add compat fluid effects for mekanism and thermal
+454e5498d5011a2e66852f3f6cd65eb2cd198636 Reduce signalum melting/alloying to not require blazing blood
+2223552cfce13b2ef75893ca4bfa733113a721e0 Fix ductile description
+33a6eb80a2c047fd90e2bb73f5bcf51afb08b750 Prevent calls to removeListener on Neo (#5354)
+3f17bdcab5686b52db172fa6dd2855ed15fa9ccb Split fuel module into two pieces since the smeltery and melter are so different
+5731b4df376f8ed2928a3af592911cf89153a745 Fix melter not detecting heaters (#5356)
+7a6e89b95608d0ca50b73ebe454ff62ce06ee070 Update readme and issue template
+ac4b4effe347585ffaa3c3cd16d78021e2bca7db Release 3.9.2
+02306a4756668fab29c5016ef975c61078dee4af Fix too large smelteries having too many slots, breaking inventory sync
+657634cc3c3a1abeb31820c73ec29066b397b62d Typo and lang fixes (#5287, #5201)
+acdd361795f859d1ad7ac58f5f3d1ba6e206f6db Added rotation controls to the Armor Stand preview (#5316)
+24aee92075b38fc725ecc88a206e4cdf4f3efea5 Adjust slime island settings (#5299)
+27867735cb5c49d7973609fa93dcef4a66f45e4f More item use interactions
+78add05a83de564a448a8f38d497765654865807 Add info on new UI interactions to smeltery books
+ea99edf2f3bc5ba2ab02244ff11b816febee4fd9 Use level event constants for level events
+9805d6d9bf9fa5c6f37098859da44b0165c079a0 Mark constructors for modules with builders as private or internal
+90b5f6cb7266710aff8a6b12f4f7a9e4b7937892 Switch from cobalt to steel for interaction swap modifiers like tilling
+c2061947163467b92dda37cac1416b4a1326e072 Merge several armor modifiers into their tool equivalent
+1f90f604745745e0e1a11404f40e85f54ef76773 Allow glowing modifier to work on boots
+7fb5528f58dfbdb9ee4bbae905a809e0f5c80717 Implement energy handler modifier
+b53b994293b70b6200b3eac2582148ffaea3462e Allow structures to treat light blocks and glows as air (#5241)
+e4c67690d07ded2c270d63d4e0afebadf52bcac8 Simplify display of mob effect fluid effects
+8340c49a6dc62f123dab65cff1c14af1d9191e9b Add simple tool energy capability (#5346)
+4903c49a2843dad2a5ba4cd1dc447a20825fbafb Fix invariant damage being too high
+52387b44c1b3b4ba13589e189afacc6785bf8d68 Experimental - reduce common protection types from 10% to 8%
+db37ac27994826a831c0ff7959980c516a907b5a Mark tool fluid capability as deprecated, replacement ToolTankHelper
+ffc53827de02452f9b1dabaf8a29f5ec1e7a6a32 Cleanup calls to various deprecated methods
+a2363c1fe66adf9ae9976082a7ea6221224d3674 Fix Json Things tools not supporting stack sizes larger than 1
+2d8aedccc0e7636bbe2df67e15ec8fc6f15cc96f Improve scaling of inventory and modifier slot modules (#5327)
+f93588f247e596d07aa0b6d1b8ac0eb87a62f093 Fix alloyer screen not having JEI lookup
+ab16911852ea2bc4be3c160f0ed8639ed9dba46b Fix the icon index not properly calculating its max size given subtext
+3cd41f8f337a85c2e62e60710c9d8f32b494696d Fix bulk quiver not respecting levels (#5340)
+6c0d79f6238f83a75e1a6f54b51ac244844d2970 Add tank support to the tool container
+9bc8feaf5203b7ed8d2610bea9fb7398f092662d Implement crafting table modifier
+92e6ff8604825ee06d18979716f1db970f50efc4 Relax tool requirements for tank
+e1d9f9568a2f9e1364faeef44663c4d0b592f607 Implement headlight modifier
+473c3741ccea5679f744fe85433ca33b9c8340d5 Allow faucet to pour gases
+196b24dd3f0dbc84701128aeb828d32baa41997e Partial fix for double jump not resetting in some circumstances
+31b48ef6d84f9e69b07ab34ff0f08d1216fc8994 Allow opening a tool inventory menu by right clicking the tool from the inventory
+41bc9275c49e3d530b60d0bd1bb4d54bf97a6ba8 Implement slot stack modifier hook, for implementing bundle like behavior
+f35c353b0bc3ddb62cbb5cb380175f4dec71825a Add fluid effect descriptions to the encyclopedia
+5b0f183a5a1109d5771e71fe19a223f2c166d015 Slime staff stat tweaks
+2806cee8a8bd46c023ee680a92222c86eb4abf0a Add recipe for nether grout from magma blocks
+8d9f00b94a77fb9d66ed7e55140764f641d2860b Fix CME in fuel module due to unregistering a listener in the listener evoke
+efdb0cc803e7ccb6fd334ea92f65b47184f7ec3c Filter the block side hit listener to only run on the start event
+217b294fa2ea30850395aca915754894d01af194 Fluid effect revamp
+82ac72b364d816a6036627eefdcff80cd2f43cc0 Make the fluid effect projectile skip forward slightly into the next block
+5ad929648e7614e36b2174faa0510ceebc92851f Implement explosion fluid effect
+ac868b647b0eeab9a21f0d37bd714f68fb298533 Small EFLN cleanup
+e58a207812173f09384bde94ec93cc20f01179dd Add fluid effect for pushing/pulling blocks, and for pushing/pulling entities
+7dd9eaac824ad02a7fc40c1c87b191a0aeb8f5e1 Add new helpers for adding fluid damage effects
+c5d90e9872db99b4baec3d9eaec9ef85ddac44ae Implement DropItemFluidEffect
+572250b23c6ffa91cf02980feaea2b3f52125f72 Implement several new damage types for fluids
+0788565b51c19da64640a9dbf20866ec30273b82 Add helpers for common unit sizes in fluid effects
+29690831a28d06ae1a458af1770c85f3a996f195 Place block effect improvements
+7e785e4c8a936cc3e4f5371c4d308aeb40c7b5a9 Implement break block fluid effect
+5bf71af1fbde4be2361bc2f06bca994adccad659 Implement scaling fluid effect
+a37175b8e0707985164c5c5111e631a56b287fe8 Ceiling fluid consumption instead of rounding
+c104fef8c621bfeadda4067c47d1e4ac3900a675 Improve fluid effect projectile
+03365731df651067fbcfdade92353fec71e44495 Improve AOE iterators
+9e7fb893deaaa4323774ee5b854bf99d8dd46cb9 Add getStateForPlacement to GlowBlock
+86e78f2eee3bcf3a1e032c0efe74582b5e5029ff Make splashing consume fluid per AOE target
+6b3251413b0539099e01d5cae37dad2a87e5fe74 Fix fluid effects that only apply to blocks not working
+df3f0828ab01ce928ff147b1949c85c4e0c0aabd Updated smeltery/foundry GUI in book
+e197784751318971ca85d59a4c1a9b9a2d24da01 Display tank item contents using full unit tooltip display
+7aa53cb1910b3fd050b396c1d2b47e0733dbaadd Ensure smelteries with multiple fuel types give you the displayed fuel when clicking
+ec208cea7440c5ea1e82f6da7bb1dea3c69f4d7e Add functionality to tank items to interact with other fluid containers in UIs
+03ac066e9be63b4e9601018f2f00a66d3066cffd Revamp smeltery GUI
+0ed888808b31100f14647e00f96cb80569d95079 Fix fluid tank scalas rendering behind fluids and fluid highlights
+c8cf1c188f2e894919a6bcfbf0b32a719bbe9c0d Turn fuel module into a fluid handler
+387dbe8c82a41f4d0ed5a81bc94b2fae84330f15 Add migration path from the old melting/casting helper methods
+3636ca146a1861b5ed9eb8ac70fc50816513014c Tweak tool melting/casting setup to be a bit more flexible
+057595cdf367b73f1b222e1e5d11bf077e645db9 Migrate to new Mantle tag conditions
+32915f01e5811c259490dc6c100147d335c8f927 Add more melting compat
+b89cde12c5f580c6a7928aa5de4158de637db695 Smeltery recipe tweaks
+9773dfe186bb378d57bf4e32cac05fa122dcea66 Modifier stat tweaks in light of steel update
+32952e3c25414c7fbf28d1984d6be1dc8c10acc4 Move generator textures out of items
+e5af66e31064cf842e665c7b72efab61489f9d40 Improve byproduct results for all native ores
+4d60a092d9d72e288e278f2b6df8403faeea8861 Add steel as a "new" material
+2ecfa35799a8673ae2c3a59c18e663fd464a9a63 Rework steel palette
+7ff36ef605c739000249ef909f97fafdc86eafb5 Add compat melting/casting for dawnstone
+4d4de43da1aec2ad086456f9a77edbdd0ec3aeee Create an improved smeltery tag recipe builder
+ff4637c050370631515c3c6d3bcc8f2d7cd9273b Migrate overlord and overgrowth to JSON
+e65686df6c1a852db89643158cba1585ae2245f5 Introduce cinderslime
+10b57e20254a8c75395ff9dac6baff371427dea0 Cosmetic cleanups to tool fluid capability
+b908f1f8bdc55ddc661acf881258cedf443373db Fix fluid not being copied when updating fluid on a tool (#5257)
+210129f2d647d40441872ecd06b7dc037c14aeb4 Fix wrong ammo consumption on bows when arrows are split between slots (#5325)
+9a09642cc0964c44918ba6f00bb872de3fb2d6ea Cleanup: use new forge onStopUsing hook to improve finish using modifier hooks
+923a55239a93427f173c86fa2bed72991e194f56 Switch to our own handling of shield damaging to fix shields being deleted when broken
+6fc065f7d80ea60ea0fa9cc99b06a7de2fa5fb5d Implement sip unit for fluids
+92029f7a2ec4104426d1310d8d482314570760b8 Implement melting for ichor
+938a912e1bc9806cf86a91f3a71c249c3067a66f Add tag support to modifier ingredients in JEI
+be44d4c2791ad287a7a4c759127999205cffe73d Fix NeoForge incompatibility with projectile impact hooks
+eeaaa4598fda3711420172fc2809bb6528195bc7 Release 3.9.1
+d45139d6ac369f6d833c65012888255d3fa5d9a5 Small API cleanup
+3c566762a142362bf169a911469632753c404682 Data tweaks
+7595f875c3ccae9fbe855d5d59218f82cb05529b Prevent rebuilding tool stats if any of the required data is missing
+e12a9c48df64b928abe307a2adcf71a57f198ec8 Skip the setter for NBT when building an item stack from a tool stack
+2e41bc08e28d77afe76ca306db77d98755dabef3 Disable tool tag validation on modifier stat builder
+1415428c7650582d222d27da2ea0e9e339b88d81 Implement catalysts in alloy recipes (#5135)
+e340dadcb9998d86863ee964edab780f73191cf2 Update projectile hit entity hook in light of forge's changes to the event
+be6e703a6c771685ef937ea3cce4c6552fa12c03 Allow enchantments and modifiers to be optional in the mapping (#5243)
+5968d21efbc42aa7c58ea24231c0e967dfa1de1f Change exception to a error log in badly made recipe viewers (#5300)
+250875c32c41964b27d76f6f19051cdf67b8e0c1 Cleanup JSON Things classes
+b29840e9f2dc1d9efd4a88e6de689d78d70efdea Add advancement for ancient tool discovery
+e600bc78356dac16f8870aedb3a3c7ac81c9855d Fix severing not running using the right hand (#5283)
+e8b3d1304bb3b81084d86d6e6337f1b7e9253d0c Make ModifierNBT an iterator over modifier entries
+1929780f1ca66c192a3b67d3320bb5cd3c42976d Implement the swasher, the 4th ancient tool
+02e29c9bce4f89ecf2663688a645b9775739ea01 Mark armor items as disallowing animated
+ddc6745d184df935d9732058a6e340f62c3d5dcd Use itemlike to reduce getter resolves in TinkerItemProperties
+bf429b63c4a202b541b6c8ef86569190b6ab1311 Make whitestone's default variant endstone
+11c4e371216a5c8e99ed4c39d2ed6da1691b2044 Implement parenting behavior into material render info
+1f84090e9d067aefb3ce3be62975e0590d6768a6 Don't generate material variants for ancient tools
+5afc05c0a1864286827fc5f3213586649baa8516 Migrate material render info to loadables
+ad930ef9cb900b4cfd8350294f683efa8c667e53 implement charged state for melting pan model
+bed0012a4d5b7c26c331282b5de82d124ec60647 add charged overlay for melting pan
+c4168eb171d1049ee91ff7356fe8756631d0e606 add up and down models for fluid cannon
+b5c313666290d445d20ab5ebebe940405e327a2d adjust gold palette to include darkest color
+8158dd1b7e89cb6d37f5b993ed086a2ad657cdd2 adjust shading on plate armor
+a7b6d0ce5ed1c11dc9a7c41981881b8d02897fe7 make normal tough collar texture smoother
+98f820c1f47c7b31bc147c0fdda43a9c79b71711 add slight variation for slime metal guards
+7ddb18071efd86074fd0ff731dc834348b8228f4 add tool model for swasher
+ae84f23b6ed6c5b9f3f1e7621f9e2d8a069da368 small adjustments to vein hammer grip texture
+540e8575467f38f99deee7bd7abd7ecb192898f5 update tough collar texture
+b2969301e92900697c24de59aff7e3ef4fbfec68 re-add slime wood large plate texture
+24a368fdf4afc14128eb1658b6bb0c997ec8bfec re-add slime wood large plate texture
+e74c00f9ac96fb66ab9092c562b578e7e6fa1898 add swasher assets
+0d0ba732dd9299974c6d57d82713bb47bfe3bc6c update melting pan textures
+c06218c51b6c85c0ff09013a06ae63edebc28695 add assets for fluid cannon
+d4baef64701a98a8ba1ada98b4bf7a7027f717a9 Remove fall from melee
+a027c527e09e91b02da89aacef0fe2ef2342e941 Revert diamond and emerald recipes
+8edd0bef3b90871d221c7b655c0ed2b510954585 Update to latest Mantle
+306db0592243781de792ffc6e63cbe8c8ad1dd8e Update to latest JSON Things
+a8c221d203e3d359d0812f1488386db871940959 Fix casting table redstone click playing wrongly
+8508dba769b00cb5f0aad0ff99be8b4c06f4a022 Remove redundant validations in a few places in IDs
+1a4ea08732e5cacf0a7cf673f675919a57eebc1f Work around missing trim material textures (#5303)
+b9dfb1d6364f425c6bfdaa80dfd28ab20050a83a Implement trims for tinkers materials
+ec9cf407a470f2bb5498d258cef2f9971541de31 Remove usages of IdExtender
+a42aa89ba7f826f60434760619b8d1d80f87ec5c Switch away from deprecated serialize method on sized ingredient
+ff0fc13756a1d106f3a7c3b6a33dff41b724f146 Use the smithing template for the netherite modifier
+3f8ad69ac9d41e7a8d7fb798f56700c76a59b640 Make tool parts show trait descriptions on pressing control
+0cc000d371c95b7caaa0d90a93faeab6acedd177 Melting fuel improvements
+0846d10a85a487ba2522b0de39a3e98e21c156d4 Fix wrong render type on snowy slimy dirt
+f858776046c2e93a0c42e4b557ee3821e5884359 Rename credits.txt under sound to prevent log error on startup
+ef7fe8e0ae3e4fc059057de0ee9bea3a3eaf9582 Tank model cleanups
+800a973eaa009348ec1e8ef254e0d737eae5181a Fix wrong color tooltip on cheese (#5276)
+9fd5e36f8224bb123300c11620f4336f9588e63c Cleanup ModDataNBT
+a104e4f369db7c44b365a56508e6e6e2458f029d Remove double update for fluid listeners in newly formed smelteries
+a912ec02c6c0f2dbdc1f7af853d8802ef44217a3 Fix smeltery drain fluid textures
+347f512d1b2ba994029d82e22fa99bd67fa8c0a0 Fix tank highlight not rendering
+33f205abbda0a80e79f41305ea98b75781d70542 Fix smeltery fluid JEI lookup being upsidedown
+14cba473672449daaa0774e06c6aa946ce43f51a Fix tinkers anvil resetting tool names from anvil on modifiacation
+63bd34792282029552015ace98143b60181d9e45 Fix tinker station screen not showing the input and not updating in time
+8a24cba1aa3bfd33dcaac4e61dc346ecf376e7bc Add a couple of helpers for the rather long success line at the end of each modifier recipe
+996defe3c6e3d6b11a91789d31c9a35626ea2089 Change some recipes to use LazyToolStack for results (#5288)
+30f8768a9678cbcc220de11e9339eb4758237690 Switch warning suppression for material stats manager to remove a build warning
+c81e1f5278a148fe2131615ad0f18bf97202ea6f Use a range for randomized materials for plate
+38207efa0e00ef30d81ea4e534e7236cfc0155ca Add some protections against mods hacking the dye color enum
+d5daa8dd1e6d0fb6fdecefa8bf3c2d5dc3a9cb36 Fix daggers not being craftable
+c7d09b72fe9b00569e95a452fdb7886395cf6989 Fix 1.20 issue templates not applying the label
+cf85b47c77f054fe3336e87169c9824f6ab98605 Fix JSON exceptions in generate parts being swallowed
+2af0a0bdbad92b50802561bc7cf6fb1bf9bc85fe Added immersive engineering crates and iron shulker boxes to the side inventory whitelist
+d40ca98bcff3459784ed9d54dd7dc49ce7d17a20 Add config option to disable the crafting station whitelist
+a5871e6e9cb46f6d3d8db6614a4d320357bfd53b Exclude unneeded resources from sources jar
+9513f0c76e91b05f6d33f26dbb53a5783d3dc6e6 JEI fixes
+44478c9f4238987722486b7a3d740b266be079cb Update to fluid transfers using fluid outputs
+c7b874b948b2fdafa3577c0608a2b8e160fe5b4d Fix battlesign using wrong modifiers folder
+aa7a4af01ab0d100028179f878a51a95d0b94053 Migrate to fluid output for many recipe results
+9ec0294bfc5942d66a2daba5ed24dae9f2649080 Switch from hardcoded "forge" to Mantle's constant
+93a2c49b4c0b896603d2651c6807595c85dcbd35 Migrate to updated Mantle fluid object
+3522654e75fbd0eecd0279fc915d6c775ebcea12 Add material variants to creative in JSON Things
+3ff00a4a742bde74371ca9fabfead4289d51ca3e Extract a few nested classes from JEIPlugin class to the JEI utils package
+f3bfa49810156970aa9eef85e4eaac5314bb7630 Optimize building tank variant lists
+2bf1f0adbddf8731cc3a2c3203ad64033802abb0 Fix potion fluid not showing in JEI
+2020f938d646134f1e80cac2391d35099034df34 Add budding blocks to budding tag (#5294)
+75eb54bbdc3832326ece2bf5368e35ecd3412a92 Switch to using the JEI "hidden from recipe viewers" tag for hiding unimplemented fluids
+41257a51766743774c81ec9a3c6aa890f3559a70 Switch from a blacklist to a whitelist for crafting station side inventories
+a6dfbbf475025ba4afba741d0886b077e97244b7 Fix too long ancient tool descriptions
+e65f9c01b875abff7673f5ba1619b4c369faa46b Disable the hover sensitive coloring on material indexes
+2379c31d8fc650d39de3a13992b60152cc61ef8e Fix "missing texture" on repair kit in book
+4a0a1eadb33c86f1c0fa3864179f194f4347590d Add neoforge field to 1.20 issue template
+68437908b33875e1f22518248001f6fae5699425 Add 1.20 issue templates
+43a2c464aa27b91b4c3e63bdcd79243debcbd6b0 Make plate use random materials for defaults
+4edf7a716d9daa9a9657762ac14812153a1e2762 Handle modifier slot colors via mantle colors
+950536f3b85b95cc2bfe7f4154dc45fbf5380ffc Add hanging signs for tinkers wood
+ea772ef199cb79c1a78099611a1e797d34062aba Rename tough binding to tough collar
+4d6d892b33196c8b9e4a9586412d9bec327e181f Deprecate some raw loading methods for removal
+92dc66540006d2bc603f2d717e9042c59b6d9ac8 Add additional loadable contexts
+f2d6144b330ad000b4d8df65e6f8c7c13a68ad41 Change quick charge to be crafted from sunflowers
+2c79cba15120dda24442dbe045f4f46970d2de75 Move channel fluids to mantle
+15b51c172026aa2da427ef9afea2f3520a8aea36 Update to new location for singleton loader
+065ae0993408225e5e6adf9962f79fdf5295fcd4 Remove record loadables per most recent Mantle commit
+ba8c06b36e5a41c3fef0fa7a056e5979b476bd0e Add additional type bounds to material repair module
+d6d64caa572250c50bc28282dbd068c742751e96 Add a new broad binding and turn round plates into adze heads
+2a6f2dfb0ac9aedf029711f812fd6b605dc9b0fd Fix slot count non-nullable encoding
+b8499eaa0359770e2096790cd7f5ac9cf757a75f Fix server crash with item display context usage in models
+a2986af9afa8f94539accb381104a3fbc7bfee02 Fix modifier sorting recipe letting you "sort" with just 1 modifier
+718638001628bc562935bc9ec486d339b79b3150 Rework creative fluids, tools, and other item variants to work better with JEI
+58c249fba381fb176372d50edb9ff3403d49a71c Add feature to preview tools in the tinker station while making them
+928ce68837ce9f3e5e484af4ab86928994116b76 Update embellishment modifier description for 1.19 changes
+a2ed7c3ffd3e193e90f8dbc350f394dc2c7c4079 Fix missing fern render types
+62c3a8930163d295c201648be930366601128b0e Implement armor trims
+5c7508268c5333b5ca5acddc00105e6c2fa4c70d Revamp armor texture suppliers
+a1fbe2ef15ea99483b84fcb0cc0a0530792a54a4 Add registry access to tinker station, multi recipes, and modifier tooltip
+ad05cc12a66b040c7994532ac228b0650451cc20 Remove item override assumption that the passed model is our model
+9b46759ac945285cab2ac92f783a3798cbf59cb5 Migrate away from using block model instances to control BE rendering
+640e85c296b5c8b45ce67848de4b918753c69ce6 Update Mantle version for latest changes
+44571f023b0b0327106944db720e8f08c55cec89 Fix tool backgrounds not rendering in the right place
+20ba0e91ffe30ec882d75ea2e2ddfeb01beb9a90 Mark rebalanced as unextractable
+b698f0bf05958348afd56d1ab4b6fad19c1e5167 Add new 1.20 content
+69f4a43eb819ce0706324194b83e878e2e7dde3a Add back texture display names to seared and table blocks tooltips
+dc2e40b8f938722b08c5b8b2d86fa34a576dce3e Fix broken crossbowstrings not being generated, plus a lack of missing material for slimeskulls
+ea2732b2e274677e85b1eae031e8d22a7ce1cc33 Fix longspam from checking for texture existence
+871058e632ca0a06348310598e485fb3e0968e0d Add entries to creative tabs
+6e14adf95d469d516e7b980190dd5ee2935c9969 Ensure item displays are registered properly
+85478dc6122864c6ac8d9001cc025882bb506714 Ditch supplier block state provider
+f9ea3c3976e615c4e507cd89c4dd7f25c57cc9a0 Ensure we use the screen font for all helpers
+eacdc86b867e8e5387bff8bf49c48809638659af Fix fluid textures not being stitched
+52ef77de709e2a794cae00946957a8c472448b71 Fix source attacker constructor call
+5a58105550232008a668bb4699b6147957ec9025 Update gradle to use a real Mantle build
+62974d14473bcd6493bde15cf7dd650c97aabe02 Remove option for modifier salvage slots to be null
+2952e96ded87474fc69378666840a34272981e30 Remove abstract walker modifier in favor of the module
+088fa71b2de6264e4468408440acd2be597c45c5 Migrate to new vanilla logic for explosion knockback resistance
+ecf828730d9d503f07eca48731756719d1073a9f Migrate damage source usages in DamageFluidEffect to DamageTypes
+74b42889e929e8e3a48a79cef99c5b7f53197a00 Switch to using our own tags to define protection types
+12b256b663a1451607a6ab7432d496057d14fcde Remove ArmorSlotType
+e9e2d234ef9b0352f13d1b8a88c7e5df377dbecb Run structure updater
+97c7b64748cf38cfd8bc2208ef34dd9596a9ff08 Run datagen now that the mod compiles
+e335dfb1c81b7698fe534b1b74ddf4ed85692bed Update code so it compiles
+e31f5dffbc0a52de499a1a33e8d63f5e020711fc Update gradle and versions for 1.20.1
+93e7fb38a0f362155ec3eae19caee3675841c7ed Remove missing mapping migrations
+a46ed98a4a6d7f59a303572effae90c90f3a19a6 Update datagen
+823f8c4f94fdf3cf949b5b0fd1541aa62f47dedf Update to clean up recent deprecations
+59b9736b8e3d07b4b7c8da4772f42ef92cbff861 Merge remote-tracking branch 'origin/HEAD' into nobuild-api-break
+c149dde4d2eb973e3c33926ee591b1f7cfbb4e86 Add missing merger call for new block harvest modifier hook
+cac46891c4b190c4655088ed578a6f2f01488185 Merge remote-tracking branch 'origin/HEAD' into nobuild-api-break
+27cfa716c4aedafe8b943dacfb0e985f1e1ea6ec Update mantle for compact set loadable
+2cba73743517035992ba7553cc1c3e87c2d553e0 Add color to smelting
+5e8ed06cce35642259ef32da59fe626b9e4ca7a5 Tweak holders of ancient tools
+a55a5feba7c773a15891552c158d6bf4990730e5 Fix too high temperature on melting modifier
+1ee073630cf26df039056d5f97d897595bd52398 Make armor optional on non-armor tooltips
+9b7f7a51e35d47372931e9194612fc4180496b36 Show melting modifier tools in the melting category in JEI
+26da8b2950d8ea2f36507c4231343ae5d929d977 Implement the melting pan
+2bee0db6a6a15ef1ef4bef8e0a20c593ec45d14a Create melting recipe lookup
+b244ffca2dd1312236bd079ecd410797a5611f58 Migrate melting modifier to JSON
+c9d2ddcc4b8e1779d20a5431eceeb493c452c601 Cleanup deprecated for removal warnings
+954e56e2d49d85d976f03150e04a4f3cebec2d47 Add new volatile flag tool module
+483a88eb00cead54a20cf04e58c6dcbafae32e2d Make the tank modifier model support defaulting full to partial
+042708a7843c7784a48213ae21ea878951892944 Add option for part sprite info to set multiple stat types
+9d9a56b3a965b342335a5a2bc29383dfd48cb72b Swap bonking success and failure sounds
+057ad98e7292cf8ad847411884825c2ea6ae2c06 Ancient tool tweaks
+39d71fc9cda35c7924954b916740cee3b7b7451e Allow shields to receive staff modifiers, spitting, and zoom
+78d03049c1f93daeb40936f0b0c4116b1b642660 Revamp frying into smelting and make it craftable
+21259a586dd80521654e8708972d683b100d041d Implement frying modifier
+4733e92cd14a85151e5486d9a182b4c36e0968d8 Adjust a few interaction modifier priorities to work better with blocking
+9142723d9b7287b108dc7cbd2685d70fc22efedb Remove tier restriction on random materials for no NBT ancient tools
+49664fcd9c130bad7252b2c4f2efb022ba5c9911 Allow loading compat alloys if just their components are available
+e6d2ca3b85be9947f1028b4e21d4bb62992944f6 Fully remove modifier serializers in favor of modifier modules
+f2f0f47cff84a354dd9dbd81a3e5583b37c1a8c8 Remove many deprecated classes and methods
+e6c461723bf7f4150a7ef6707d6e4a9e4341c808 Deprecate typed dynamic modifier
+2e13bfdcdae905b1a2ade28344bb7b4a6c177418 Deprecate a few more methods from JsonUtils for removal
+a5126a0ae769b4c1c9b4cb89e064e286488d902d Ensure war picks and battlesigns are tagged as held
+a40105810e22157d3466873aeeddcee4ede61222 Migrate inventory modifiers to modifier modules
+0333ce8a83560051d1b9bd6805c4b715047a8b13 Finish migrating protection modifiers to JSON
+a79bdee94d0e7ba543e0a595f1d27300dc30f522 Migrate projectile protection to dynamic modifiers
+096f1f048ba6db4ff8d141349fc2e4da87f7258f Fully remove loot table injector
+62f4118da6adea5b9d65ff222e42aaabe9fd556f Port protection modifiers to json. (#5236)
+8c347ec456a755374e142db16a7d95a5964b6743 Sometimes my keyboard hates me
+e6c0a3f4bf1275c0b60488772c6d2c08ab311086 Mark generated files as generated on git
+324ed9da09e5e6775038cf6063fa1733dc2a5067 Migrate to Mantle loot modifiers
+d89fb0e5997afceb9c844f742e5041f86e18d93b Datagen glass and pane models
+4c3d3797e0b281c536297d54a5dd4009d2238310 CraftingTweaks compatibility (#5277)
+854d02b1cf7d183ef57200d6889c46b594b96b12 Fix missing render types on panes
+010951e0441d1b932914befbc5fd6d124046f41f Render Type Registrations Move to Json (#5279)
+4a0d76d2361128329449589c8ab4ca50178e4ffc Fix repeated attack speed line
+480fa9188e84acff377532d086138f0e81647f3e Add ancient tools as wandering trader trades
+15944ddd3e6d03b5415b4593fc98fe1b50077a02 Add war picks to more sources
+d999fd68aea9a483dd89d71dbead338b2bb07853 Update battlesign display properties
+8e3b0b1f058def04a83d05a612b0fb3c2e352b27 Piglins now can spawn with battle signs
+1204cab2542af80b13be0dc5f89ffa0ab809d717 Add tinker tools to loot
+d9fae510a4c1c0684aea18c31b3df66b7f3f9e85 Create loot injectors
+a1b1d218738151a6e16c565d858c99d05ad42fc2 Use the tool stat name alongside the material name for non-part tooltips
+285b223ae8db1f3322e63084b310f19362dd9b05 Add new materials command
+f98a609524e6511183efde2b6b09139471585279 Fix redundant setting in material trait loader
+2f60a51a3aa1aa4bd4dae69d806bce0afa5fce68 Add book sections on ancient tools
+8cdda1b69fd300eaf34c9edb15e20bbb70da152a Add datagen textures for the first two ancient tools
+42731920f6000b592cb5d138d6eb5369bcbe4273 Begin implementing ancient tools
+057d2a3c39a01e7ca56273f2fe87dc7639385ca3 Fix some minor bugs with fluid effects
+3ca60c102abe20e7e94bea7e915e3b46e173626d Fix some severing types not returning their serializer
+a5ab2e5b696527467339f3658290df969f4145cb Remove golden bricks casting from ceramics support
+fac022632d3f3b77eeb9e7765cc5f15b320de1f3 Disable count in molding recipe output
+20c8e924705b1989a6b5cae406bc29cf3a4dc651 Prevent running molding recipe lookup twice with empty hands
+be5a8f8581a508f009c54aca84d44fc20db6a781 Deprecate modifier salvage having nullable slots
+1e3b2e719b46cc45f265215a34388e95cc07253c Allow NBT in alloy and melting outputs
+d1e92389998af89b5730cab767ca2d59cc5532b8 Fix some tools not registering item colors
+ed68f65371b1ae137214505cc676c651c2e4fb5f Fix animated sprite transformer not being registered
+23668108f5172512ae754db20d520cb62751f28f Update issue templates for doc website migration
+87bd22c24fe4cc7e57c28396e2c47537091615cb Remove more 18s
+d22ac75520ac350e7089468ccb4774641b0607c1 Remove 1.18 typo link from issue options as well
+5bf3c6c2c0b49cdbc3b4cbb9918b7ea689d5cbcf Issue template updates
+0243464a71905a95b46ec88eeaa6e19de903deef Release 3.8.4
+9115d5ce08c11ff71bc613eb1576e63f537a99f4 Fix a couple more minor language errors discovered today or yesterday
+5323c224f97958d5db9eeedc3beee72f10ec27f7 Update de_de.json (#5216)
+3cb6090832c40c7947d44b0a733d365526f610a2 Simplified Chinese Translation Support (1.19.2) (#5207)
+dbd6678989b6ad5cceb122631fe1fe5a3c7d5eb7 Add dummy stone plating parts to make it easier to make casts
+4356f5cb35704749049d4325ff3044df320f652d Typo fixing (#4932, #5201)
+bb2a63a02f96a0ea26f2867c163dc0bcedd381c1 Tinker station/anvil recipe transfer improvements
+6ffddd4b4a69911889451818d26ac6bf5a01a35b Add the tool background to the tool building category
+e1232134c68d9f75cc71f2f6c4aefa008c744e08 Add some protection against the wrong method error that caused the soulspeed bug
+458488cb3d7c2f85987cf1584984e8b4e2589289 Added a new JEI category for tool recipes (#5239)
+773ad314666e2e8092b01b93e55941dab45f4781 Fix JEI transfer info failing if a side inventory is present (#5250)
+f93c7fe9793df6fe5cad5aea959027b6ea6424de Fix slimy leaves suffocating players (#5242)
+fcbe87731ffcde420548cc1e870753c1b462d435 Fix melting modifier not checking existing fluid before filling (#5256)
+dded47e0dc28cb8bc35d635bb4b824433cda51e9 Fix a couple modifier hooks not being properly registered (#5248, #5231)
+4f8a639cd9c723e5b30153c2ed180c13a298f4be Fix spectators being able to change fluid order in the smeltery (#5254)
+ae868baac779a211ad315a0527189141ea0d020c Add more entity melting options
+b44f50fee2f27cd560c2c6aafe7cca1bd1a25833 Correct level display on disguise modifiers
+cde80c173707e9c805d14571d4606cce54648fdb Make chorus on shields grant enderclearance instead of enderference
+017b6014c5037dd404bec9f6e4c7f5940a155e52 Add modifier variant names to JEI and the error tooltip
+ead615fa8352158f36a091a58401b16e6f378e13 Make travelers gear start with tanned
+ca151bd37120fc431d86022823e6b92249d4f484 Make mob disguise support levels and give a small buff
+a85b3b134528c13d2b9733cf9e42d774532d9df7 Added rebalanced (trait), increases the level of one of the tool traits
+82f0f7f1e6cf6077f507c6ba512204bb614bbe6f Fix missing maven central in build.gradle
+2d2c49e565a9f8a291e7eaf6f66f6af27672515b Correct shield blocking properties
+f74ed78ea4a0ed5a5832c7d2c4bbb77cfff38512 Merge remote-tracking branch 'origin/HEAD' into 1.19.2
+e982a526f7b9bc4414536eac7cb56a7d16b7efaa Fix extra comma breaking zh_tw lang file loading
+2dad2ba76cbc6edba56298294de331f5eb81d009 Turkish Translation (#5196)
+562f174dc1185511ed08e672f68a1035e6964c67 Update Japanese translation (#5187)
+36839035aefea2dcd126ff885feab3b71eb2fb6c zh_tw localiztion 1.18.2 (#5192)
+744aca88897534a830feb08da649ec7bf97ab6ba Make enchantment converting when returning the input remove just 1 level at a time
+1c29b34f5d93c4af8a32afd0125ab7fe092551bf Take advantage of the tool stack cache in the tinker station to reduce tool stack creation
+f63fe87472c0966f15d94d70ce0b1880d41f69fe Introduce LazyToolStack to make it easier to do recipe outputs
+6cf93284c077e7e9de6eaefb89ab6e897d300006 Modifier extraction improvements
+0ef4bc8c85dce8ae45a892a79ed1c26554e121b2 Fix some failing tests
+5fc1d4052c3dadd0d80576c6fc8780de95e0894e Add material cost to part cast tooltips
+5105f7ac6c98477555bc9b90dc0559153f522d9e Make part swapping casting repair tools
+78db5acce9e59f1449782fdce9f4c05f6ba482c9 Add a couple of tool modules for "wrench instant breaking"
+48dfd21a1bd1cdf27fd6d6c460656abf18f35eda Drop special casing for bamboo in sword breaking
+d1586c0a601bbac9597ae226dc79b319d518e3ff Fix a couple bugs with no durability tools.
+1a98b2458170f776deac033a18e80a273e40fbe2 Allow interacting with the casting table tank using fluid items
+03ddbecd98c9c1e57975655957d5e95e36241a53 Add support for a tool model first modifier to be forced
+fbe006a938c869369f86d8c719ed52743f9039e4 Give unburdened a function on armor
+c626f5b77154629b81480a1f160fb3a32ffb6428 Added swift sneak modifier, mirroring the vanilla enchantment
+e48067f4a23ed20e06e8bad3110da5d5c276235e Update icon for reinforced
+78f4d1242651bab54757d0e984cd53539d2c543a Soulbound improvements
+cbfa40ea3265f2e2b466baaed681d2eb17c3eea5 Fix base minecraft version variable
+d346ef7820cf60362c78b7d534ea04f9948f0e98 Release 3.8.3
+33e5c09d6b5f4c09e349aba97651c23692656767 Update freezing and fiery descriptions
+4dd9249dcf5294a872423645c563e613fe059582 Json Things support for burning fluids
+2fa33b09eb9c40a33ba0e23d5dd457a6a6585951 Implement fluid behaviors (#4295)
+1bd76e954715717ba3e1f922c46d090419f1258f Remove mud bricks in favor of the vanilla block
+e811288591c77682e6ec91b1d26202b55c1a5380 Call modifier removal hook on modifier traits
+5048442cbc47547eec9ce1ab23d83d6f0e8f6750 Fix misplaced character in tool book page
+988d84622056ce41aa34f937bcca86300a4ec383 Cleanup tool tanks taking advantage of tool stats and modifier traits
+36eece4ca889e2e53650b5d5b7ec4f1f4f6e7479 Fix shields not receiving their block stats (reported on #5201)
+9df2d768fddbb5d06946e03654639b6d2146def3 Typo fixing (#4932, #5201)
+9f1daf38dea91f3fb9b49ae7429c3da9e60bf91f Cleanup EFLN explosion code
+5fdfc974221aa9fa723bac561010d223c48366a1 Fix a couple cases of casting fluid to get the same result
+30f93669e03903c05c62272b5c604f3299d80fb7 Make all tool heads repair with the same quality
+6f511a4eff01488f61c9328285502b78975f5659 Add option to make composite recipes skip matches when the fluid is also a casting recipe
+c1402da390e4c5207c3afecadc31ea1619a01347 Allow tool "composite part casting" provided the fluid is not also a material casting fluid
+dab693456f03d40179bb14208b0d4d9cfb816a86 Ditch the default modifier serializer, since composable does that but better
+3a5b0cebf141730cac1dcad142f3d6c84e2673e3 Migrate process loot to a modifier hook
+dce90b382d500a7e765d3a70a89c9f6727c230b4 Cleanup modifier model code
+053f8f5c070d8580ea6c4729796ecc225805fcdf Fix tank modifier models discarding the non-fluid and offsetting weirdly (#5227)
+cfe73b965ad5a4f977c0e8679440f11fd9604304 Add page to puny melting about sand cast creation in the part builder
+301f6788e6634d65a22c5da654845fb70aabeea6 Fix recipe conflict between nahuatl shield core and obsidian plating
+7bbb19fce6575983cd6f00bdfa87a9a8171aa3de Adjust a few handle stats
+28ce9e8f57416bae916fac24c21df70876c6b900 Revitalizing tweaks
+ce188d943da367d37c10192b4200332c9ba67aa9 Swap the order of plate armor in the multipart item tag
+6e3f2424331e033b08f2c15dbd5f99855b9abd62 Fix armor models not updating when resources reload
+3bf06adff727f1e4d9cc54650e726cd71266dd9b Add tag for items that support bonus modifier slot recipes
+d7be910a14149e1253ee3e67d30c5a860d9592b3 Add wings as a craftable modifier
+1c65ba88fb76945bdfbfc46498d7fdb96ddf8099 Log an error if some models use armor models that are missing
+87f8bf988d1a6a93f56996d4f1ae5e45632ab2c2 Restore daggers stack size of 2
+1d09f95e856a5e89f5908b1dc0d033398bb2dedf Add a tag for armor that can accept the golden modifier
+a6fb00a5856ee6c90b7a0228955ce37010bf8e91 Let modifier recipes decide whether to check the total level or just the recipe level
+0a338003645c47c76525b449f19284d5213d026b Update some wood textures and palettes
+060ee9f1114e15fdc523e74e1e1e95803131f219 Add a default color to the dyed texture supplier
+703c55b7a3afd0418e75b3ee2df0a5f04fbf533e Move armor models to being handled by JSON instead of constructor parameters
+6dae7cac5aed505467a6f76b53a66c9a3aeb0e32 Register broken predicate for json things tinkers armor
+f3f83e3e57af567de8fcd7d1ddc555339d50e0e1 Make the dyed armor texture supplier always render ignore the modifier being absent
+02e6cf2aea89757aca5d0d2a0d832cf1f16f6bbc Register armor texture suppliers earlier
+9a903a9b1d70e097d024a01d4752abe85138fd15 Fix tanned taking too much damage when armor has protection
+7c1d1d0382fc85ca7fb486343420d9b1db54f4d5 Fix errors getting logged due to us not using vanilla texture locations
+e7e090f5a8777a8820b1df2495504842f06f4a05 Make the color for slimeskulls use the current embellishment material tint
+376e0c6fa362a283f66aa707a50996ef83b99e0e Support datagenning material render info with alpha
+07fda6f0a0f88fc96abf6ad0dac2eefde81da05a Move bow and crossbow impl to library
+479610613ef63fef793a74b43a4a502afcfccb82 Remove ModifiableDaggerItem in favor of handling stack sizes directly in ModifiableItem
+11471be18a0757c8a23d48fbde8ce564ec8da4c7 Rework armor models to be a lot more flexible and easier to use
+57e8f41b0ddea16ed3cd9ad47804104c185ab14b Ditch staff item in favor of just doing a tag check in the base modifiable item
+6fbf940d0edce54a654551505d5a7926c99c1a88 Release 3.8.2
+1465de3d8174d1c1f526789a15e4e6207ab960c8 Update slime drops for 1.19 changes
+d1994b6a2b9793dd78fa1260a74d96fc99c797ce Blacklist various craffting blocks from the crafting station side connection
+d75a16eac8f474f53dbf07d83555567a50997386 Improve modifier tooltips
+3dc3b23f4d5d624ee375ac2e5d9fd7d008f2ecf9 Fix platforms waterlogging not defaulting to false (#5225)
+95e35906ccf333c25624611fcc0894de4f88545e Make tool stats directly handle stat building
+1f9f3bfd47f6e5d93bf9117a1cf18580f867d1c5 Fix handles parsing stats in the wrong order
+42d2303358a55bc34578c5d2c6c00a9518133ccf Fix armor stat module not using translation keys
+1a2cd531b41b8fa6c165d5f92bcde8ff0f89322a Add leveling value support to depth protection and fix wrong scaling of debuff
+39f19c153726cf4e4a591881af137888046c79c7 Ensure knockback resistance material stats are formatted same way as the stat in tooltips
+d7fc98f0720ae2784026a804ca35170b8d18faad Rename haste data key to mining speed and ensure its properly registered
+d44082a9e8eb5c2b1c7874ca7156dd8d6d044922 Add most compat material stats and traits
+d3250e188639701b318e96e3f13a96a3c63255ce Switch to plate parts instead of plate armor for plating stat type display
+37a2d8924543e1d3537836f8ab427730a8b32f2f Make the modify damage hook not require shields to be blocking
+587465c268fcb96019cde1839724f6a9a1b3a6db Migrate mithridantism to JSON
+b498ddc27b9d1fc61e8e39d00c6c3d3a7b77e5d1 Miscelaenous data fixes
+fd66fe55ca67f44fc7339819efff37556d19f7d7 Split various armor traits out from the held tool trait
+790d9fbf336de1b447e3f59331740491145724d4 Protection module cleanup
+eb2ea2eaed07cda7dad33f4a546c02e8e8997c72 Add support for total armor level and armor stat as modules
+fb8106d094333507d935eedeb9b751dfae5b1f08 Switch to 0 indexing for plate textures
+9cc0ae9ed9b1406238b7a29b6b582ef6f61414b3 Remove advancement unlocking of encyclopedia sections
+05e91a604d0e75fed4ef5e9acd4e7408d17c2535 Stop material pages from showing composites from casting on themselves
+d80da3071ef4396f54a1fabc63bfe4a19a3fd7f7 Add armor materials to the book
+521686d0a435e7a8e71b09a67bbfcbc74a8a8911 Implement blazewood as a new shield core type
+7a44b67a1f7f974d4ad226652e718e34f8b6799b Add support for animated textures to the material texture generator
+da4f4dc3583f187ff2de6ebade240e3135a380d3 Switch to loadable for handling the JSON parsing for generator sprites
+0aabea2de5651a17c2e2f70537f6201c7942fb43 Change internal ID for all maille stuff to maille
+0b3c8de57665065bea73a3c44bb4834b2a417b55 Make silky cloth by casting rose gold on cobwebs
+737dafd10caf8ad692e626cba1886fa5ee286c55 Merge tool casting recipe and tool casting part swapping recipe
+8a8dd5f66c28c932f827be0d3c0d291a184778d1 Remove chain bindings/bowsstrings
+952c8d46295621b869bcc200855df1a1a4c132b3 Adjust a few triggers and descriptions for armor traits
+acb3f2f56f3fcd7a4196f4b0e0e30cf10c644755 Swap new secondaries of melee prot and projectile prot
+c4ec2ccd6e55024836809a45c2b540eaa33ff6fa Use custom transform types with tables, casting blocks, and melting
+0712500a687bbab8221fd48f821a6b8b45e499e4 Make travelers shield from leather instead of copper
+889b29c6d08312e6b0fba5a6e8b7601b580e81e7 Add material variants to plate shields
+05a12b7d8524bb540d16f849d5eb07d2aed14279 Fix ordering of tool part sprites being inconsistent in the abstract part provider
+aa75299b33d38e6a63ae2ed48214226bbfa06fe0 Revamp material ingredient with some improvements
+d07fc0a380e8266a63d480d7643529abc5f725d6 Ensure all unknown textures are generated
+aa203fcf2ed40baaf1662fdb81dc1cbf843943c1 Fix some tests failing
+a5ad73849d855c650345d36e83b47e70360358af Move plate armor to puny
+abd83bfc7cff49cb90b1f257bfc46518be9213bb General armor modifier improvements
+0122632f462921915e82f70219dd24b654d6f38b Add armor material traits
+61a453876d7637b0680c8627eb378033c261df29 Handle enchantment subtraction via a speical enchantment module for fire protection
+bbbc242445bb3e9582014771961be8bde8dae845 Make obsidian craftable
+e4ccc28a3f323803b3e668b15c6f0c11aaf598a1 Allow creating sand casts in the part builder
+22787c552722a52bfe5fe6838aa9495180a2ef35 Make magnetic trigger on bow firing
+827d47d66ebadbc3356357b952335395438180bc Tweak protection modifiers
+db775ba2b9d5ea3756c797dcb7dc8ba3e187a794 Make plate armor use tool parts
+764a524549c4804e63fe8149816bc80f7afb0039 Add tool parts for new plate armor
+188b6e72ee280cf44bf8feefd4854556b8c837f6 Add stats for plate materials
+5a6346c3fd819d26c5191dd6c5055d403adcd317 Rework armor repair
+4d58e883639964069db9202276d7efc46311e118 Merge bowstrings and bindings into a single enum
+9dbbc3e8a976108fef0bbbcb95c4ac2d2cbc3bf2 Update Mantle for typed map changes
+d450b1d21cb87b288bcb0dc436154757403bfec8 Migrate overcast and overforced to JSON
+8d34b27932346d51569d695ad69261932f6f0ff1 Ditch base stats on the tool definition data
+d1d590778fee53cbf165499fe3e8f540c7d18b71 Move to a cleaner solution for forcing offhand unarmed attacks to 4.0 attack speed
+63b5de9f29774b83922bea3708e62b7b9bd4785c Make overslime use a stat instead of volatile data for capacity
+6aa2b473f0c5194915b66451ca894e85aed14ec7 Stat builder improvements
+5f71a56f31516ea1b7dc7ed6f9a813c827781e60 Switch to modifier entry for process loot hook
+7990faf4cfeaa08215e5f29740f1e386af0fa10b Drop volatile data from tool context
+ede2b7cb3161923558760ecff312dc2b73713f6f Migrate overslime friend from volatile flag to a modifier tag
+4d74d4a84c950f62602cee2c13e8eebda19bd543 Migrate direct usages of ToolRebuildContext to IToolContext
+32fecc464f903f0acd4aecc63a45795b5d1d30a7 Migrate material stat loading to loadables
+f32ab1b3c882a2a284510ac765d1ffaad8974352 Migrate offhanded to JSON
+36dc5489ab039b4683aef6806cf07c8e55a29ed4 Reorganize module hook code
+81dc09b8d0647ff05028c9064331179c94b446fc Add a special render info for unknown instead of using untinted
+295ddf693dfb44787396a6084ee53f9dd693635c Decide on a per modiifer basis whether we wish to allow held items for armor modifers
+d2afe6273669ec0ab6a41c45e7cb19a634e8d29e Fix missing texture for stray slimeskulls
+136816f189008cdd506cde15108b37f5af465508 Cleanup tool definition constructors
+d0daae0179491febca3c36c30217bcc0168866bc Implement missing materials tool hook
+9db6f0dfcfbea2110fa3aac40853babfe0a72a03 Switch return type of material stats hook to MaterialStatsId instead of WeigtedStatType
+1f4da783807fe23c1a44aa88358e6b1be689165f Implement material repair tool hook
+5e5748c88e918df0ec03caccadb7a1be556f65da Create ToolStackPredicate for tool conditions that need more info than tool context provides
+51ae4a83ba80082fdde479b1bc4aac958a2ab294 Update Mantle requirement for recent changes
+022212bbcaaea48a214e82b8fdd6506748ec2e9e Remove validation on tool building recipe
+40d8bd26e092bd9817a5869b31973ed09ca1e343 Merge MaterialStatBuilder into MaterialStatProvider
+519a2f20469257c6fc57d36fbc38e650953a7967 Migrate stats to tool modules
+2450c5d828bf1ebb18bfd7222639bda160d19f26 Migrate tool parts to tool modules
+109d044c8426d6dfd1d00349f7faa31d60343a9e Un-hardcode most of tool defintion data
+904ebf1361f4d26df52af40e3b6a3b711f058b12 Move ModuleWithHooks to ModifierHookMap and make generic
+1a50db9fb8ab21abc418a3735e214419853122e4 Move TooltipDisplay to BasicModifier
+c364b61cb395724a92cdd3bc10b5cba65ea6c813 Move defaultHooks helper to ModifierHookProvider as we will want it on tool modules soon
+e37addc782bd8cc61797d098b3c61856a3069c27 Update broken embellishment textures
+b0547c52febedf656f6f3189954556ded6a2216a Store multiblock positions relatively
+5952719e04ce2d6a4d8e70d2fb73613d155dc8dc Fix a couple of small tool model
+6c69932b946668adbd872aa51090d54ba8bacfeb Rework tool model brokenness
+1d7fcd60e523acbd7f36db394dee3d1b4ca05360 Add generators for part models and cast models
+a01d1fafc917a413a01398d7113e35f9983dbeee Release 3.8.1
+556e155e3d0b9ed1edb6ae491b2be50377d9cf0b Switch to new Mantle JEI entity ingredient
+0e94fee515cd9f8d72ea10315b8d56c734402709 Update to newer Mantle
+e0fd17cf9cf83e16539ea3ad8b6e392a7aae130f Fix longbows ignoring drawtime for charge (#5206)
+31e02d9bd5f75fab9b453153ba4d7ed6cb199df5 merge entity JEI
+8e4ca4363fe1bdcd620b7290a72295cb2a853ce3 Stop pick block from deleting tinker tools (#4939)
+27aa457ef35500293440121da65a127a67dc1dff Use a wrapper for entity ingredients to prevent conflct due to JEI changes (#5203)
+3e2564bae893b43b2c5c61b3552bbe2381a7d485 Split spilling into 3 modifiers and cleanup fluid effect code
+495d6d7b037376111f257daaa5d97f47531aedcf Implement some block fluid effects
+3288029a46b70550536d53f6809f8b090651a033 Revamp Spilling API into the Fluid Effect API
+2ec93f852664c7c8d8e01ebe2ea6b74e296f9d84 Make Modifier and LazyModifier IdAwareObject
+4cce21f022ab039132a29854d00abb3a881d9f68 Fix incremental modifier recipes returning wrong leftovers
+8d7fc3e0b9c7a93f1cd2bb6dced0f7657e8c073e Refactor incremental modifiers
+325d1aa5c1d569e7cdc48c109ad61873221fa9e3 Fix ichor bottles having a broken fluid handler (#5202) and having effects swapped with enderslime bottles
+e374bdb2f71a904fbb3d805619c6b1cfdeca6a61 Fix 1.19 issue template and add 1.19 typo thread
+a6f7afc02c685cbbfba6226e8ea4e84a58fabe3c Update mantle requirement in dev so I stop getting a recipe error
+897548cd084c4d4f76e0908af00a0eed7a6f2487 Update enderslime island picture in the book
+3ee0db0855135a56d263541c53e04194ba1ba28d Remove the ability for modifier recipes to grant multiple levels
+bb093ba3ddddfb55b96a616673cabf0b280028ec Move modifier requirements from recipes to modifier JSON
+3171995b6b532e96fee6633c818967d0aa75e7d2 Update HasModifierPredicate to use ModifierPredicate instead of ModifierId for its condition
+2ebc2453a6112d88c98993fd3a7c35634942e6f6 Create 1.19 issue template, so whenever a build is ready I just swap the master branch
+08d44a79fb4f6f7eab565e4c0b2357ffc22d2e13 Merge remote-tracking branch 'origin/HEAD' into 1.19.2
+c9fca6e05a2ab85fb1f182833a192264d8c26a4e Update issue templates
+bcc6d2088b29198093f94f88e0d25743b71ca5ab Merge remote-tracking branch 'origin/HEAD' into 1.19.2
+e91b5bcd96245437b60a7be298839ebf64eb4bb0 Fix part builder not updating material value when the stack size changes (#5184)
+84fbf673a22f20ee62c7242e55f38abfbad00cf7 Fix tooltip overlap on material pages (#5068)
+fd24b1062ea528e03edca73ab13f559002ac06cd Fix feather falling not being marked as incremental (#5197)
+bb9b7f4491fbb5d5e629b60d34ec55ada70c1c7c Typo fixing and language cleanup (#4932)
+87ae0938899b23a33669d99b259d5978471f775a Fix not fully passing pixel context into material modifiers
+85c460b03744a20f002932a911f3d99c28dd15be Rework staff visual modifiers
+3d072058842070e3f2ac783a3fff2ccb0baa1adb Add mangrove as a new wood variant
+76351a123a4140253e5da5b8ff669f3b41977936 Introduce enderbark and a revamp end slime tree
+7484f7b1d478fd0a26cd978dd2ede6c8b266a3b9 Use datagen to create wood  block models
+681ebabf56b170d7158b4b9c6ee774d014492eb4 Fix a couple cases of using min 1 instead of min 0 for temperature
+15db8e2fa0b4644e988ee9b35e99d2aa1783fb43 Make smeltery blocks not have a block entity if they lack a master when possible
+a65da89329d8a03dd1e506d9ece65e4d72c1ed96 Couple of last migrations to loadables for now
+5f7d3d4743c21a959570be6b30eb81552c3e76b8 Update for xmap rename and StringLoadable
+ecb79dbb6158066e53ac5220ab45d5b669812521 Update to Mantle's Streamable change
+5c70c30b37b36de06dc292912b267e0562ce3586 Migrate most recipe serializers to JSON
+ba04626f679e95438bf2680e24c46208da769ac9 Migrate various small registries to loadables
+10bb3f9dd4638ba193e59aa8c0e6062f633a279b Update to loadables for fluid ingredient and entity ingredient
+055131609edb92cae7c950feaddf6e9feec29be6 Update direct implementations of RecordLoadable with the new context parameter
+83482d7fc4e009a3c8cd40a9030182faaf2d0d46 Update Mantle for all the recent changes
+98e454b22bf8b779d7f7b32e7888aebb717d1a23 Delete the long deprecated ToolPredicate and cleanuo StatInRangePredicate
+c8f6ee8334f12caa67ffb897539f1c4408092588 Update to DefaultingLoaderRegistry change
+00ec1d278f26f808944575ca074b0886d6738190 Update to latest ItemOutput
+74effe85310cbe8ab8c7acb8693d04641028737b Update to changes in Mantle for required loadable fields
+33f6a59a1c944123a2e51f5edc7f33f451e5a25f Take advantage of the new version of IHaveLoader to merge some variable loaders
+d7b3c0399cc3fea132edff3a5daf82d4ec5d8a9e Migrate last usage of a Mantle generic loader to a loadable
+4529a412bd9217013736fd6ff2b044e87708e0b1 Fix spilling fluid packet not setting handled
+701cd55fb3db3e3c5eaff24bb467458afbf9a300 Add names to loader registrie
+36811398ae8a60e632b0e7c46c7364bf0c22f17f Update to latest version of Mantle predicates
+c7b0741fe225bed6457d133fdae848074f85d82a Update to new IHaveLoader from Mantle
+63fa80154a945c2299d9595c07e9c2b7ca07d124 Take advantage of loadables to reduce code for modifier module loaders, variables, and predicates
+d63ad00f86014aef01b0fc0f46514da7ffb20f64 Update Mantle, migrate to new name for NamedComponentRegistry getAndDeserialize
+354d729f6b27ffa9a219c816c57cdc30e0975a18 Fix fluid showing up twice in relevant tooltips
+9bd53089292b6e75b5a90d5c7dacad8e0a6a3cd0 Rework looting hook to have the new features of the enchantment hook
+e56d2d093cadeb0c94158ea2cda934ce9b92a7c8 Update enchantment modules taking advantage of new forge hook
+99eaa10d9164bcebaa593df6eea0aa0ffae1b469 Cleanup ResourceLocation extensions
+a70f7c6bc0e26734e25270d2b500adefe3fee0bf Add generator for material palettes to allow previewing the color range
+7b514b39e5446e04dec3feed76b0472ffb3175b0 Make ducts out of gold instead of cobalt
+242d3eb3e46ae751e9b7b4b1b61f5e6946478e27 Slimy embellishment improvements
+a125daa4bc135b1de619e2f2cd083c9302f91f2a Rename several blood foliage blocks from "slimy" to "bloody" for consistency
+2a73e6c87402c95f8c149179ce734bc41b741300 Add magma embellishment
+b514f128851667db805c7a06a0852a2842e4f34c Remove blood as it was underused
+5179e76b6682a542e9ad0bb2eba1943316ca791c Replace bloodbone with venombone
+e23b9c8ce2e6d1611a6f0737f2dcfbbc0dfa2c14 Remove earthslimes and buff terracubes
+8d83c97ef423b05787c7e240d8b2860c8649e01c Remove slime slings - they are now modifiers
+86c70bc0ede54c389df3e45826d6591de808dbca Add biome modifiers to bring back ores, geodes, and mob spawns
+500d984bb430e04dab87777573b8eb033fb78182 Fix race condition between material render info loading and tool/part model loading
+2a3fdf08c28b8e9871dfccb751d469a41006031a Set description IDs for fluid types to fluid
+af9b0c3c93ad92d9d3c24359e2eeda6529737890 Skip attempting to load additional textures in material render info after finding a texture
+b109aed14a854b249e66fd6cf2d3051c06af36ff Update Mantle and regenerate recipes with the updated fluid ingredient key
+14b42700a5599cf8e50f28bf90096de6a9d13595 Datagen structures and structure sets
+0aa95b3c69cd4476c6b23b802076deb91d105628 Fix wrong transforms being used on large tool models
+cc0e3017f3fc836e2c531854dd3fc6eec14038b2 Book fixes
+f5f8669de739e1e6cf0b21412ea71eff95064a21 Update slime islands to new structure system
+988da5d8004385fbb9beb77bd365d32c69b66766 Ditch migrations that are no longer needed
+226e3d7fef16d9662bf9e406a42cc9621f9b3481 Fix model errors
+cb7efe4256493b3e0a566d81384f2f92c0705a70 Remove optional runtime only mods for now
+2c1d47722488ed725c47144a2dc1325950e8a23f Update to 1.19
+8c594b44b556ebf05bbaec6ae09910b5a117fb7d Gradle 1.19.2 updates
+930a9590bc6449dd877a0b6633f0471cdaff0a4b Delete unused plugins. If we bring them back they will need some major reworking for multiple reasons
+69e46b40fbf4748cbf816c701899bd8e13778769 Migrate armor level, interaction modifier, and helmets that remove effects to nonserialized modules
+a015f28e8e3a841e8f1156fbe27dc364af062289 Merge remote-tracking branch 'origin/HEAD' into nobuild-api-break
+7e5cf1203308da7f4db76e5465c113a99f40a2e2 Disallow boon of sssss and strong bones from working on non-helmets
+710326119131a7491b5040a0f4992ebf8abb24cc Merge remote-tracking branch 'origin/HEAD' into nobuild-api-break
+eda8b43782d6f367e96ce2d971ea6bc3dc8c3188 Implement basic modifier, helper to replace raw modifier usages
+86d1fd357654092e527eb27b23098d0de2228e82 Merge remote-tracking branch 'origin/HEAD' into nobuild-api-break
+563cb6b87dff17ba0bed2675d7b4b106e860500d Implement modifier priority command
+50def7ef579e3180828e911842aafe634b55615c Implement a super-interface for ModifierModule for just a module with hooks
+9f48274c9863ef771d12ca9f6c0bfdb111c87972 Reduce the number of classes needed for casting recipes
+1597808d5c0f0726ff0c0a71a8fc150072ed0e78 Handle various todo comments
+d3f4d2b402698128a41f760ac15610f44c628b72 Migrate from ValidatedResult to RecipeResult
+684783b44ff94c19b5c3733112422093807e9c90 Ditch tool stack NBT migration for slots and hide flags
+c5e1ea1906fbfd7a69a7ff5d09b8ce9f0358a6ce Additional deprecated cleanup
+ce5ebb9468083df4e37cdd22cb7ed0112341260a Switch to Mantle IJsonPredicate
+b5b6885ea7d55956bea0db6e0cebe9a59a20e0cb Use consistent name for charging tool model properties
+9f416502dd2cea9e3c53535e44a261f913c18c69 Tag cleanup
+1bd6f9c60ef599bdab6c59257d0d9d56906fa9e2 Misc modifier hook cleanup and reorganization
+ff2e4df29d860a6e24a927d705cc9c8c3b0af40a Charagable interaction cleanup
+ee0a5c9a1dbed036e616f562c2193608128226ce Repackage and rename a few modifier hook interfaces
+3d5df88ce65da500fdc52daf6138e49dcfeef65e Remove all modifier methods that were migrated to modifier hooks
+3e685d174291b0922b4dd607f0e7196bffdafa91 Fix some extra tool ingredients being ignored in small tables (#5193)
+6f3bbf17ae6c40ab6bd4ce8230dd398b45ad35d9 Remove TankModifier impl in favor of the module
+568ec394d15882d4ea7ae1d5dacb1784cb07d3c1 Delete deprecated modifier classes and remove unneeded modifier fields
+b8b40242618bc53946d4d759b5eba806ef8372f6 Make builder for modifier hook map private constructor, but add a public method to construct it
+2ae28e7fd88f49b8e7528c730b20b0a0a53bf022 Remove the old implementation of modifier modules
+a39eb94015c60546c8fc9a6dbfa067933aaad347 Correct default keys in the tank module
+39f1bd2c8b3325a90b9f811d5ac26c63c2f13018 Fix being able to infinitely cast water on oxidized copper to make oxidized copper
+88705c98d12c924c06e796995bf7d1432d29c3a2 Fix conditional mining speed not checking the holder condition
+31ab8802b25dbc19dc81fab9ee52cf40f45dea83 Fix book index links not working due to duplicate page names (#5188)
+51010c986683a78553be71ccd8704bbea6907a7c Fix loading tool pages from wrong folder for materials and you (mentioned in #4932)
+505367d1d59936dc96c3b4636907a7173461f2c5 Specify slot requirement is per level before someone asks
+6c54ad95d7f11c38f9c9def9a638d5aa180fd7be Update to 3.7.1 for critical bugfix release
+d4017322c07a09058735e3ba942cb4f7af362da1 Misc typo fixes (#4932), cleanup a couple unused resources
+0a5f25d7800baf6dbdd53388eb34c0da0a2c2e1f Show extra requirements on tool recipe pages
+590cd5eb51bb5bbe381216d29f2e6d6914a8335b Fix wrong argument for powdered snow capability (#5183)
+706417b8aae7b78805515bb5717f1d558997438d Fix incorrect index on conditional stat foruma leading to possible array out of bounds
+a5699b4822b2f452388b390431fa7e55f9c9f8ba Generate textures for staff specific embellishments
+f33526827bcdaf59fe24982e624843dd1bf5887b Update to 3.7.0
+fc9cab09c8ce8d1295e9ea9ee7e2f2f9674d0bd8 Simplified Chinese Translation For 1.18.2 (#5181)
+9dfa6ed92833fb280fa34084403c202db1690f95 Make soul glass slower as its full block space
+ef3bcba7278cc08a529ea166531e579d0f92d404 Add tinted glass to the book
+3888d79314c3da8a395248941a8266b2425007dd Make parrying only work in the offhand
+93f92dc0fa0ed968c689a50a2f8f3135dbdec003 Book and language fixes
+82359a1a2cb6a9f88714f93ed348b612ba83a857 Adjust priority on dwarven to ensure its after flat boosts
+80931ce07bfad8143f1e0dca51ab1a4c2146ab53 Fix armor icon in mighty smelting
+8325a493ac3325458198e18c68f1cce9559b6f71 Switch to a cleaner approach for adding additional materials to a stat type
+0e9624da4f2b9afe3b5f57467f602bce44ea76a9 Add an option using material tags to add an existing material to a embellishment stat type
+a797b7597fba6e70a5ee7e0e10e9047cab7a5970 Add icons to modifier pages in materials and you
+c06d8dbc6fd2989ae47d305b84c3fe8943d12aa9 Add support for adding armor to all books instead of just encyclopedia
+fed771e9a32381616d5b6afa30b5e4ca20d8ad17 Tweak slimestaff stats to make ranged more variable
+9090d1aaa53de214cf1d28871a94e077a67c73ed Implement cheese
+e8f5668239b645eb876965d3e80dc5dcb67ac814 New staff and cheese textures (#5180)
+7cc4a7360c8e7ec873b48d629784b68f0b541dad Pierce related cleanup
+ddf1005b5ee51e44914cc9fe391ff5d79889e551 Change wetting to apply much later, ensuring you actualy are taking damage
+33249ad14eac7f6c2ebbb6203bb5700922f838df Allow breaking seared tanks with pistons and placing them with dispensers
+496ad8c7d775d8251d27c5254f00db2dc31b5a46 Fix some modiifers and smeltery recipes consuming allowing filled tanks (#5155)
+f0604501400cb21e637a023046e516d210a3dd2b Tweak Japanese translation (#5086)
+37593878549c90ebddb832aaeac0556ce862c364 Update translation page locations in the encyclopedia
+74f88c69682cd705081e33fdec1edc934108c1ff Merge remote-tracking branch 'origin/pr/5174' into 1.18.2
+68470f63113bdc783c7081c890f816e8194881e3 fixed the awkward Korean translation! (#5091)
+8d62d8e2920342d32bad1689da1be1de09c8b377 Update uk_ua (#5128)
+d0c8dace9452b748b569ccbf7fe7cd44fc55eedf English typo was accidently copied to the chinese translation, so correct it post PR
+2410062497d36a3090d6349725bdb137dab3d50d Chinese Translation for 1.18.2 (#5092)
+05c3bb81d629b0fb07e42a5c14b8a33aa23bff63 Fix wrongly named defense modifiers (discovered in #5092)
+773b0c32450a204c5ec9f51e9cd096cde00f45cc Implement a few currently unused variabe types
+891c4ac0857593f00fe27f44cc43ad8eb02ab7d2 Disable sorting on the staff pages, the order just looks better without sorting
+cf1ebdd525b866d9fdcb6de233afcae45b96a4c8 Implement a new tag for staffs in books instead of reusing the staff tag
+6216dbb74941dfd59e4eb594403e320dc8c9f490 Fix some pages that did not get properly renamed in the previous commit
+a994baf79c2bdcf29d08d2dc39bb958597befe5d Implement tag injector for loading book pages on modifiers and tools
+360cd47d3b14b1500a06d7750987824c0c47d45e Implement broad and small tool tags
+f3fc6fcdbe5efdec33981b36d9f7b2bc621b57c5 Fix tier material transformer loading too late
+61768868ac4b57cb0709855717521a152e75d683 Increase enderstaff to starting with reach 2
+3e04b5d2f563c182e52891812fe294fd96ddd4f5 Migrate to Mantle versions of some utilities and update Mantle
+91b8f1c072ae240180f3db913d692104e0bb6428 Migrate to new mantle predicates
+6ee3c17d350f5b7cb2c60ffdfcc0783c95d73b48 Update Mantle and migrate to some of its generic serializers
+9753009fb9a0e704dfde867a3fcf24649d8d8860 Correct desscrption of one shot for clarity
+8ee080fe1645fa1b84a721e28a432d6c8c2d3017 Fix not writing condition to the network for enchantment modules
+f617dc0d25c9dac327ddad0e3ef0b90d92994148 Correct tooltip logic being backwards
+b86f780c02cf27429a2f5f8f50607c649cc8d9b8 Migrate blasting, hydraulic, lightspeed, maintained, and raging to JSON modifiers
+5fdcd60e2323eece0b8f6bbc0203abe685cb3c2c Implement formulas with variables
+a9fae45d51df84b82e9055d17449f87d3efb38d4 Static import getResouce in a couple files as its called so much
+3e41e8a54e901ed4db8c7bf481e09c6e2ca846a4 Make conditional mining speed and conditional melee damage use a setter for target/blocks
+dd1d5ef4981fe5a9087539c5953cce7254588c01 Use common indices for variables in modifier formulas
+144bfd3c8d503d6551b81ac122ecffc21a0ee2a4 More operator improvements
+b39d4b413ef66063f8428830bbab99f3a67a07a3 Switch parameter order on nested loader for consistency
+9bc4fde4b50db298e923f5fd6b9646d8aecdf1da Fix weird generic issue when building formula modifiers
+a162770db91013478866eaef658dcbd50a1997b6 Ditch fallback formula in the formula builder since we don't actually care in datagen
+d17923fb89e71d514135d1ce0c9eb52e9935bfc5 Rename binary operator to post fix operator, add some non-binary operators
+d25fce0e21c459111a4a85bbd552ffd373a9d2af Implement conditional stat module and migrate airborne to it
+a1388028c2d62a091cb770a680102c96169bdf76 Add generic return type to the stat module builder
+f53c8032dafd413448d13d1b72fc7223a82c5fa6 Small improvements to conditional stat modules
+f9d988745a1246ebd3958b503fb38a43ff45ffa7 Implement min and max binary operators
+9fc1f89c1e48670641d4a9ba89d33d3b1dc674b9 Tweak how operators and variables are distinguished in JSON
+d69c5b64309e85bb4c822da7933bbc3a9fb3d124 Store the number of arguments in post fix instead of the variable names
+f7e1b0ff171dbf96909e43c27645a63157ff8c3c Simplify networking for stack operations
+b0b3c9ddc288fdf5611991601baa0cecabea65be Fix missing tooltip hook for conditional mining speed
+b4f6c47ff7f659e66bfe1edd39b541884a6ee426 Book updates and improvements
+cbe841e79d7bf0b534427e446e658fe3e0507f01 Rework enchantment module for better stability
+09ce4497d2fc67284fb80fa3b1094014644e066f Add support for new module features to old modules
+44ec7636a5fe5dfeb34cc91fd50553de89d12897 Migrate walker modifiers to composable modifiers
+f1dbbc331cefd76d06c74d546f55737c6d6a96e7 Fix enchantment module adding the enchantment multiple times
+213083ffcfe7c96d987d7533f9194181834bdb00 Fix skyslimes not adding modifiers to their helmets
+7beb50312ea0fb89e7d6933a4905734bad3b484f Implement tool action transform module
+717fc450bc3a5e612e91dbc4f9f6e3d1b6e452db Implement damage source predicate and protection modifier modules
+fc293d5a22dc7408b1cd296a522dff5acb0537b3 Make skyslimes use tags for their random modifiers on their helmets
+65983e2abf97749b83927c328da4490a294de022 Minor cleanup to library comments
+7d9eac817e6cff60c4a97cf082bd3532b6cb8c84 Migrate padded, knockback, reinforced, unbreakable, and dense to modifier modules
+92c2f81ef1bccec09509875298909a59cfc6d0d6 Implement utility for more generalized formulas in modifier modules
+094384921e81c8fe63574c9119f9eb1ac3bff011 Fix IntRange seralizing min and max wrongly
+8536138abdb63ff2214b612e03048ceb5c21a507 Correct unclear name for the tool damage hook
+090fc8fab4cee9e78a313c0a8fa43b2384e66522 Update advancement material list
+4d809a32470c3577a684ee72d10c1eadfcd86a7d Implement 3 new advancements to take advantage of tool stat predicates
+3350452b41690521f7914320ad89e5cf3bd401e2 Switch to cleaner implementation of tool stat modules
+42bcf6b3a5fbc745198b4bba61b5d83b00f98528 Allow material variant IDs to match variantless materials
+f0e67dd7fcc1b9c7d03ac31323a0394fda87610b Add in tool context predicates
+1e66c8f7201b6dd0e58072a2cb153c544a244b24 Implement item predicates
+25baf8d67beb7914b13fa1a41cd9688aa73d1543 Deduplicate code and ensure all ID variants have network and NBT methods as relevant
+5a9946111d88d13b5cc15dcba281847c5940b8da Migrate inventory tick, done migrating hooks for now
+40be4b9484239bf80062d6a14daee95aafa6cefb Further split build hooks into build and behavior
+5b75a4bb056a629a2ed2b905d09e257b13ec8cf1 Migrate durability related methods to hooks
+df38fe2daf86a01346c4a484110c3fcf82da29f7 Cleanup: repackage new modifier hooks and modules since there are so many
+3adc73c769c8fe4994f6bad2c881fb35ea4b4e0f Ditch bucketing priority as its no longer needed
+120fd47ec488551ae146814e9bf867d25a4635fe Add enderslime staffs
+bae82f815dd34d088f088e98b96e172c172e0447 Rework the piercing modifier
+e82d19d142ece08e0351e433b2348006bbdc8da4 Update ko_kr.json
+97d649f51130b442d1ea087519b7e563e3e0876c Disallow applying tilling to kamas, as it starts with tilling
+c1977ac826d16dda01531b17d213116ce26c2fd0 Make spitting apply knockback and allow punch to work on it
+76df1d585f647a6fcab7517844b38089446e1d92 Make powdered snow a fluid
+cfab09eaf693ceb3fe984f1d52e5bcaafcb4f5d4 Implement tinted and soul glass for smelteries and foundries
+c6c561cb8d38ef7053f02eb615a6c2ffb3da522f Allow using scope on crossbows
+f64cd5a19e121d00b1a6cc66cfa1aa252a78483e Allow blocking while charging a bow, crossbow, spitting, or "slings"
+22d060a794b8da648e75e3cdef2f3b0d57fec03d Implement spitting modifier
+bc582b59a8b86b699eba273b411662aa4722ad62 Fix spilling effects improperly handling partial stacks at higher levels
+cf8828de785c20e471e62f95de14de2d044c1e9b Create TankModule, migrating TankModifier to the module system
+aa6878f45ed15c63842810bdbd91e06be41e5172 Add support for Diet
+cc72e932c8e6d76a41ae9d9452902d90f0d52f1c Tool starting trait tweaks
+a113fa8485654dbe3c52438afc71a402f26b8887 Store starting slots for a tool in volatile data instead of persistent
+d4cd73b4f12802d63ede48b33d3658c75803647f Seems I forgot to check all the boxes on the autorenamer, that class used to be called state
+793e549026535170a8e8dfd14b3e54373c35de7b Implement modifier traits
+5b495bcd05b1d7c8b430975e121f66a28e8d5c4d Make fiery and freezing more applicable
+99f9f8fd6c3c9693f63f74b1c1e3d9f0faba44b3 Migrate aqua affinity to an enchantment
+5e36f3e4d8dbaa02d863e3e9371b4754ead1e6ac Fix fire protection fire time reduction not working on shields (#5169)
+dca2f194da292112bca8e5964ef4fd3060408ccb Fix too little fire protection on shields and staffs (#5169)
+dd888dbc82469ec51c3193e3dd85799e203373b6 Fix indestructable tools still sometimes despawning (#5170)
+25f7d27a835225bf0eab0ced5c4396add71f20a3 Limit to 1 sound playing at a time in tool tables (#5097)
+a1a3e7287588e5c7a91bcf5a9872e8bbe4a348f4 Prevent applying the same variant of a swappable modifier recipe multiple times (#5097)
+7b35c26add7d0d4897c4fe1d1e94e073d04bb84d Catch the case of dumb mods returning a null component in a clearly non-null context. (#4748)
+f449df33de2ec240cba900da90991a47c20293f6 Switch to Mantle water tag as 1.18 vanilla water tag sometimes gets modded fluids (#5104)
+75695fd835bb4f7bd9870def7f4439afb1438f2e Fix tool belt salvage not having a max level (#5145)
+921c06eb03965e9484bf7762944a12005f80ebd1 Typo fixes (#4932)
+b16d550ae562bce2836360a55f0c6e43816c225d Fix wrong size for some cobalt ore veins (#5164)
+de3b5e8155aa5143b7fee77b5571a6d3bc2e565e Add flavor text for new modifiers in mighty smelting
+17661ec089e6a8f56e324684b15b6fa18400f918 Modifier icons for new modifiers
+894ad7e0f577682ee49d805387abf6155f1824eb Implement sling modifiers
+b465e77aead70b238e9c55f8f06f465788714fce Give excavators the old frypan bonk particle on attack
+f98d35106f6aa3fb1215b4f729a60304bcf7bc5c Prepare for sling modifiers by making staffs be ranged
+7329f89c141200b7c407a41a96bcf7701b743fce Simplify attack particles
+d2826fb44b96c87828c7002bf0e8fe14c3790ea8 Implement charging animations on staffs
+0b741ad87755eab1d3fea8ba90276c135caf3b17 Update performance mod list for issue templates
+421c9d437fa321b5ae54d77679deeb31ddbe968d Add "checked the in game books" to the issue template search options
+09626c7f3f379ebe68e37312395af07b8c16e475 Migrate repair factor to a modifier hook
+99af4c56431f79f5679f0ba82e084fb875ae1a24 Allow modifier modules to recommend a priority
+ae40120f77603a3ddd401f7de43dfe3b3a7a32f1 Migrate conditional mining speed modifier and mob disguise to modules
+c00a81af9b5d13837973da7a029ea5b5d0fd1eda Deprecate IJsonPredicate in favor of mantle version
+404c6ef87a132788a8faa522d384c34f834adcf3 Migrate equipment change methods to modifier hooks
+0ab41dfdc1327739b46d8a19cea5bd1e95ed17d7 Mingrate block breaking modifier methods to hooks
+c52d82ce60872f70263ac7b30f378e9bcb659ce2 Switch exception type for invalid serializer
+b0b4009c2c1af4a879e35265e4a657d29f30b59b Update javadoc header on modifier to mention modifier hooks
+0d6e87c39a7e2d1ab1ca8418aa097cf306a9b9d2 Migrate rebalanced to modifier modules
+85494b7ab3bc06f8604e5b673a1f0f55175753f7 Allow composable modifiers to be incremental

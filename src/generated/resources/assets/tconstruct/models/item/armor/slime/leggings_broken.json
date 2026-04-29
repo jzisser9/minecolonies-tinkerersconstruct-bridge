@@ -1,0 +1,20 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default",
+  "textures": {
+    "slime": "tconstruct:item/tool/armor/slime/leggings/slime_broken"
+  },
+  "modifier_maps": [
+    "tconstruct:slime/leggings_broken",
+    "tconstruct:slime/leggings"
+  ],
+  "parts": [
+    {
+      "name": "slime",
+      "index": 1
+    }
+  ],
+  "first_modifiers": [
+    "tconstruct:trim"
+  ]
+}
