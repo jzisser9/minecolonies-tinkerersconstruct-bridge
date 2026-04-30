@@ -51,19 +51,24 @@ public abstract class EntityAIWorkBlacksmithMixin extends com.minecolonies.core.
                                 TiCRepairHelper.repairTool(toolToRepair);
 
                                 // 4. Clean up our custom tags
-                                toolToRepair.getTag().remove("TiCRepairMaterial");
-                                toolToRepair.getTag().remove("TiCOwnerUUID");
+                                toolToRepair.getOrCreateTag().remove("TiCRepairMaterial");
+                                toolToRepair.getOrCreateTag().remove("TiCOwnerUUID");
 
-                                // 5. Return repaired tool to worker via courier
+                                // 5. Play Blacksmith repair sound
+                                if (this.worker instanceof com.minecolonies.core.entity.citizen.EntityCitizen) {
+                                    this.job.playSound(this.building.getPosition(), (com.minecolonies.core.entity.citizen.EntityCitizen) this.worker);
+                                }
+
+                                // 6. Return repaired tool to worker via courier
+                                // We create the delivery request using a copy of the repaired tool.
                                 com.minecolonies.api.colony.requestsystem.location.ILocation start = new com.minecolonies.core.colony.requestsystem.locations.StaticLocation(this.building.getPosition(), this.building.getColony().getDimension());
                                 com.minecolonies.api.colony.requestsystem.location.ILocation target = new com.minecolonies.core.colony.requestsystem.locations.EntityLocation(ownerUUID);
-                                com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery delivery = new com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery(start, target, toolToRepair, 1);
+                                com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery delivery = new com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery(start, target, toolToRepair.copy(), 1);
                                 this.building.createRequest(delivery, true);
 
-                                // 6. If courier can't pick it up immediately, put it back in the building's output rack (handler)
-                                // In MineColonies, usually the tool is placed back and then the request is created.
-                                // We'll put it back into the inventory so it can be picked up.
-                                ItemHandlerHelper.insertItemStacked(handler, toolToRepair, false);
+                                // 7. Place repaired tool back in the building's output rack (rack/handler)
+                                // Use forceTransferStack to ensure it's placed correctly in the building's inventory
+                                this.building.forceTransferStack(toolToRepair, this.world);
 
                                 // Stop further decision making for this tick
                                 cir.setReturnValue(com.minecolonies.core.entity.ai.workers.crafting.AbstractEntityAICrafting.NO_CHANGE);
