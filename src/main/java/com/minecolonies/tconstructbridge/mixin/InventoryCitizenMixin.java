@@ -56,6 +56,12 @@ public class InventoryCitizenMixin {
                                 if (emptySlot != -1) {
                                     this.mainInventory.set(emptySlot, stack);
                                     this.mainInventory.set(slot, ItemStack.EMPTY);
+                                } else {
+                                    // Fallback if inventory is full: swap with a different slot to get it out of the active hand
+                                    int swapSlot = (slot == 0) ? 1 : 0;
+                                    ItemStack swapItem = this.mainInventory.get(swapSlot);
+                                    this.mainInventory.set(swapSlot, stack);
+                                    this.mainInventory.set(slot, swapItem);
                                 }
 
                                 // Set citizen state to stop working
