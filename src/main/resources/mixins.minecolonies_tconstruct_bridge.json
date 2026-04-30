@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.minecolonies.tconstructbridge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.minecolonies_tconstruct_bridge.refmap.json",
+  "mixins": [
+    "ItemStackUtilsMixin",
+    "InventoryCitizenMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
