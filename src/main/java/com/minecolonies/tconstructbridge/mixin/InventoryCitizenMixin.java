@@ -10,6 +10,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import slimeknights.tconstruct.library.tools.item.IModifiable;
+import com.minecolonies.tconstructbridge.TiCMaterialResolver;
+import net.minecraft.resources.ResourceLocation;
 
 import java.util.function.Consumer;
 
@@ -26,6 +28,14 @@ public class InventoryCitizenMixin {
             if (stack != null && !stack.isEmpty() && stack.getItem() instanceof IModifiable) {
                 // TiC tool shouldn't be deleted, so override return value to false
                 cir.setReturnValue(false);
+
+                // Identify the repair material using our new TiCMaterialResolver
+                ResourceLocation headMaterialId = TiCMaterialResolver.getHeadMaterialId(stack);
+                if (headMaterialId != null) {
+                    ResourceLocation repairTag = TiCMaterialResolver.getRawMaterialTag(headMaterialId);
+                    // Append the resolved tag to the broken tool's NBT data
+                    stack.getOrCreateTag().putString("TiCRepairMaterial", repairTag.toString());
+                }
             }
         }
     }
