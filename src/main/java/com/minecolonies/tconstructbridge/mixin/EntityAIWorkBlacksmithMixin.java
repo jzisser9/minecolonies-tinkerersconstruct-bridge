@@ -68,18 +68,21 @@ public abstract class EntityAIWorkBlacksmithMixin extends com.minecolonies.core.
                                     this.job.playSound(this.building.getPosition(), (com.minecolonies.core.entity.citizen.EntityCitizen) this.worker);
                                 }
 
-                                // 6. Place repaired tool back in the building's output rack (rack/handler)
+                                // 6. Prepare the delivery template before the tool is transferred (which may empty the stack)
+                                ItemStack deliveryStack = toolToRepair.copy();
+
+                                // 7. Place repaired tool back in the building's output rack (rack/handler)
                                 // Use forceTransferStack to ensure it's placed correctly in the building's inventory
                                 ItemStack remaining = this.building.forceTransferStack(toolToRepair, this.world);
 
-                                // 7. Return repaired tool to worker via courier
+                                // 8. Return repaired tool to worker via courier
                                 // Only if the tool was successfully placed in the building's inventory
                                 if (remaining.isEmpty()) {
                                     com.minecolonies.api.colony.requestsystem.location.ILocation start = new com.minecolonies.core.colony.requestsystem.locations.StaticLocation(this.building.getPosition(), this.building.getColony().getDimension());
                                     com.minecolonies.api.colony.requestsystem.location.ILocation target = new com.minecolonies.core.colony.requestsystem.locations.EntityLocation(ownerUUID);
-                                    com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery delivery = new com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery(start, target, toolToRepair.copy(), 1);
+                                    com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery delivery = new com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery(start, target, deliveryStack, 1);
                                     this.building.createRequest(delivery, true);
-                                    LOGGER.info("Blacksmith completed repair and handed off to courier for tool {} to owner {}", toolToRepair, ownerUUID);
+                                    LOGGER.info("Blacksmith completed repair and handed off to courier for tool {} to owner {}", deliveryStack, ownerUUID);
                                 } else {
                                     // Fallback: if building is full, try to put it back where we found it or drop it
                                     LOGGER.warn("Blacksmith output rack full! Could not complete delivery request for tool {}. Reinserting to original handler.", toolToRepair);
