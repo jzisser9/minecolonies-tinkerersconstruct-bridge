@@ -5,7 +5,9 @@ import com.minecolonies.core.entity.ai.workers.crafting.EntityAIWorkBlacksmith;
 import com.minecolonies.core.colony.buildings.workerbuildings.BuildingBlacksmith;
 import com.minecolonies.core.colony.jobs.JobBlacksmith;
 import com.minecolonies.tconstructbridge.TiCRepairHelper;
+import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
+import org.slf4j.Logger;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemHandlerHelper;
@@ -19,12 +21,18 @@ import java.util.UUID;
 @Mixin(value = EntityAIWorkBlacksmith.class, remap = false)
 public abstract class EntityAIWorkBlacksmithMixin extends com.minecolonies.core.entity.ai.workers.crafting.AbstractEntityAICrafting<JobBlacksmith, BuildingBlacksmith> {
 
+    private static final Logger LOGGER = LogUtils.getLogger();
+
     public EntityAIWorkBlacksmithMixin(JobBlacksmith job) {
         super(job);
     }
 
     @Inject(method = "decide", at = @At("HEAD"), cancellable = true, remap = false)
     private void onDecide(CallbackInfoReturnable<IAIState> cir) {
+        if (this.worker.tickCount % 40 != 0 || this.currentRequest != null) {
+            return;
+        }
+
         for (IItemHandler handler : this.building.getHandlers()) {
             for (int i = 0; i < handler.getSlots(); i++) {
                 ItemStack stack = handler.getStackInSlot(i);
@@ -39,6 +47,7 @@ public abstract class EntityAIWorkBlacksmithMixin extends com.minecolonies.core.
                             ItemStack matStack = matHandler.getStackInSlot(j);
                             if (!matStack.isEmpty() && matStack.is(net.minecraft.tags.ItemTags.create(repairTag))) {
                                 // Found broken tool and material!
+                                LOGGER.info("Blacksmith starting repair of tool {} for owner {}", stack, ownerUUID);
 
                                 // 1. Extract the tool
                                 ItemStack toolToRepair = handler.extractItem(i, 1, false);
@@ -59,16 +68,23 @@ public abstract class EntityAIWorkBlacksmithMixin extends com.minecolonies.core.
                                     this.job.playSound(this.building.getPosition(), (com.minecolonies.core.entity.citizen.EntityCitizen) this.worker);
                                 }
 
-                                // 6. Return repaired tool to worker via courier
-                                // We create the delivery request using a copy of the repaired tool.
-                                com.minecolonies.api.colony.requestsystem.location.ILocation start = new com.minecolonies.core.colony.requestsystem.locations.StaticLocation(this.building.getPosition(), this.building.getColony().getDimension());
-                                com.minecolonies.api.colony.requestsystem.location.ILocation target = new com.minecolonies.core.colony.requestsystem.locations.EntityLocation(ownerUUID);
-                                com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery delivery = new com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery(start, target, toolToRepair.copy(), 1);
-                                this.building.createRequest(delivery, true);
-
-                                // 7. Place repaired tool back in the building's output rack (rack/handler)
+                                // 6. Place repaired tool back in the building's output rack (rack/handler)
                                 // Use forceTransferStack to ensure it's placed correctly in the building's inventory
-                                this.building.forceTransferStack(toolToRepair, this.world);
+                                ItemStack remaining = this.building.forceTransferStack(toolToRepair, this.world);
+
+                                // 7. Return repaired tool to worker via courier
+                                // Only if the tool was successfully placed in the building's inventory
+                                if (remaining.isEmpty()) {
+                                    com.minecolonies.api.colony.requestsystem.location.ILocation start = new com.minecolonies.core.colony.requestsystem.locations.StaticLocation(this.building.getPosition(), this.building.getColony().getDimension());
+                                    com.minecolonies.api.colony.requestsystem.location.ILocation target = new com.minecolonies.core.colony.requestsystem.locations.EntityLocation(ownerUUID);
+                                    com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery delivery = new com.minecolonies.api.colony.requestsystem.requestable.deliveryman.Delivery(start, target, toolToRepair.copy(), 1);
+                                    this.building.createRequest(delivery, true);
+                                    LOGGER.info("Blacksmith completed repair and handed off to courier for tool {} to owner {}", toolToRepair, ownerUUID);
+                                } else {
+                                    // Fallback: if building is full, try to put it back where we found it or drop it
+                                    LOGGER.warn("Blacksmith output rack full! Could not complete delivery request for tool {}. Reinserting to original handler.", toolToRepair);
+                                    ItemHandlerHelper.insertItemStacked(handler, toolToRepair, false);
+                                }
 
                                 // Stop further decision making for this tick
                                 cir.setReturnValue(com.minecolonies.core.entity.ai.workers.crafting.AbstractEntityAICrafting.NO_CHANGE);
