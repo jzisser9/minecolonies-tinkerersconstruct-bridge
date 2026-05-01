@@ -6,7 +6,8 @@
   "refmap": "mixins.minecolonies_tconstruct_bridge.refmap.json",
   "mixins": [
     "ItemStackUtilsMixin",
-    "InventoryCitizenMixin"
+    "InventoryCitizenMixin",
+    "EntityAIWorkBlacksmithMixin"
   ],
   "client": [
   ],

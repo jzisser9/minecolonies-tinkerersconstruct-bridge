@@ -40,6 +40,7 @@ public class InventoryCitizenMixin {
                     if (headMaterialId != null) {
                         ResourceLocation repairTag = TiCMaterialResolver.getRawMaterialTag(headMaterialId);
                         stack.getOrCreateTag().putString("TiCRepairMaterial", repairTag.toString());
+                        stack.getOrCreateTag().putUUID("TiCOwnerUUID", this.citizen.getUUID());
 
                         com.minecolonies.api.colony.IColony colony = this.citizen.getColony();
                         if (colony != null) {
