@@ -1,0 +1,992 @@
+Classfile jar:file:///app/libs/minecolonies-1.20.1-1.1.1133-snapshot.jar!/com/minecolonies/api/util/constant/TagConstants.class
+  Last modified Nov 30, 2025; size 5232 bytes
+  SHA-256 checksum d4b96b1bf95c605791a69e8c82febbcb1bdca1ad14aa8b50db11e1598d3e9907
+  Compiled from "TagConstants.java"
+public final class com.minecolonies.api.util.constant.TagConstants
+  minor version: 0
+  major version: 61
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // com/minecolonies/api/util/constant/TagConstants
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 59, methods: 2, attributes: 3
+Constant pool:
+    #1 = Utf8               com/minecolonies/api/util/constant/TagConstants
+    #2 = Class              #1            // com/minecolonies/api/util/constant/TagConstants
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               TagConstants.java
+    #6 = Utf8               java/lang/invoke/MethodHandles$Lookup
+    #7 = Class              #6            // java/lang/invoke/MethodHandles$Lookup
+    #8 = Utf8               java/lang/invoke/MethodHandles
+    #9 = Class              #8            // java/lang/invoke/MethodHandles
+   #10 = Utf8               Lookup
+   #11 = Utf8               DECORATION_ITEMS
+   #12 = Utf8               Lnet/minecraft/resources/ResourceLocation;
+   #13 = Utf8               CONCRETE_POWDER
+   #14 = Utf8               CONCRETE_BLOCK
+   #15 = Utf8               PATHING_BLOCKS
+   #16 = Utf8               DANGEROUS_BLOCKS
+   #17 = Utf8               FREE_CLIMB_BLOCKS
+   #18 = Utf8               TIER0_BLOCKS
+   #19 = Utf8               TIER1_BLOCKS
+   #20 = Utf8               TIER2_BLOCKS
+   #21 = Utf8               TIER3_BLOCKS
+   #22 = Utf8               TIER4_BLOCKS
+   #23 = Utf8               TIER5_BLOCKS
+   #24 = Utf8               TIER6_BLOCKS
+   #25 = Utf8               MANGROVE_TREE_BLOCKS
+   #26 = Utf8               EXTRA_TREE_BLOCKS
+   #27 = Utf8               TREE_BLOCKS
+   #28 = Utf8               FLORIST_FLOWERS
+   #29 = Utf8               EXCLUDED_FOOD
+   #30 = Utf8               ORECHANCEBLOCKS
+   #31 = Utf8               VALIDSPAWNBLOCKS
+   #32 = Utf8               COLONYPROTECTIONEXCEPTION
+   #33 = Utf8               MUSHROOMS
+   #34 = Utf8               MUSHROOMS_HUGE
+   #35 = Utf8               FUNGI
+   #36 = Utf8               COMPOSTABLES
+   #37 = Utf8               COMPOSTABLES_POOR
+   #38 = Utf8               COMPOSTABLES_RICH
+   #39 = Utf8               INDESTRUCTIBLE
+   #40 = Utf8               MESHES
+   #41 = Utf8               HOSTILE
+   #42 = Utf8               BREAKABLE_ORE
+   #43 = Utf8               RAW_ORE
+   #44 = Utf8               MOB_ATTACK_BLACKLIST
+   #45 = Utf8               RAIDERS
+   #46 = Utf8               IGNORE_NBT
+   #47 = Utf8               ALLOW_INTERACT
+   #48 = Utf8               COLD_BIOMES
+   #49 = Utf8               TEMPERATE_BIOMES
+   #50 = Utf8               HUMID_BIOMES
+   #51 = Utf8               DRY_BIOMES
+   #52 = Utf8               POISONOUS_FOOD
+   #53 = Utf8               RAW_MEAT
+   #54 = Utf8               FEED
+   #55 = Utf8               LEATHER
+   #56 = Utf8               CRAFTING_BAKER
+   #57 = Utf8               Ljava/lang/String;
+   #58 = Utf8               CRAFTING_BLACKSMITH
+   #59 = Utf8               CRAFTING_COOK
+   #60 = Utf8               CRAFTING_DYER
+   #61 = Utf8               CRAFTING_DYER_SMELTING
+   #62 = Utf8               CRAFTING_FARMER
+   #63 = Utf8               CRAFTING_FLETCHER
+   #64 = Utf8               CRAFTING_GLASSBLOWER
+   #65 = Utf8               CRAFTING_GLASSBLOWER_SMELTING
+   #66 = Utf8               CRAFTING_MECHANIC
+   #67 = Utf8               CRAFTING_PLANTATION
+   #68 = Utf8               plantation
+   #69 = String             #68           // plantation
+   #70 = Utf8               CRAFTING_SAWMILL
+   #71 = Utf8               CRAFTING_STONEMASON
+   #72 = Utf8               CRAFTING_STONE_SMELTERY
+   #73 = Utf8               CRAFTING_REDUCEABLE
+   #74 = Utf8               reduceable
+   #75 = String             #74           // reduceable
+   #76 = Utf8               <init>
+   #77 = Utf8               ()V
+   #78 = NameAndType        #76:#77       // "<init>":()V
+   #79 = Methodref          #4.#78        // java/lang/Object."<init>":()V
+   #80 = Utf8               this
+   #81 = Utf8               Lcom/minecolonies/api/util/constant/TagConstants;
+   #82 = Utf8               <clinit>
+   #83 = Utf8               net/minecraft/resources/ResourceLocation
+   #84 = Class              #83           // net/minecraft/resources/ResourceLocation
+   #85 = Utf8               minecolonies
+   #86 = String             #85           // minecolonies
+   #87 = Utf8               decoblocks
+   #88 = String             #87           // decoblocks
+   #89 = Utf8               (Ljava/lang/String;Ljava/lang/String;)V
+   #90 = NameAndType        #76:#89       // "<init>":(Ljava/lang/String;Ljava/lang/String;)V
+   #91 = Methodref          #84.#90       // net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+   #92 = NameAndType        #11:#12       // DECORATION_ITEMS:Lnet/minecraft/resources/ResourceLocation;
+   #93 = Fieldref           #2.#92        // com/minecolonies/api/util/constant/TagConstants.DECORATION_ITEMS:Lnet/minecraft/resources/ResourceLocation;
+   #94 = Utf8               concrete_powder
+   #95 = String             #94           // concrete_powder
+   #96 = NameAndType        #13:#12       // CONCRETE_POWDER:Lnet/minecraft/resources/ResourceLocation;
+   #97 = Fieldref           #2.#96        // com/minecolonies/api/util/constant/TagConstants.CONCRETE_POWDER:Lnet/minecraft/resources/ResourceLocation;
+   #98 = Utf8               concrete
+   #99 = String             #98           // concrete
+  #100 = NameAndType        #14:#12       // CONCRETE_BLOCK:Lnet/minecraft/resources/ResourceLocation;
+  #101 = Fieldref           #2.#100       // com/minecolonies/api/util/constant/TagConstants.CONCRETE_BLOCK:Lnet/minecraft/resources/ResourceLocation;
+  #102 = Utf8               pathblocks
+  #103 = String             #102          // pathblocks
+  #104 = NameAndType        #15:#12       // PATHING_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #105 = Fieldref           #2.#104       // com/minecolonies/api/util/constant/TagConstants.PATHING_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #106 = Utf8               dangerousblocks
+  #107 = String             #106          // dangerousblocks
+  #108 = NameAndType        #16:#12       // DANGEROUS_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #109 = Fieldref           #2.#108       // com/minecolonies/api/util/constant/TagConstants.DANGEROUS_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #110 = Utf8               freeclimbblocks
+  #111 = String             #110          // freeclimbblocks
+  #112 = NameAndType        #17:#12       // FREE_CLIMB_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #113 = Fieldref           #2.#112       // com/minecolonies/api/util/constant/TagConstants.FREE_CLIMB_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #114 = Utf8               tier0blocks
+  #115 = String             #114          // tier0blocks
+  #116 = NameAndType        #18:#12       // TIER0_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #117 = Fieldref           #2.#116       // com/minecolonies/api/util/constant/TagConstants.TIER0_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #118 = Utf8               tier1blocks
+  #119 = String             #118          // tier1blocks
+  #120 = NameAndType        #19:#12       // TIER1_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #121 = Fieldref           #2.#120       // com/minecolonies/api/util/constant/TagConstants.TIER1_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #122 = Utf8               tier2blocks
+  #123 = String             #122          // tier2blocks
+  #124 = NameAndType        #20:#12       // TIER2_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #125 = Fieldref           #2.#124       // com/minecolonies/api/util/constant/TagConstants.TIER2_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #126 = Utf8               tier3blocks
+  #127 = String             #126          // tier3blocks
+  #128 = NameAndType        #21:#12       // TIER3_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #129 = Fieldref           #2.#128       // com/minecolonies/api/util/constant/TagConstants.TIER3_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #130 = Utf8               tier4blocks
+  #131 = String             #130          // tier4blocks
+  #132 = NameAndType        #22:#12       // TIER4_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #133 = Fieldref           #2.#132       // com/minecolonies/api/util/constant/TagConstants.TIER4_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #134 = Utf8               tier5blocks
+  #135 = String             #134          // tier5blocks
+  #136 = NameAndType        #23:#12       // TIER5_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #137 = Fieldref           #2.#136       // com/minecolonies/api/util/constant/TagConstants.TIER5_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #138 = Utf8               tier6blocks
+  #139 = String             #138          // tier6blocks
+  #140 = NameAndType        #24:#12       // TIER6_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #141 = Fieldref           #2.#140       // com/minecolonies/api/util/constant/TagConstants.TIER6_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #142 = Utf8               mangrove_tree
+  #143 = String             #142          // mangrove_tree
+  #144 = NameAndType        #25:#12       // MANGROVE_TREE_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #145 = Fieldref           #2.#144       // com/minecolonies/api/util/constant/TagConstants.MANGROVE_TREE_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #146 = Utf8               extra_tree
+  #147 = String             #146          // extra_tree
+  #148 = NameAndType        #26:#12       // EXTRA_TREE_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #149 = Fieldref           #2.#148       // com/minecolonies/api/util/constant/TagConstants.EXTRA_TREE_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #150 = Utf8               tree
+  #151 = String             #150          // tree
+  #152 = NameAndType        #27:#12       // TREE_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #153 = Fieldref           #2.#152       // com/minecolonies/api/util/constant/TagConstants.TREE_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #154 = Utf8               florist_flowers
+  #155 = String             #154          // florist_flowers
+  #156 = NameAndType        #28:#12       // FLORIST_FLOWERS:Lnet/minecraft/resources/ResourceLocation;
+  #157 = Fieldref           #2.#156       // com/minecolonies/api/util/constant/TagConstants.FLORIST_FLOWERS:Lnet/minecraft/resources/ResourceLocation;
+  #158 = Utf8               excluded_food
+  #159 = String             #158          // excluded_food
+  #160 = NameAndType        #29:#12       // EXCLUDED_FOOD:Lnet/minecraft/resources/ResourceLocation;
+  #161 = Fieldref           #2.#160       // com/minecolonies/api/util/constant/TagConstants.EXCLUDED_FOOD:Lnet/minecraft/resources/ResourceLocation;
+  #162 = Utf8               orechanceblocks
+  #163 = String             #162          // orechanceblocks
+  #164 = NameAndType        #30:#12       // ORECHANCEBLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #165 = Fieldref           #2.#164       // com/minecolonies/api/util/constant/TagConstants.ORECHANCEBLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #166 = Utf8               validspawnblocks
+  #167 = String             #166          // validspawnblocks
+  #168 = NameAndType        #31:#12       // VALIDSPAWNBLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #169 = Fieldref           #2.#168       // com/minecolonies/api/util/constant/TagConstants.VALIDSPAWNBLOCKS:Lnet/minecraft/resources/ResourceLocation;
+  #170 = Utf8               protectionexception
+  #171 = String             #170          // protectionexception
+  #172 = NameAndType        #32:#12       // COLONYPROTECTIONEXCEPTION:Lnet/minecraft/resources/ResourceLocation;
+  #173 = Fieldref           #2.#172       // com/minecolonies/api/util/constant/TagConstants.COLONYPROTECTIONEXCEPTION:Lnet/minecraft/resources/ResourceLocation;
+  #174 = Utf8               mushrooms
+  #175 = String             #174          // mushrooms
+  #176 = NameAndType        #33:#12       // MUSHROOMS:Lnet/minecraft/resources/ResourceLocation;
+  #177 = Fieldref           #2.#176       // com/minecolonies/api/util/constant/TagConstants.MUSHROOMS:Lnet/minecraft/resources/ResourceLocation;
+  #178 = Utf8               mushrooms_huge
+  #179 = String             #178          // mushrooms_huge
+  #180 = NameAndType        #34:#12       // MUSHROOMS_HUGE:Lnet/minecraft/resources/ResourceLocation;
+  #181 = Fieldref           #2.#180       // com/minecolonies/api/util/constant/TagConstants.MUSHROOMS_HUGE:Lnet/minecraft/resources/ResourceLocation;
+  #182 = Utf8               fungi
+  #183 = String             #182          // fungi
+  #184 = NameAndType        #35:#12       // FUNGI:Lnet/minecraft/resources/ResourceLocation;
+  #185 = Fieldref           #2.#184       // com/minecolonies/api/util/constant/TagConstants.FUNGI:Lnet/minecraft/resources/ResourceLocation;
+  #186 = Utf8               compostables
+  #187 = String             #186          // compostables
+  #188 = NameAndType        #36:#12       // COMPOSTABLES:Lnet/minecraft/resources/ResourceLocation;
+  #189 = Fieldref           #2.#188       // com/minecolonies/api/util/constant/TagConstants.COMPOSTABLES:Lnet/minecraft/resources/ResourceLocation;
+  #190 = Utf8               compostables_poor
+  #191 = String             #190          // compostables_poor
+  #192 = NameAndType        #37:#12       // COMPOSTABLES_POOR:Lnet/minecraft/resources/ResourceLocation;
+  #193 = Fieldref           #2.#192       // com/minecolonies/api/util/constant/TagConstants.COMPOSTABLES_POOR:Lnet/minecraft/resources/ResourceLocation;
+  #194 = Utf8               compostables_rich
+  #195 = String             #194          // compostables_rich
+  #196 = NameAndType        #38:#12       // COMPOSTABLES_RICH:Lnet/minecraft/resources/ResourceLocation;
+  #197 = Fieldref           #2.#196       // com/minecolonies/api/util/constant/TagConstants.COMPOSTABLES_RICH:Lnet/minecraft/resources/ResourceLocation;
+  #198 = Utf8               indestructible
+  #199 = String             #198          // indestructible
+  #200 = NameAndType        #39:#12       // INDESTRUCTIBLE:Lnet/minecraft/resources/ResourceLocation;
+  #201 = Fieldref           #2.#200       // com/minecolonies/api/util/constant/TagConstants.INDESTRUCTIBLE:Lnet/minecraft/resources/ResourceLocation;
+  #202 = Utf8               meshes
+  #203 = String             #202          // meshes
+  #204 = NameAndType        #40:#12       // MESHES:Lnet/minecraft/resources/ResourceLocation;
+  #205 = Fieldref           #2.#204       // com/minecolonies/api/util/constant/TagConstants.MESHES:Lnet/minecraft/resources/ResourceLocation;
+  #206 = Utf8               hostile
+  #207 = String             #206          // hostile
+  #208 = NameAndType        #41:#12       // HOSTILE:Lnet/minecraft/resources/ResourceLocation;
+  #209 = Fieldref           #2.#208       // com/minecolonies/api/util/constant/TagConstants.HOSTILE:Lnet/minecraft/resources/ResourceLocation;
+  #210 = Utf8               breakable_ore
+  #211 = String             #210          // breakable_ore
+  #212 = NameAndType        #42:#12       // BREAKABLE_ORE:Lnet/minecraft/resources/ResourceLocation;
+  #213 = Fieldref           #2.#212       // com/minecolonies/api/util/constant/TagConstants.BREAKABLE_ORE:Lnet/minecraft/resources/ResourceLocation;
+  #214 = Utf8               raw_ore
+  #215 = String             #214          // raw_ore
+  #216 = NameAndType        #43:#12       // RAW_ORE:Lnet/minecraft/resources/ResourceLocation;
+  #217 = Fieldref           #2.#216       // com/minecolonies/api/util/constant/TagConstants.RAW_ORE:Lnet/minecraft/resources/ResourceLocation;
+  #218 = Utf8               mob_attack_blacklist
+  #219 = String             #218          // mob_attack_blacklist
+  #220 = NameAndType        #44:#12       // MOB_ATTACK_BLACKLIST:Lnet/minecraft/resources/ResourceLocation;
+  #221 = Fieldref           #2.#220       // com/minecolonies/api/util/constant/TagConstants.MOB_ATTACK_BLACKLIST:Lnet/minecraft/resources/ResourceLocation;
+  #222 = Utf8               raiders
+  #223 = String             #222          // raiders
+  #224 = NameAndType        #45:#12       // RAIDERS:Lnet/minecraft/resources/ResourceLocation;
+  #225 = Fieldref           #2.#224       // com/minecolonies/api/util/constant/TagConstants.RAIDERS:Lnet/minecraft/resources/ResourceLocation;
+  #226 = Utf8               ignore_nbt
+  #227 = String             #226          // ignore_nbt
+  #228 = NameAndType        #46:#12       // IGNORE_NBT:Lnet/minecraft/resources/ResourceLocation;
+  #229 = Fieldref           #2.#228       // com/minecolonies/api/util/constant/TagConstants.IGNORE_NBT:Lnet/minecraft/resources/ResourceLocation;
+  #230 = Utf8               allowinteract
+  #231 = String             #230          // allowinteract
+  #232 = NameAndType        #47:#12       // ALLOW_INTERACT:Lnet/minecraft/resources/ResourceLocation;
+  #233 = Fieldref           #2.#232       // com/minecolonies/api/util/constant/TagConstants.ALLOW_INTERACT:Lnet/minecraft/resources/ResourceLocation;
+  #234 = Utf8               coldbiomes
+  #235 = String             #234          // coldbiomes
+  #236 = NameAndType        #48:#12       // COLD_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+  #237 = Fieldref           #2.#236       // com/minecolonies/api/util/constant/TagConstants.COLD_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+  #238 = Utf8               temperatebiomes
+  #239 = String             #238          // temperatebiomes
+  #240 = NameAndType        #49:#12       // TEMPERATE_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+  #241 = Fieldref           #2.#240       // com/minecolonies/api/util/constant/TagConstants.TEMPERATE_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+  #242 = Utf8               humidbiomes
+  #243 = String             #242          // humidbiomes
+  #244 = NameAndType        #50:#12       // HUMID_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+  #245 = Fieldref           #2.#244       // com/minecolonies/api/util/constant/TagConstants.HUMID_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+  #246 = Utf8               drybiomes
+  #247 = String             #246          // drybiomes
+  #248 = NameAndType        #51:#12       // DRY_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+  #249 = Fieldref           #2.#248       // com/minecolonies/api/util/constant/TagConstants.DRY_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+  #250 = Utf8               poisonousfood
+  #251 = String             #250          // poisonousfood
+  #252 = NameAndType        #52:#12       // POISONOUS_FOOD:Lnet/minecraft/resources/ResourceLocation;
+  #253 = Fieldref           #2.#252       // com/minecolonies/api/util/constant/TagConstants.POISONOUS_FOOD:Lnet/minecraft/resources/ResourceLocation;
+  #254 = Utf8               rawmeat
+  #255 = String             #254          // rawmeat
+  #256 = NameAndType        #53:#12       // RAW_MEAT:Lnet/minecraft/resources/ResourceLocation;
+  #257 = Fieldref           #2.#256       // com/minecolonies/api/util/constant/TagConstants.RAW_MEAT:Lnet/minecraft/resources/ResourceLocation;
+  #258 = Utf8               feed
+  #259 = String             #258          // feed
+  #260 = NameAndType        #54:#12       // FEED:Lnet/minecraft/resources/ResourceLocation;
+  #261 = Fieldref           #2.#260       // com/minecolonies/api/util/constant/TagConstants.FEED:Lnet/minecraft/resources/ResourceLocation;
+  #262 = Utf8               leather
+  #263 = String             #262          // leather
+  #264 = NameAndType        #55:#12       // LEATHER:Lnet/minecraft/resources/ResourceLocation;
+  #265 = Fieldref           #2.#264       // com/minecolonies/api/util/constant/TagConstants.LEATHER:Lnet/minecraft/resources/ResourceLocation;
+  #266 = Utf8               com/minecolonies/api/colony/jobs/ModJobs
+  #267 = Class              #266          // com/minecolonies/api/colony/jobs/ModJobs
+  #268 = Utf8               BAKER_ID
+  #269 = NameAndType        #268:#12      // BAKER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #270 = Fieldref           #267.#269     // com/minecolonies/api/colony/jobs/ModJobs.BAKER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #271 = Utf8               m_135815_
+  #272 = Utf8               ()Ljava/lang/String;
+  #273 = NameAndType        #271:#272     // m_135815_:()Ljava/lang/String;
+  #274 = Methodref          #84.#273      // net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+  #275 = NameAndType        #56:#57       // CRAFTING_BAKER:Ljava/lang/String;
+  #276 = Fieldref           #2.#275       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_BAKER:Ljava/lang/String;
+  #277 = Utf8               BLACKSMITH_ID
+  #278 = NameAndType        #277:#12      // BLACKSMITH_ID:Lnet/minecraft/resources/ResourceLocation;
+  #279 = Fieldref           #267.#278     // com/minecolonies/api/colony/jobs/ModJobs.BLACKSMITH_ID:Lnet/minecraft/resources/ResourceLocation;
+  #280 = NameAndType        #58:#57       // CRAFTING_BLACKSMITH:Ljava/lang/String;
+  #281 = Fieldref           #2.#280       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_BLACKSMITH:Ljava/lang/String;
+  #282 = Utf8               COOK_ID
+  #283 = NameAndType        #282:#12      // COOK_ID:Lnet/minecraft/resources/ResourceLocation;
+  #284 = Fieldref           #267.#283     // com/minecolonies/api/colony/jobs/ModJobs.COOK_ID:Lnet/minecraft/resources/ResourceLocation;
+  #285 = NameAndType        #59:#57       // CRAFTING_COOK:Ljava/lang/String;
+  #286 = Fieldref           #2.#285       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_COOK:Ljava/lang/String;
+  #287 = Utf8               DYER_ID
+  #288 = NameAndType        #287:#12      // DYER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #289 = Fieldref           #267.#288     // com/minecolonies/api/colony/jobs/ModJobs.DYER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #290 = NameAndType        #60:#57       // CRAFTING_DYER:Ljava/lang/String;
+  #291 = Fieldref           #2.#290       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_DYER:Ljava/lang/String;
+  #292 = Utf8               \u0001_smelting
+  #293 = String             #292          // \u0001_smelting
+  #294 = Utf8               java/lang/invoke/StringConcatFactory
+  #295 = Class              #294          // java/lang/invoke/StringConcatFactory
+  #296 = Utf8               makeConcatWithConstants
+  #297 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #298 = NameAndType        #296:#297     // makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #299 = Methodref          #295.#298     // java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #300 = MethodHandle       6:#299        // REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #301 = Utf8               (Ljava/lang/String;)Ljava/lang/String;
+  #302 = NameAndType        #296:#301     // makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+  #303 = InvokeDynamic      #0:#302       // #0:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+  #304 = NameAndType        #61:#57       // CRAFTING_DYER_SMELTING:Ljava/lang/String;
+  #305 = Fieldref           #2.#304       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_DYER_SMELTING:Ljava/lang/String;
+  #306 = Utf8               FARMER_ID
+  #307 = NameAndType        #306:#12      // FARMER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #308 = Fieldref           #267.#307     // com/minecolonies/api/colony/jobs/ModJobs.FARMER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #309 = NameAndType        #62:#57       // CRAFTING_FARMER:Ljava/lang/String;
+  #310 = Fieldref           #2.#309       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_FARMER:Ljava/lang/String;
+  #311 = Utf8               FLETCHER_ID
+  #312 = NameAndType        #311:#12      // FLETCHER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #313 = Fieldref           #267.#312     // com/minecolonies/api/colony/jobs/ModJobs.FLETCHER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #314 = NameAndType        #63:#57       // CRAFTING_FLETCHER:Ljava/lang/String;
+  #315 = Fieldref           #2.#314       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_FLETCHER:Ljava/lang/String;
+  #316 = Utf8               GLASSBLOWER_ID
+  #317 = NameAndType        #316:#12      // GLASSBLOWER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #318 = Fieldref           #267.#317     // com/minecolonies/api/colony/jobs/ModJobs.GLASSBLOWER_ID:Lnet/minecraft/resources/ResourceLocation;
+  #319 = NameAndType        #64:#57       // CRAFTING_GLASSBLOWER:Ljava/lang/String;
+  #320 = Fieldref           #2.#319       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_GLASSBLOWER:Ljava/lang/String;
+  #321 = NameAndType        #65:#57       // CRAFTING_GLASSBLOWER_SMELTING:Ljava/lang/String;
+  #322 = Fieldref           #2.#321       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_GLASSBLOWER_SMELTING:Ljava/lang/String;
+  #323 = Utf8               MECHANIC_ID
+  #324 = NameAndType        #323:#12      // MECHANIC_ID:Lnet/minecraft/resources/ResourceLocation;
+  #325 = Fieldref           #267.#324     // com/minecolonies/api/colony/jobs/ModJobs.MECHANIC_ID:Lnet/minecraft/resources/ResourceLocation;
+  #326 = NameAndType        #66:#57       // CRAFTING_MECHANIC:Ljava/lang/String;
+  #327 = Fieldref           #2.#326       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_MECHANIC:Ljava/lang/String;
+  #328 = Utf8               SAWMILL_ID
+  #329 = NameAndType        #328:#12      // SAWMILL_ID:Lnet/minecraft/resources/ResourceLocation;
+  #330 = Fieldref           #267.#329     // com/minecolonies/api/colony/jobs/ModJobs.SAWMILL_ID:Lnet/minecraft/resources/ResourceLocation;
+  #331 = NameAndType        #70:#57       // CRAFTING_SAWMILL:Ljava/lang/String;
+  #332 = Fieldref           #2.#331       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_SAWMILL:Ljava/lang/String;
+  #333 = Utf8               STONEMASON_ID
+  #334 = NameAndType        #333:#12      // STONEMASON_ID:Lnet/minecraft/resources/ResourceLocation;
+  #335 = Fieldref           #267.#334     // com/minecolonies/api/colony/jobs/ModJobs.STONEMASON_ID:Lnet/minecraft/resources/ResourceLocation;
+  #336 = NameAndType        #71:#57       // CRAFTING_STONEMASON:Ljava/lang/String;
+  #337 = Fieldref           #2.#336       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_STONEMASON:Ljava/lang/String;
+  #338 = Utf8               STONE_SMELTERY_ID
+  #339 = NameAndType        #338:#12      // STONE_SMELTERY_ID:Lnet/minecraft/resources/ResourceLocation;
+  #340 = Fieldref           #267.#339     // com/minecolonies/api/colony/jobs/ModJobs.STONE_SMELTERY_ID:Lnet/minecraft/resources/ResourceLocation;
+  #341 = NameAndType        #72:#57       // CRAFTING_STONE_SMELTERY:Ljava/lang/String;
+  #342 = Fieldref           #2.#341       // com/minecolonies/api/util/constant/TagConstants.CRAFTING_STONE_SMELTERY:Ljava/lang/String;
+  #343 = Utf8               ConstantValue
+  #344 = Utf8               Code
+  #345 = Utf8               LineNumberTable
+  #346 = Utf8               LocalVariableTable
+  #347 = Utf8               InnerClasses
+  #348 = Utf8               SourceFile
+  #349 = Utf8               BootstrapMethods
+{
+  public static final net.minecraft.resources.ResourceLocation DECORATION_ITEMS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation CONCRETE_POWDER;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation CONCRETE_BLOCK;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation PATHING_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation DANGEROUS_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation FREE_CLIMB_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation TIER0_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation TIER1_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation TIER2_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation TIER3_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation TIER4_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation TIER5_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation TIER6_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation MANGROVE_TREE_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation EXTRA_TREE_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation TREE_BLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation FLORIST_FLOWERS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation EXCLUDED_FOOD;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation ORECHANCEBLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation VALIDSPAWNBLOCKS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation COLONYPROTECTIONEXCEPTION;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation MUSHROOMS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation MUSHROOMS_HUGE;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation FUNGI;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation COMPOSTABLES;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation COMPOSTABLES_POOR;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation COMPOSTABLES_RICH;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation INDESTRUCTIBLE;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation MESHES;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation HOSTILE;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation BREAKABLE_ORE;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation RAW_ORE;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation MOB_ATTACK_BLACKLIST;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation RAIDERS;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation IGNORE_NBT;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation ALLOW_INTERACT;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation COLD_BIOMES;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation TEMPERATE_BIOMES;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation HUMID_BIOMES;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation DRY_BIOMES;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation POISONOUS_FOOD;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation RAW_MEAT;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation FEED;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final net.minecraft.resources.ResourceLocation LEATHER;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_BAKER;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_BLACKSMITH;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_COOK;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_DYER;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_DYER_SMELTING;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_FARMER;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_FLETCHER;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_GLASSBLOWER;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_GLASSBLOWER_SMELTING;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_MECHANIC;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_PLANTATION;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    ConstantValue: String plantation
+
+  public static final java.lang.String CRAFTING_SAWMILL;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_STONEMASON;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_STONE_SMELTERY;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.String CRAFTING_REDUCEABLE;
+    descriptor: Ljava/lang/String;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    ConstantValue: String reduceable
+
+  private com.minecolonies.api.util.constant.TagConstants();
+    descriptor: ()V
+    flags: (0x0002) ACC_PRIVATE
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #79                 // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 78: 0
+        line 82: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/minecolonies/api/util/constant/TagConstants;
+
+  static {};
+    descriptor: ()V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=4, locals=0, args_size=0
+         0: new           #84                 // class net/minecraft/resources/ResourceLocation
+         3: dup
+         4: ldc           #86                 // String minecolonies
+         6: ldc           #88                 // String decoblocks
+         8: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        11: putstatic     #93                 // Field DECORATION_ITEMS:Lnet/minecraft/resources/ResourceLocation;
+        14: new           #84                 // class net/minecraft/resources/ResourceLocation
+        17: dup
+        18: ldc           #86                 // String minecolonies
+        20: ldc           #95                 // String concrete_powder
+        22: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        25: putstatic     #97                 // Field CONCRETE_POWDER:Lnet/minecraft/resources/ResourceLocation;
+        28: new           #84                 // class net/minecraft/resources/ResourceLocation
+        31: dup
+        32: ldc           #86                 // String minecolonies
+        34: ldc           #99                 // String concrete
+        36: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        39: putstatic     #101                // Field CONCRETE_BLOCK:Lnet/minecraft/resources/ResourceLocation;
+        42: new           #84                 // class net/minecraft/resources/ResourceLocation
+        45: dup
+        46: ldc           #86                 // String minecolonies
+        48: ldc           #103                // String pathblocks
+        50: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        53: putstatic     #105                // Field PATHING_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+        56: new           #84                 // class net/minecraft/resources/ResourceLocation
+        59: dup
+        60: ldc           #86                 // String minecolonies
+        62: ldc           #107                // String dangerousblocks
+        64: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        67: putstatic     #109                // Field DANGEROUS_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+        70: new           #84                 // class net/minecraft/resources/ResourceLocation
+        73: dup
+        74: ldc           #86                 // String minecolonies
+        76: ldc           #111                // String freeclimbblocks
+        78: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        81: putstatic     #113                // Field FREE_CLIMB_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+        84: new           #84                 // class net/minecraft/resources/ResourceLocation
+        87: dup
+        88: ldc           #86                 // String minecolonies
+        90: ldc           #115                // String tier0blocks
+        92: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        95: putstatic     #117                // Field TIER0_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+        98: new           #84                 // class net/minecraft/resources/ResourceLocation
+       101: dup
+       102: ldc           #86                 // String minecolonies
+       104: ldc           #119                // String tier1blocks
+       106: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       109: putstatic     #121                // Field TIER1_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       112: new           #84                 // class net/minecraft/resources/ResourceLocation
+       115: dup
+       116: ldc           #86                 // String minecolonies
+       118: ldc           #123                // String tier2blocks
+       120: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       123: putstatic     #125                // Field TIER2_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       126: new           #84                 // class net/minecraft/resources/ResourceLocation
+       129: dup
+       130: ldc           #86                 // String minecolonies
+       132: ldc           #127                // String tier3blocks
+       134: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       137: putstatic     #129                // Field TIER3_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       140: new           #84                 // class net/minecraft/resources/ResourceLocation
+       143: dup
+       144: ldc           #86                 // String minecolonies
+       146: ldc           #131                // String tier4blocks
+       148: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       151: putstatic     #133                // Field TIER4_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       154: new           #84                 // class net/minecraft/resources/ResourceLocation
+       157: dup
+       158: ldc           #86                 // String minecolonies
+       160: ldc           #135                // String tier5blocks
+       162: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       165: putstatic     #137                // Field TIER5_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       168: new           #84                 // class net/minecraft/resources/ResourceLocation
+       171: dup
+       172: ldc           #86                 // String minecolonies
+       174: ldc           #139                // String tier6blocks
+       176: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       179: putstatic     #141                // Field TIER6_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       182: new           #84                 // class net/minecraft/resources/ResourceLocation
+       185: dup
+       186: ldc           #86                 // String minecolonies
+       188: ldc           #143                // String mangrove_tree
+       190: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       193: putstatic     #145                // Field MANGROVE_TREE_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       196: new           #84                 // class net/minecraft/resources/ResourceLocation
+       199: dup
+       200: ldc           #86                 // String minecolonies
+       202: ldc           #147                // String extra_tree
+       204: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       207: putstatic     #149                // Field EXTRA_TREE_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       210: new           #84                 // class net/minecraft/resources/ResourceLocation
+       213: dup
+       214: ldc           #86                 // String minecolonies
+       216: ldc           #151                // String tree
+       218: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       221: putstatic     #153                // Field TREE_BLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       224: new           #84                 // class net/minecraft/resources/ResourceLocation
+       227: dup
+       228: ldc           #86                 // String minecolonies
+       230: ldc           #155                // String florist_flowers
+       232: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       235: putstatic     #157                // Field FLORIST_FLOWERS:Lnet/minecraft/resources/ResourceLocation;
+       238: new           #84                 // class net/minecraft/resources/ResourceLocation
+       241: dup
+       242: ldc           #86                 // String minecolonies
+       244: ldc           #159                // String excluded_food
+       246: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       249: putstatic     #161                // Field EXCLUDED_FOOD:Lnet/minecraft/resources/ResourceLocation;
+       252: new           #84                 // class net/minecraft/resources/ResourceLocation
+       255: dup
+       256: ldc           #86                 // String minecolonies
+       258: ldc           #163                // String orechanceblocks
+       260: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       263: putstatic     #165                // Field ORECHANCEBLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       266: new           #84                 // class net/minecraft/resources/ResourceLocation
+       269: dup
+       270: ldc           #86                 // String minecolonies
+       272: ldc           #167                // String validspawnblocks
+       274: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       277: putstatic     #169                // Field VALIDSPAWNBLOCKS:Lnet/minecraft/resources/ResourceLocation;
+       280: new           #84                 // class net/minecraft/resources/ResourceLocation
+       283: dup
+       284: ldc           #86                 // String minecolonies
+       286: ldc           #171                // String protectionexception
+       288: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       291: putstatic     #173                // Field COLONYPROTECTIONEXCEPTION:Lnet/minecraft/resources/ResourceLocation;
+       294: new           #84                 // class net/minecraft/resources/ResourceLocation
+       297: dup
+       298: ldc           #86                 // String minecolonies
+       300: ldc           #175                // String mushrooms
+       302: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       305: putstatic     #177                // Field MUSHROOMS:Lnet/minecraft/resources/ResourceLocation;
+       308: new           #84                 // class net/minecraft/resources/ResourceLocation
+       311: dup
+       312: ldc           #86                 // String minecolonies
+       314: ldc           #179                // String mushrooms_huge
+       316: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       319: putstatic     #181                // Field MUSHROOMS_HUGE:Lnet/minecraft/resources/ResourceLocation;
+       322: new           #84                 // class net/minecraft/resources/ResourceLocation
+       325: dup
+       326: ldc           #86                 // String minecolonies
+       328: ldc           #183                // String fungi
+       330: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       333: putstatic     #185                // Field FUNGI:Lnet/minecraft/resources/ResourceLocation;
+       336: new           #84                 // class net/minecraft/resources/ResourceLocation
+       339: dup
+       340: ldc           #86                 // String minecolonies
+       342: ldc           #187                // String compostables
+       344: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       347: putstatic     #189                // Field COMPOSTABLES:Lnet/minecraft/resources/ResourceLocation;
+       350: new           #84                 // class net/minecraft/resources/ResourceLocation
+       353: dup
+       354: ldc           #86                 // String minecolonies
+       356: ldc           #191                // String compostables_poor
+       358: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       361: putstatic     #193                // Field COMPOSTABLES_POOR:Lnet/minecraft/resources/ResourceLocation;
+       364: new           #84                 // class net/minecraft/resources/ResourceLocation
+       367: dup
+       368: ldc           #86                 // String minecolonies
+       370: ldc           #195                // String compostables_rich
+       372: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       375: putstatic     #197                // Field COMPOSTABLES_RICH:Lnet/minecraft/resources/ResourceLocation;
+       378: new           #84                 // class net/minecraft/resources/ResourceLocation
+       381: dup
+       382: ldc           #86                 // String minecolonies
+       384: ldc           #199                // String indestructible
+       386: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       389: putstatic     #201                // Field INDESTRUCTIBLE:Lnet/minecraft/resources/ResourceLocation;
+       392: new           #84                 // class net/minecraft/resources/ResourceLocation
+       395: dup
+       396: ldc           #86                 // String minecolonies
+       398: ldc           #203                // String meshes
+       400: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       403: putstatic     #205                // Field MESHES:Lnet/minecraft/resources/ResourceLocation;
+       406: new           #84                 // class net/minecraft/resources/ResourceLocation
+       409: dup
+       410: ldc           #86                 // String minecolonies
+       412: ldc           #207                // String hostile
+       414: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       417: putstatic     #209                // Field HOSTILE:Lnet/minecraft/resources/ResourceLocation;
+       420: new           #84                 // class net/minecraft/resources/ResourceLocation
+       423: dup
+       424: ldc           #86                 // String minecolonies
+       426: ldc           #211                // String breakable_ore
+       428: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       431: putstatic     #213                // Field BREAKABLE_ORE:Lnet/minecraft/resources/ResourceLocation;
+       434: new           #84                 // class net/minecraft/resources/ResourceLocation
+       437: dup
+       438: ldc           #86                 // String minecolonies
+       440: ldc           #215                // String raw_ore
+       442: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       445: putstatic     #217                // Field RAW_ORE:Lnet/minecraft/resources/ResourceLocation;
+       448: new           #84                 // class net/minecraft/resources/ResourceLocation
+       451: dup
+       452: ldc           #86                 // String minecolonies
+       454: ldc           #219                // String mob_attack_blacklist
+       456: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       459: putstatic     #221                // Field MOB_ATTACK_BLACKLIST:Lnet/minecraft/resources/ResourceLocation;
+       462: new           #84                 // class net/minecraft/resources/ResourceLocation
+       465: dup
+       466: ldc           #86                 // String minecolonies
+       468: ldc           #223                // String raiders
+       470: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       473: putstatic     #225                // Field RAIDERS:Lnet/minecraft/resources/ResourceLocation;
+       476: new           #84                 // class net/minecraft/resources/ResourceLocation
+       479: dup
+       480: ldc           #86                 // String minecolonies
+       482: ldc           #227                // String ignore_nbt
+       484: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       487: putstatic     #229                // Field IGNORE_NBT:Lnet/minecraft/resources/ResourceLocation;
+       490: new           #84                 // class net/minecraft/resources/ResourceLocation
+       493: dup
+       494: ldc           #86                 // String minecolonies
+       496: ldc           #231                // String allowinteract
+       498: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       501: putstatic     #233                // Field ALLOW_INTERACT:Lnet/minecraft/resources/ResourceLocation;
+       504: new           #84                 // class net/minecraft/resources/ResourceLocation
+       507: dup
+       508: ldc           #86                 // String minecolonies
+       510: ldc           #235                // String coldbiomes
+       512: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       515: putstatic     #237                // Field COLD_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+       518: new           #84                 // class net/minecraft/resources/ResourceLocation
+       521: dup
+       522: ldc           #86                 // String minecolonies
+       524: ldc           #239                // String temperatebiomes
+       526: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       529: putstatic     #241                // Field TEMPERATE_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+       532: new           #84                 // class net/minecraft/resources/ResourceLocation
+       535: dup
+       536: ldc           #86                 // String minecolonies
+       538: ldc           #243                // String humidbiomes
+       540: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       543: putstatic     #245                // Field HUMID_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+       546: new           #84                 // class net/minecraft/resources/ResourceLocation
+       549: dup
+       550: ldc           #86                 // String minecolonies
+       552: ldc           #247                // String drybiomes
+       554: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       557: putstatic     #249                // Field DRY_BIOMES:Lnet/minecraft/resources/ResourceLocation;
+       560: new           #84                 // class net/minecraft/resources/ResourceLocation
+       563: dup
+       564: ldc           #86                 // String minecolonies
+       566: ldc           #251                // String poisonousfood
+       568: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       571: putstatic     #253                // Field POISONOUS_FOOD:Lnet/minecraft/resources/ResourceLocation;
+       574: new           #84                 // class net/minecraft/resources/ResourceLocation
+       577: dup
+       578: ldc           #86                 // String minecolonies
+       580: ldc           #255                // String rawmeat
+       582: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       585: putstatic     #257                // Field RAW_MEAT:Lnet/minecraft/resources/ResourceLocation;
+       588: new           #84                 // class net/minecraft/resources/ResourceLocation
+       591: dup
+       592: ldc           #86                 // String minecolonies
+       594: ldc_w         #259                // String feed
+       597: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       600: putstatic     #261                // Field FEED:Lnet/minecraft/resources/ResourceLocation;
+       603: new           #84                 // class net/minecraft/resources/ResourceLocation
+       606: dup
+       607: ldc           #86                 // String minecolonies
+       609: ldc_w         #263                // String leather
+       612: invokespecial #91                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+       615: putstatic     #265                // Field LEATHER:Lnet/minecraft/resources/ResourceLocation;
+       618: getstatic     #270                // Field com/minecolonies/api/colony/jobs/ModJobs.BAKER_ID:Lnet/minecraft/resources/ResourceLocation;
+       621: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       624: putstatic     #276                // Field CRAFTING_BAKER:Ljava/lang/String;
+       627: getstatic     #279                // Field com/minecolonies/api/colony/jobs/ModJobs.BLACKSMITH_ID:Lnet/minecraft/resources/ResourceLocation;
+       630: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       633: putstatic     #281                // Field CRAFTING_BLACKSMITH:Ljava/lang/String;
+       636: getstatic     #284                // Field com/minecolonies/api/colony/jobs/ModJobs.COOK_ID:Lnet/minecraft/resources/ResourceLocation;
+       639: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       642: putstatic     #286                // Field CRAFTING_COOK:Ljava/lang/String;
+       645: getstatic     #289                // Field com/minecolonies/api/colony/jobs/ModJobs.DYER_ID:Lnet/minecraft/resources/ResourceLocation;
+       648: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       651: putstatic     #291                // Field CRAFTING_DYER:Ljava/lang/String;
+       654: getstatic     #289                // Field com/minecolonies/api/colony/jobs/ModJobs.DYER_ID:Lnet/minecraft/resources/ResourceLocation;
+       657: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       660: invokedynamic #303,  0            // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       665: putstatic     #305                // Field CRAFTING_DYER_SMELTING:Ljava/lang/String;
+       668: getstatic     #308                // Field com/minecolonies/api/colony/jobs/ModJobs.FARMER_ID:Lnet/minecraft/resources/ResourceLocation;
+       671: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       674: putstatic     #310                // Field CRAFTING_FARMER:Ljava/lang/String;
+       677: getstatic     #313                // Field com/minecolonies/api/colony/jobs/ModJobs.FLETCHER_ID:Lnet/minecraft/resources/ResourceLocation;
+       680: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       683: putstatic     #315                // Field CRAFTING_FLETCHER:Ljava/lang/String;
+       686: getstatic     #318                // Field com/minecolonies/api/colony/jobs/ModJobs.GLASSBLOWER_ID:Lnet/minecraft/resources/ResourceLocation;
+       689: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       692: putstatic     #320                // Field CRAFTING_GLASSBLOWER:Ljava/lang/String;
+       695: getstatic     #318                // Field com/minecolonies/api/colony/jobs/ModJobs.GLASSBLOWER_ID:Lnet/minecraft/resources/ResourceLocation;
+       698: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       701: invokedynamic #303,  0            // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       706: putstatic     #322                // Field CRAFTING_GLASSBLOWER_SMELTING:Ljava/lang/String;
+       709: getstatic     #325                // Field com/minecolonies/api/colony/jobs/ModJobs.MECHANIC_ID:Lnet/minecraft/resources/ResourceLocation;
+       712: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       715: putstatic     #327                // Field CRAFTING_MECHANIC:Ljava/lang/String;
+       718: getstatic     #330                // Field com/minecolonies/api/colony/jobs/ModJobs.SAWMILL_ID:Lnet/minecraft/resources/ResourceLocation;
+       721: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       724: putstatic     #332                // Field CRAFTING_SAWMILL:Ljava/lang/String;
+       727: getstatic     #335                // Field com/minecolonies/api/colony/jobs/ModJobs.STONEMASON_ID:Lnet/minecraft/resources/ResourceLocation;
+       730: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       733: putstatic     #337                // Field CRAFTING_STONEMASON:Ljava/lang/String;
+       736: getstatic     #340                // Field com/minecolonies/api/colony/jobs/ModJobs.STONE_SMELTERY_ID:Lnet/minecraft/resources/ResourceLocation;
+       739: invokevirtual #274                // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+       742: putstatic     #342                // Field CRAFTING_STONE_SMELTERY:Ljava/lang/String;
+       745: return
+      LineNumberTable:
+        line 13: 0
+        line 14: 14
+        line 15: 28
+        line 16: 42
+        line 17: 56
+        line 18: 70
+        line 19: 84
+        line 20: 98
+        line 21: 112
+        line 22: 126
+        line 23: 140
+        line 24: 154
+        line 25: 168
+        line 26: 182
+        line 27: 196
+        line 28: 210
+        line 29: 224
+        line 30: 238
+        line 31: 252
+        line 32: 266
+        line 33: 280
+        line 34: 294
+        line 35: 308
+        line 36: 322
+        line 37: 336
+        line 38: 350
+        line 39: 364
+        line 40: 378
+        line 41: 392
+        line 42: 406
+        line 43: 420
+        line 44: 434
+        line 45: 448
+        line 46: 462
+        line 47: 476
+        line 48: 490
+        line 49: 504
+        line 50: 518
+        line 51: 532
+        line 52: 546
+        line 53: 560
+        line 54: 574
+        line 55: 588
+        line 56: 603
+        line 58: 618
+        line 59: 627
+        line 60: 636
+        line 61: 645
+        line 62: 654
+        line 63: 668
+        line 64: 677
+        line 65: 686
+        line 66: 695
+        line 67: 709
+        line 69: 718
+        line 70: 727
+        line 71: 736
+}
+InnerClasses:
+  public static final #10= #7 of #9;      // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+SourceFile: "TagConstants.java"
+BootstrapMethods:
+  0: #300 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #293 \u0001_smelting

@@ -1,0 +1,355 @@
+Classfile jar:file:///app/libs/minecolonies-1.20.1-1.1.1133-snapshot.jar!/com/minecolonies/api/equipment/registry/EquipmentTypeEntry.class
+  Last modified Nov 30, 2025; size 3763 bytes
+  SHA-256 checksum 04f1aa123e2be358cdbb2650a6a283004931fbe16be739af1857c1a5df121446
+  Compiled from "EquipmentTypeEntry.java"
+public final class com.minecolonies.api.equipment.registry.EquipmentTypeEntry
+  minor version: 0
+  major version: 61
+  flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+  this_class: #2                          // com/minecolonies/api/equipment/registry/EquipmentTypeEntry
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 4, methods: 7, attributes: 3
+Constant pool:
+    #1 = Utf8               com/minecolonies/api/equipment/registry/EquipmentTypeEntry
+    #2 = Class              #1            // com/minecolonies/api/equipment/registry/EquipmentTypeEntry
+    #3 = Utf8               java/lang/Object
+    #4 = Class              #3            // java/lang/Object
+    #5 = Utf8               EquipmentTypeEntry.java
+    #6 = Utf8               com/minecolonies/api/equipment/registry/EquipmentTypeEntry$Comparator
+    #7 = Class              #6            // com/minecolonies/api/equipment/registry/EquipmentTypeEntry$Comparator
+    #8 = Utf8               com/minecolonies/api/equipment/registry/EquipmentTypeEntry$Builder
+    #9 = Class              #8            // com/minecolonies/api/equipment/registry/EquipmentTypeEntry$Builder
+   #10 = Utf8               Comparator
+   #11 = Utf8               Builder
+   #12 = Utf8               registryName
+   #13 = Utf8               Lnet/minecraft/resources/ResourceLocation;
+   #14 = Utf8               displayName
+   #15 = Utf8               Lnet/minecraft/network/chat/Component;
+   #16 = Utf8               isEquipment
+   #17 = Utf8               Ljava/util/function/BiPredicate;
+   #18 = Utf8               Ljava/util/function/BiPredicate<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;>;
+   #19 = Utf8               itemLevel
+   #20 = Utf8               Ljava/util/function/BiFunction;
+   #21 = Utf8               Ljava/util/function/BiFunction<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;Ljava/lang/Integer;>;
+   #22 = Utf8               <init>
+   #23 = Utf8               (Lnet/minecraft/network/chat/Component;Ljava/util/function/BiPredicate;Ljava/util/function/BiFunction;Lnet/minecraft/resources/ResourceLocation;)V
+   #24 = Utf8               (Lnet/minecraft/network/chat/Component;Ljava/util/function/BiPredicate<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;>;Ljava/util/function/BiFunction<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;Ljava/lang/Integer;>;Lnet/minecraft/resources/ResourceLocation;)V
+   #25 = Utf8               ()V
+   #26 = NameAndType        #22:#25       // "<init>":()V
+   #27 = Methodref          #4.#26        // java/lang/Object."<init>":()V
+   #28 = NameAndType        #14:#15       // displayName:Lnet/minecraft/network/chat/Component;
+   #29 = Fieldref           #2.#28        // com/minecolonies/api/equipment/registry/EquipmentTypeEntry.displayName:Lnet/minecraft/network/chat/Component;
+   #30 = NameAndType        #16:#17       // isEquipment:Ljava/util/function/BiPredicate;
+   #31 = Fieldref           #2.#30        // com/minecolonies/api/equipment/registry/EquipmentTypeEntry.isEquipment:Ljava/util/function/BiPredicate;
+   #32 = NameAndType        #19:#20       // itemLevel:Ljava/util/function/BiFunction;
+   #33 = Fieldref           #2.#32        // com/minecolonies/api/equipment/registry/EquipmentTypeEntry.itemLevel:Ljava/util/function/BiFunction;
+   #34 = NameAndType        #12:#13       // registryName:Lnet/minecraft/resources/ResourceLocation;
+   #35 = Fieldref           #2.#34        // com/minecolonies/api/equipment/registry/EquipmentTypeEntry.registryName:Lnet/minecraft/resources/ResourceLocation;
+   #36 = Utf8               this
+   #37 = Utf8               Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;
+   #38 = Utf8               parseResourceLocation
+   #39 = Utf8               (Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+   #40 = Utf8               net/minecraft/resources/ResourceLocation
+   #41 = Class              #40           // net/minecraft/resources/ResourceLocation
+   #42 = Utf8               (Ljava/lang/String;)V
+   #43 = NameAndType        #22:#42       // "<init>":(Ljava/lang/String;)V
+   #44 = Methodref          #41.#43       // net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;)V
+   #45 = Utf8               (Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/resources/ResourceLocation;
+   #46 = NameAndType        #38:#45       // parseResourceLocation:(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/resources/ResourceLocation;
+   #47 = Methodref          #2.#46        // com/minecolonies/api/equipment/registry/EquipmentTypeEntry.parseResourceLocation:(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/resources/ResourceLocation;
+   #48 = Utf8               serialized
+   #49 = Utf8               Ljava/lang/String;
+   #50 = Utf8               result
+   #51 = Utf8               m_135827_
+   #52 = Utf8               ()Ljava/lang/String;
+   #53 = NameAndType        #51:#52       // m_135827_:()Ljava/lang/String;
+   #54 = Methodref          #41.#53       // net/minecraft/resources/ResourceLocation.m_135827_:()Ljava/lang/String;
+   #55 = Utf8               minecraft
+   #56 = String             #55           // minecraft
+   #57 = Utf8               java/lang/String
+   #58 = Class              #57           // java/lang/String
+   #59 = Utf8               equals
+   #60 = Utf8               (Ljava/lang/Object;)Z
+   #61 = NameAndType        #59:#60       // equals:(Ljava/lang/Object;)Z
+   #62 = Methodref          #58.#61       // java/lang/String.equals:(Ljava/lang/Object;)Z
+   #63 = Utf8               minecolonies
+   #64 = String             #63           // minecolonies
+   #65 = Utf8               m_135815_
+   #66 = NameAndType        #65:#52       // m_135815_:()Ljava/lang/String;
+   #67 = Methodref          #41.#66       // net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+   #68 = Utf8               isEmpty
+   #69 = Utf8               ()Z
+   #70 = NameAndType        #68:#69       // isEmpty:()Z
+   #71 = Methodref          #58.#70       // java/lang/String.isEmpty:()Z
+   #72 = Utf8               com/minecolonies/api/equipment/ModEquipmentTypes
+   #73 = Class              #72           // com/minecolonies/api/equipment/ModEquipmentTypes
+   #74 = Utf8               none
+   #75 = Utf8               Lnet/minecraftforge/registries/RegistryObject;
+   #76 = NameAndType        #74:#75       // none:Lnet/minecraftforge/registries/RegistryObject;
+   #77 = Fieldref           #73.#76       // com/minecolonies/api/equipment/ModEquipmentTypes.none:Lnet/minecraftforge/registries/RegistryObject;
+   #78 = Utf8               net/minecraftforge/registries/RegistryObject
+   #79 = Class              #78           // net/minecraftforge/registries/RegistryObject
+   #80 = Utf8               get
+   #81 = Utf8               ()Ljava/lang/Object;
+   #82 = NameAndType        #80:#81       // get:()Ljava/lang/Object;
+   #83 = Methodref          #79.#82       // net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+   #84 = Utf8               (Ljava/lang/String;Ljava/lang/String;)V
+   #85 = NameAndType        #22:#84       // "<init>":(Ljava/lang/String;Ljava/lang/String;)V
+   #86 = Methodref          #41.#85       // net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+   #87 = Utf8               namespace
+   #88 = Utf8               path
+   #89 = Utf8               getRegistryName
+   #90 = Utf8               ()Lnet/minecraft/resources/ResourceLocation;
+   #91 = Utf8               getDisplayName
+   #92 = Utf8               ()Lnet/minecraft/network/chat/Component;
+   #93 = Utf8               checkIsEquipment
+   #94 = Utf8               (Lnet/minecraft/world/item/ItemStack;)Z
+   #95 = Utf8               java/util/function/BiPredicate
+   #96 = Class              #95           // java/util/function/BiPredicate
+   #97 = Utf8               test
+   #98 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Z
+   #99 = NameAndType        #97:#98       // test:(Ljava/lang/Object;Ljava/lang/Object;)Z
+  #100 = InterfaceMethodref #96.#99       // java/util/function/BiPredicate.test:(Ljava/lang/Object;Ljava/lang/Object;)Z
+  #101 = Utf8               itemStack
+  #102 = Utf8               Lnet/minecraft/world/item/ItemStack;
+  #103 = Utf8               getMiningLevel
+  #104 = Utf8               (Lnet/minecraft/world/item/ItemStack;)I
+  #105 = Utf8               java/util/function/BiFunction
+  #106 = Class              #105          // java/util/function/BiFunction
+  #107 = Utf8               apply
+  #108 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #109 = NameAndType        #107:#108     // apply:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #110 = InterfaceMethodref #106.#109     // java/util/function/BiFunction.apply:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #111 = Utf8               java/lang/Integer
+  #112 = Class              #111          // java/lang/Integer
+  #113 = Utf8               intValue
+  #114 = Utf8               ()I
+  #115 = NameAndType        #113:#114     // intValue:()I
+  #116 = Methodref          #112.#115     // java/lang/Integer.intValue:()I
+  #117 = Utf8               Signature
+  #118 = Utf8               Code
+  #119 = Utf8               LineNumberTable
+  #120 = Utf8               LocalVariableTable
+  #121 = Utf8               LocalVariableTypeTable
+  #122 = Utf8               StackMapTable
+  #123 = Utf8               InnerClasses
+  #124 = Utf8               SourceFile
+  #125 = Utf8               NestMembers
+{
+  private final net.minecraft.resources.ResourceLocation registryName;
+    descriptor: Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  private final net.minecraft.network.chat.Component displayName;
+    descriptor: Lnet/minecraft/network/chat/Component;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+
+  private final java.util.function.BiPredicate<net.minecraft.world.item.ItemStack, com.minecolonies.api.equipment.registry.EquipmentTypeEntry> isEquipment;
+    descriptor: Ljava/util/function/BiPredicate;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+    Signature: #18                          // Ljava/util/function/BiPredicate<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;>;
+
+  private final java.util.function.BiFunction<net.minecraft.world.item.ItemStack, com.minecolonies.api.equipment.registry.EquipmentTypeEntry, java.lang.Integer> itemLevel;
+    descriptor: Ljava/util/function/BiFunction;
+    flags: (0x0012) ACC_PRIVATE, ACC_FINAL
+    Signature: #21                          // Ljava/util/function/BiFunction<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;Ljava/lang/Integer;>;
+
+  private com.minecolonies.api.equipment.registry.EquipmentTypeEntry(net.minecraft.network.chat.Component, java.util.function.BiPredicate<net.minecraft.world.item.ItemStack, com.minecolonies.api.equipment.registry.EquipmentTypeEntry>, java.util.function.BiFunction<net.minecraft.world.item.ItemStack, com.minecolonies.api.equipment.registry.EquipmentTypeEntry, java.lang.Integer>, net.minecraft.resources.ResourceLocation);
+    descriptor: (Lnet/minecraft/network/chat/Component;Ljava/util/function/BiPredicate;Ljava/util/function/BiFunction;Lnet/minecraft/resources/ResourceLocation;)V
+    flags: (0x0002) ACC_PRIVATE
+    Code:
+      stack=2, locals=5, args_size=5
+         0: aload_0
+         1: invokespecial #27                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #29                 // Field displayName:Lnet/minecraft/network/chat/Component;
+         9: aload_0
+        10: aload_2
+        11: putfield      #31                 // Field isEquipment:Ljava/util/function/BiPredicate;
+        14: aload_0
+        15: aload_3
+        16: putfield      #33                 // Field itemLevel:Ljava/util/function/BiFunction;
+        19: aload_0
+        20: aload         4
+        22: putfield      #35                 // Field registryName:Lnet/minecraft/resources/ResourceLocation;
+        25: return
+      LineNumberTable:
+        line 53: 0
+        line 54: 4
+        line 55: 9
+        line 56: 14
+        line 57: 19
+        line 58: 25
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      26     0  this   Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;
+            0      26     1 displayName   Lnet/minecraft/network/chat/Component;
+            0      26     2 isEquipment   Ljava/util/function/BiPredicate;
+            0      26     3 itemLevel   Ljava/util/function/BiFunction;
+            0      26     4 registryName   Lnet/minecraft/resources/ResourceLocation;
+      LocalVariableTypeTable:
+        Start  Length  Slot  Name   Signature
+            0      26     2 isEquipment   Ljava/util/function/BiPredicate<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;>;
+            0      26     3 itemLevel   Ljava/util/function/BiFunction<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;Ljava/lang/Integer;>;
+    Signature: #24                          // (Lnet/minecraft/network/chat/Component;Ljava/util/function/BiPredicate<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;>;Ljava/util/function/BiFunction<Lnet/minecraft/world/item/ItemStack;Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;Ljava/lang/Integer;>;Lnet/minecraft/resources/ResourceLocation;)V
+
+  public static net.minecraft.resources.ResourceLocation parseResourceLocation(java.lang.String);
+    descriptor: (Ljava/lang/String;)Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=2, args_size=1
+         0: new           #41                 // class net/minecraft/resources/ResourceLocation
+         3: dup
+         4: aload_0
+         5: invokespecial #44                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;)V
+         8: astore_1
+         9: aload_1
+        10: invokestatic  #47                 // Method parseResourceLocation:(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/resources/ResourceLocation;
+        13: areturn
+      LineNumberTable:
+        line 70: 0
+        line 71: 9
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      14     0 serialized   Ljava/lang/String;
+            9       5     1 result   Lnet/minecraft/resources/ResourceLocation;
+
+  public static net.minecraft.resources.ResourceLocation parseResourceLocation(net.minecraft.resources.ResourceLocation);
+    descriptor: (Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=3, args_size=1
+         0: aload_0
+         1: invokevirtual #54                 // Method net/minecraft/resources/ResourceLocation.m_135827_:()Ljava/lang/String;
+         4: ldc           #56                 // String minecraft
+         6: invokevirtual #62                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         9: ifeq          17
+        12: ldc           #64                 // String minecolonies
+        14: goto          21
+        17: aload_0
+        18: invokevirtual #54                 // Method net/minecraft/resources/ResourceLocation.m_135827_:()Ljava/lang/String;
+        21: astore_1
+        22: aload_0
+        23: invokevirtual #67                 // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+        26: invokevirtual #71                 // Method java/lang/String.isEmpty:()Z
+        29: ifeq          50
+        32: getstatic     #77                 // Field com/minecolonies/api/equipment/ModEquipmentTypes.none:Lnet/minecraftforge/registries/RegistryObject;
+        35: invokevirtual #83                 // Method net/minecraftforge/registries/RegistryObject.get:()Ljava/lang/Object;
+        38: checkcast     #2                  // class com/minecolonies/api/equipment/registry/EquipmentTypeEntry
+        41: getfield      #35                 // Field registryName:Lnet/minecraft/resources/ResourceLocation;
+        44: invokevirtual #67                 // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+        47: goto          54
+        50: aload_0
+        51: invokevirtual #67                 // Method net/minecraft/resources/ResourceLocation.m_135815_:()Ljava/lang/String;
+        54: astore_2
+        55: new           #41                 // class net/minecraft/resources/ResourceLocation
+        58: dup
+        59: aload_1
+        60: aload_2
+        61: invokespecial #86                 // Method net/minecraft/resources/ResourceLocation."<init>":(Ljava/lang/String;Ljava/lang/String;)V
+        64: areturn
+      StackMapTable: number_of_entries = 4
+        frame_type = 17 /* same */
+        frame_type = 67 /* same_locals_1_stack_item */
+          stack = [ class java/lang/String ]
+        frame_type = 252 /* append */
+          offset_delta = 28
+          locals = [ class java/lang/String ]
+        frame_type = 67 /* same_locals_1_stack_item */
+          stack = [ class java/lang/String ]
+      LineNumberTable:
+        line 84: 0
+        line 85: 22
+        line 86: 55
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      65     0 serialized   Lnet/minecraft/resources/ResourceLocation;
+           22      43     1 namespace   Ljava/lang/String;
+           55      10     2  path   Ljava/lang/String;
+
+  public net.minecraft.resources.ResourceLocation getRegistryName();
+    descriptor: ()Lnet/minecraft/resources/ResourceLocation;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #35                 // Field registryName:Lnet/minecraft/resources/ResourceLocation;
+         4: areturn
+      LineNumberTable:
+        line 96: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;
+
+  public net.minecraft.network.chat.Component getDisplayName();
+    descriptor: ()Lnet/minecraft/network/chat/Component;
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #29                 // Field displayName:Lnet/minecraft/network/chat/Component;
+         4: areturn
+      LineNumberTable:
+        line 106: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;
+
+  public boolean checkIsEquipment(net.minecraft.world.item.ItemStack);
+    descriptor: (Lnet/minecraft/world/item/ItemStack;)Z
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #31                 // Field isEquipment:Ljava/util/function/BiPredicate;
+         4: aload_1
+         5: aload_0
+         6: invokeinterface #100,  3          // InterfaceMethod java/util/function/BiPredicate.test:(Ljava/lang/Object;Ljava/lang/Object;)Z
+        11: ireturn
+      LineNumberTable:
+        line 117: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      12     0  this   Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;
+            0      12     1 itemStack   Lnet/minecraft/world/item/ItemStack;
+
+  public int getMiningLevel(net.minecraft.world.item.ItemStack);
+    descriptor: (Lnet/minecraft/world/item/ItemStack;)I
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=3, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #31                 // Field isEquipment:Ljava/util/function/BiPredicate;
+         4: aload_1
+         5: aload_0
+         6: invokeinterface #100,  3          // InterfaceMethod java/util/function/BiPredicate.test:(Ljava/lang/Object;Ljava/lang/Object;)Z
+        11: ifeq          34
+        14: aload_0
+        15: getfield      #33                 // Field itemLevel:Ljava/util/function/BiFunction;
+        18: aload_1
+        19: aload_0
+        20: invokeinterface #110,  3          // InterfaceMethod java/util/function/BiFunction.apply:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+        25: checkcast     #112                // class java/lang/Integer
+        28: invokevirtual #116                // Method java/lang/Integer.intValue:()I
+        31: goto          35
+        34: iconst_m1
+        35: ireturn
+      StackMapTable: number_of_entries = 2
+        frame_type = 34 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+      LineNumberTable:
+        line 128: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      36     0  this   Lcom/minecolonies/api/equipment/registry/EquipmentTypeEntry;
+            0      36     1 itemStack   Lnet/minecraft/world/item/ItemStack;
+}
+InnerClasses:
+  public static #10= #7 of #2;            // Comparator=class com/minecolonies/api/equipment/registry/EquipmentTypeEntry$Comparator of class com/minecolonies/api/equipment/registry/EquipmentTypeEntry
+  public static #11= #9 of #2;            // Builder=class com/minecolonies/api/equipment/registry/EquipmentTypeEntry$Builder of class com/minecolonies/api/equipment/registry/EquipmentTypeEntry
+SourceFile: "EquipmentTypeEntry.java"
+NestMembers:
+  com/minecolonies/api/equipment/registry/EquipmentTypeEntry$Comparator
+  com/minecolonies/api/equipment/registry/EquipmentTypeEntry$Builder
