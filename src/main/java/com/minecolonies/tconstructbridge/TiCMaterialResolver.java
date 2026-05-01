@@ -1,7 +1,9 @@
 package com.minecolonies.tconstructbridge;
 
+import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
+import org.slf4j.Logger;
 import slimeknights.tconstruct.library.materials.definition.MaterialVariantId;
 import slimeknights.tconstruct.library.materials.stats.MaterialStatsId;
 import slimeknights.tconstruct.library.tools.definition.ToolDefinition;
@@ -13,6 +15,8 @@ import java.util.List;
 import java.util.Map;
 
 public class TiCMaterialResolver {
+
+    private static final Logger LOGGER = LogUtils.getLogger();
 
     private static final Map<String, String> MATERIAL_TO_TAG_MAP = new HashMap<>();
 
@@ -95,12 +99,16 @@ public class TiCMaterialResolver {
         }
 
         String path = materialId.getPath();
+        ResourceLocation result;
 
         if (MATERIAL_TO_TAG_MAP.containsKey(path)) {
-            return new ResourceLocation(MATERIAL_TO_TAG_MAP.get(path));
+            result = new ResourceLocation(MATERIAL_TO_TAG_MAP.get(path));
+        } else {
+            // Dynamic fallback
+            result = new ResourceLocation("forge", "ingots/" + path);
         }
 
-        // Default to forge:ingots/<material>
-        return new ResourceLocation("forge", "ingots/" + path);
+        LOGGER.info("Resolved material {} to tag {}", materialId, result);
+        return result;
     }
 }

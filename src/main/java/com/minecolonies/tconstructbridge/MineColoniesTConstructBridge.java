@@ -3,6 +3,7 @@ package com.minecolonies.tconstructbridge;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -89,6 +90,11 @@ public class MineColoniesTConstructBridge
     {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
+
+        // Temporary verification for dynamic material fallback
+        ResourceLocation testId = new ResourceLocation("tconstruct", "mythril");
+        ResourceLocation resolved = TiCMaterialResolver.getRawMaterialTag(testId);
+        LOGGER.info("Dynamic Material Verification: {} resolved to {}", testId, resolved);
 
         if (Config.logDirtBlock)
             LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
